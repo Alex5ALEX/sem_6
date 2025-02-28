@@ -5,8 +5,11 @@
 #install.packages("dplyr");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 print("Hello World");
 =======
+=======
+>>>>>>> Stashed changes
 
 mu <- 50;
 sigma <- 10;
@@ -54,4 +57,7 @@ print(mean(my_x_value));
 
 #дисперсия из значений
 print(sigma^2);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
