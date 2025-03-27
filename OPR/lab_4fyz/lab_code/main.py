@@ -1,7 +1,7 @@
 from decimal import Decimal
 
 def function(x):
-    return x**2 * 1.36 - 4.488 * x + 5.82
+    return x**2 * 0.95 - 5.225 * x + 9.36
 
 
 def generate_fibonacci_sequence(n):
