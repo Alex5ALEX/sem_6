@@ -154,14 +154,29 @@ cat("Вероятность того, что скорость соединени
 
 
 
+# Вероятность P(X < 40)
+prob_less_40_emp <- pnorm(q = 40, mean = mean_empirical, sd = sd_empirical)
+
+# Вывод результата
+cat("Вероятность того, что скорость соединения будет меньше 40 Мбит/с эмпирическая:",
+    prob_less_40_emp, "\n")
+
+
+
+
 
 
 # Создание значений x для графика
 x_values <- seq(from = 20, to = 80, length.out = 1000)
 cdf_values <- pnorm(q = x_values, mean = mu, sd = sigma)
+ecdf_values <- ecdf(data) 
+
 
 # График функции распределения
 cdf_plot <- ggplot(data.frame(x = x_values, cdf = cdf_values),
+  aes(x = x, y = cdf)) +
+  geom_line(color = "blue", size = 1) +
+  ggplot(data.frame(x = x_values, cdf = ecdf_values),
   aes(x = x, y = cdf)) +
   geom_line(color = "blue", size = 1) +
   labs(title = "Функция распределения скорости соединения",
@@ -170,3 +185,38 @@ cdf_plot <- ggplot(data.frame(x = x_values, cdf = cdf_values),
 
 print(cdf_plot)
 
+
+
+
+
+
+
+
+
+# Создание значений x для графика
+x_values <- seq(from = 20, to = 80, length.out = 1000)
+
+# Теоретическая CDF (нормальное распределение)
+cdf_values <- pnorm(q = x_values, mean = mu, sd = sigma)
+
+# Эмпирическая CDF
+ecdf_fun <- ecdf(data)
+ecdf_values <- ecdf_fun(x_values)
+
+# Создаем dataframe для ggplot
+plot_data <- data.frame(
+  x = rep(x_values, 2),
+  y = c(cdf_values, ecdf_values),
+  type = rep(c("Теоретическая CDF", "Эмпирическая ECDF"), each = length(x_values))
+)
+
+# График функций распределения
+cdf_plot <- ggplot(plot_data, aes(x = x, y = y, color = type)) +
+  geom_line(size = 1) +
+  labs(title = "Сравнение теоретической и эмпирической функций распределения",
+       x = "Скорость (Мбит/с)", y = "F(x)",
+       color = "Тип распределения") +
+  theme_minimal() +
+  scale_color_manual(values = c("Теоретическая CDF" = "blue", "Эмпирическая ECDF" = "red"))
+
+print(cdf_plot)
