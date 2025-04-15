@@ -1,0 +1,273 @@
+ Thermal/Flow Analysis
+ =====================
+ MAYA Heat Transfer Technologies Ltd.
+
+
+ Simcenter 3D Thermal/Flow 2022.1.4  Mar 08 2022 (Version 2007.169696)
+
+ Simcenter 3D Installation Directory: D:\nx
+
+ Solver Installation Directory: D:/nx/nxcae_extras/tmg
+
+ Run directory specified for analysis:
+ .\
+
+ NX2TMG - Thermal/flow model file builder
+ ======================================================================
+ Time: Tue Apr 15 12:13:55 2025
+
+ +--------------------------------------------------------------------+                              
+ |                            Model Builder                           |                              
+ +--------------------------------------------------------------------+                              
+                                                                                                     
+ Reading model file...                                                                               
+ ...model file read.                                                                                 
+                                                                                                     
+ +--------------------------------------------------------------------+                              
+ |                            Model Summary                           |                              
+ +--------------------------------------------------------------------+                              
+                                                                                                     
+ Finite Element Model                                                                                
+ --------------------                                                                                
+                                                                                                     
+ Solver type:     Simcenter 3D Thermal/Flow                                                          
+ Analysis type:   Thermal                                                                            
+ Solution type:   Advanced Thermal                                                                   
+ Simulation File: G:\KMGiTP\LAB_6\LAB_6_SIM.sim                                                      
+ Solution:        Solution_1                                                                         
+                                                                                                     
+ Number of nodes in thermal model:                      884                                          
+ Number of elements in thermal model:                   396                                          
+                                                                                                     
+ Number of nodes in flow model:                           0                                          
+ Number of elements in flow model:                        0                                          
+                                                                                                     
+ Number of elements created for surface coating:         24                                          
+                                                                                                     
+ Solution Options                                                                                    
+ ----------------                                                                                    
+                                                                                                     
+ Steady-State Analysis                                                                               
+ Solving Thermal Only                                                                                
+                                                                                                     
+ Ambient Temperature:                             2.000E+01 C                                        
+ Ambient Pressure:                                1.014E+02 mN/mm^2                                  
+ Gravitational Acceleration:                      9.810E+03 mm/s^2                                   
+ Gravity Direction: X: 0.000E+00  Y: 0.000E+00  Z:-1.000E+00                                         
+                                                                                                     
+ Performing mesh checks...                                                                           
+                                                                                                     
+  - interior and warping angle                                                                       
+    checks on fluid elements...                                                                      
+    ...angle checks on fluid                                                                         
+       elements completed.                                                                           
+                                                                                                     
+  - interior and warping angle                                                                       
+    checks on thermal elements...                                                                    
+    ...angle checks on thermal                                                                       
+       elements completed.                                                                           
+                                                                                                     
+  - coincident node check                                                                            
+    on fluid model...                                                                                
+    ...node check on fluid                                                                           
+       model completed.                                                                              
+                                                                                                     
+  - coincident node check                                                                            
+    on thermal model...                                                                              
+    ...node check on thermal                                                                         
+       model completed.                                                                              
+                                                                                                     
+  - coincident element check                                                                         
+    on fluid model...                                                                                
+                                                                                                     
+   ... coincident fluid elements                                                                     
+       check completed.                                                                              
+                                                                                                     
+ ...mesh checks completed.                                                                           
+                                                                                                     
+ Thermal Boundary Conditions                                                                         
+ ---------------------------                                                                         
+                                                                                                     
+ Number of thermal boundary  conditions:                   2                                         
+                                                                                                     
+ Thermal Boundary Condition     Type         Value              FSF TCP                              
+ ----------------------------------------------------------------------                              
+   3 - Temperature(3)           Temperature  2.000E+02 C        No  No                               
+   4 - Temperature(4)           Temperature  1.000E+02 C        No  No                               
+   1 - INIT_BC                  Initial Temp 2.000E+01 C        No  No                               
+                                                                                                     
+ Writing thermal model files...                                                                      
+ ...done.                                                                                            
+
+ Executing Thermal Solver Only
+
+ THERMAL - Thermal analysis
+ ======================================================================
+ Time: Tue Apr 15 12:13:57 2025
+
+
+ +--------------------------------------------------------------------+
+ | Solving Thermal Model - Elapsed Time: 00 min 00 sec                |
+ +--------------------------------------------------------------------+
+
+
+ MAIN - Prepare analysis
+ ======================================================================
+ Time: Tue Apr 15 12:13:57 2025
+
+ Cpu time=      0.0       MAIN Module
+
+   Starting TMG Analysis...
+
+   ...done.
+
+
+ DATACH - Model check
+ ======================================================================
+ Time: Tue Apr 15 12:14:02 2025
+
+ Cpu time=      0.2     DATACH Module
+
+   Performing data checking...
+
+     Number of nodes                         884
+     Number of geometric elements            420
+     Number of 1-D/duct fluid elements         0
+
+   ...done.
+
+
+ ECHOS - Element geometry
+ ======================================================================
+ Time: Tue Apr 15 12:14:25 2025
+
+ Cpu time=     13.7      ECHOS Module
+
+   Calculating geometrical parameters...
+
+   ...done.
+
+
+ CONDN - Conduction model build
+ ======================================================================
+ Time: Tue Apr 15 12:14:34 2025
+
+ Cpu time=     14.8       COND Module
+
+   Calculating conductive conductances and capacitances...
+
+   ...done.
+
+
+ VUFAC - Convection and thermal couplings
+ ======================================================================
+ Time: Tue Apr 15 12:14:44 2025
+
+ Cpu time=     24.5      VUFAC Module
+
+   Calculating thermal couplings and geometric radiative parameters...
+
+   ...done.
+
+
+ GRAYB - Gray body view factor
+ ======================================================================
+ Time: Tue Apr 15 12:15:04 2025
+
+ Cpu time=     34.2      GRAYB Module
+
+   Calculating radiative couplings and/or gray body matrices...
+
+   ...done.
+
+
+ POWER - Calculating radiative heat fluxes
+ ======================================================================
+ Time: Tue Apr 15 12:15:14 2025
+
+ Cpu time=     34.5      POWER Module
+
+   Calculating radiative heat loads...
+     No radiative heat loads calculated.
+
+   ...done.
+
+
+ MEREL - Model merge
+ ======================================================================
+ Time: Tue Apr 15 12:15:17 2025
+
+ Cpu time=     34.7      MEREL Module
+
+   Performing element merging and elimination...
+
+   ...done.
+
+
+ THERMAL - Thermal analysis
+ ======================================================================
+ Time: Tue Apr 15 12:15:45 2025
+
+ Cpu time=     49.5   ANALYZER Module
+
+   Calculating temperatures...
+
+     Model Summary:
+
+     Number of elements                    =      2025
+     Total number of conductances          =      5940
+     Number of linear conductances         =      5940
+     Number of boundary elements           =      1605
+
+     Note: During the analysis process a number of elements have been
+     created whose labels you may not recognize. To find out more about
+     these elements and the elements they are associated with, please
+     look on file REPF for the phrase 'TMG element'
+
+
+     No. of iterations =          2   TDmax = 1.137E-12 at element      1182
+
+     Minimum temperature                 =   100.000 at element       409 INIT_BC
+     Maximum temperature                 =   200.000 at element       397 INIT_BC
+     Average temperature                 =   150.000
+
+     Summary for thermal elements:
+
+     Maximum heat balance deviation occurs           at element      1510        
+     Heat flow into sinks                = 2.036E+09
+     Heat flow from non-fluid sinks      = 2.036E+09
+     Heat load into elements             = 0.000E+00
+     Heat load into sinks                = 0.000E+00
+     Heat flow from fluid sinks          = 0.000E+00
+     Deviation from heat balance         =-6.471E-04
+
+
+
+ Heat Flow+Load Summary Into Different Sink Entities:
+        Sink Entity                       Temperature     Heat   Energy absorbed
+                                                       Flow+Load   since start 
+
+ Temperature(3)                            2.000E+02  -2.036E+09   0.000E+00
+ Temperature(4)                            1.000E+02   2.036E+09   0.000E+00
+ Cpu time=     49.5   RSLTPOST Module
+
+   Performing result postprocessing...
+
+   
+   
+
+   ...done.
+
+
+
+
+ +--------------------------------------------------------------------+
+ |                                END                                 |
+ +--------------------------------------------------------------------+
+
+ Solution elapsed time: 02 min 23 sec
+
+ Solve completed at:
+ ======================================================================
+ Time: Tue Apr 15 12:16:13 2025
+

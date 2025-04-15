@@ -1,0 +1,33 @@
+
+ RSLTPOST - Recover thermal results.
+ ======================================================================
+ Time: Tue Apr 15 12:09:48 2025
+
+
+   Performing result postprocessing...
+
+   
+
+     **  WARNING  5961 **
+     **  Unable to access file tmgrslt.dat
+     **  Some requested results may not be available.
+
+
+ ESCRR - Recover flow results.
+ ======================================================================
+ Time: Tue Apr 15 12:09:49 2025
+
+  No flow results to recover.                                                                        
+
+
+
+ +--------------------------------------------------------------------+
+ |                                END                                 |
+ +--------------------------------------------------------------------+
+
+ Solution elapsed time: 00 min 03 sec
+
+ Solve completed at:
+ ======================================================================
+ Time: Tue Apr 15 12:09:50 2025
+

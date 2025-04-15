@@ -1,0 +1,2511 @@
+LAB_6_SIM-Solution_1                          Tue Apr 15  TMG2022.1.4  4/15/2025
+
+
+Options for run:
+Module selection parameter=                     231
+File translation control parameter=             512
+Subdivision parameter=                            3
+Radiative Coupling Threshold=           0.00000E+00
+First conductance # for SINDA output=             0
+Residual view factor control value=               0
+Stefan-Boltzmann constant=              5.66900E-08
+Solution is steady state with 
+temperature convergence criterion       < 1.000E-03
+Absolute temperature offset=               -273.150
+Results output interval=                  0.000E+00
+Steady state iteration damping parameter= 1.000E+00
+Load time=                                1.000E-01
+Iteration limit=                              10000
+Conductive conductances and capacitances will be calculated with CG method
+                   Card 9 PARAMS Cards
+
+Parameter Card: PARAM UNITS 5  1.000000E+03  1.000000E+03  1.000000E+00 -2.7
+Parameter Card: PARAM ILU 10  1.000000E-05 100 MAX                          
+Parameter Card: PARAM COND NEW                                              
+Parameter Card: PARAM CNVGTRA 1.0                                           
+Parameter Card: PARAM CSOLVE 2                                              
+Parameter Card: PARAM PDMAX -1.000000E-02                                   
+Parameter Card: PARAM HYDLOOP 100                                           
+Parameter Card: PARAM HYDDAMP  1.000000E+00                                 
+Parameter Card: PARAM MAXNODEID 884                                         
+Parameter Card: PARAM OPPENHEIM 1                                           
+Parameter Card: PARAM QOPPCAL                                               
+Parameter Card: PARAM SPECTRA 0 14387.69 0  3.000000E+00 0 0 0 0            
+Parameter Card: PARAM TIMETABLE TRUNCATE                                    
+Parameter Card: PARAM ANARSLT 5                                             
+
+               Group name association with a long group name
+
+Name    Long group name
+
+Tempera Temperature(3)
+Tempert Temperature(4)
+INIT_BC INIT_BC
+Parameter Card: PARAM TC_CONVECT OFF                                        
+Parameter Card: PARAM EXPRESSION RADIANS                                    
+
+
+          MAT Cards created from combining OPTICAL and MAT Cards
+
+New MAT Card   Old MAT Card  Front OPTICAL Card Reverse OPTICAL Card
+
+       4               2               1                   0
+       5               3               1                   0
+
+
+                    Multispectral Data Summary
+
+Number of spectral bands:                         0
+Constant in Planck's spectral energy distribution 1.43877E+04
+IR and solar spectrum separation is at            3.00000E+00 microns
+Band limits in microns:
+
+Band
+
+                    Calculation data for the GRAYB Module
+
+
+                    Calculation data for the POWER Module
+
+
+No element renumbering or merging was performed.
+ 
+
+                              Elements created by TMG
+
+TMG element       473 is a TMG-created element connected to element           313
+TMG element       474 is a TMG-created element connected to element           171
+TMG element       475 is a TMG-created element connected to element           162
+TMG element       476 is a TMG-created element connected to element           121
+TMG element       477 is a TMG-created element connected to element           176
+TMG element       478 is a TMG-created element connected to element           172
+TMG element       479 is a TMG-created element connected to element           328
+TMG element       480 is a TMG-created element connected to element           335
+TMG element       481 is a TMG-created element connected to element            85
+TMG element       482 is a TMG-created element connected to element           316
+TMG element       483 is a TMG-created element connected to element           178
+TMG element       484 is a TMG-created element connected to element           374
+TMG element       485 is a TMG-created element connected to element           337
+TMG element       486 is a TMG-created element connected to element           306
+TMG element       487 is a TMG-created element connected to element           305
+TMG element       488 is a TMG-created element connected to element           366
+TMG element       489 is a TMG-created element connected to element           386
+TMG element       490 is a TMG-created element connected to element           307
+TMG element       491 is a TMG-created element connected to element           192
+TMG element       492 is a TMG-created element connected to element           357
+TMG element       493 is a TMG-created element connected to element           125
+TMG element       494 is a TMG-created element connected to element             7
+TMG element       495 is a TMG-created element connected to element           279
+TMG element       496 is a TMG-created element connected to element           294
+TMG element       497 is a TMG-created element connected to element           312
+TMG element       498 is a TMG-created element connected to element           240
+TMG element       499 is a TMG-created element connected to element             5
+TMG element       500 is a TMG-created element connected to element           241
+TMG element       501 is a TMG-created element connected to element           295
+TMG element       502 is a TMG-created element connected to element           362
+TMG element       503 is a TMG-created element connected to element           160
+TMG element       504 is a TMG-created element connected to element            15
+TMG element       505 is a TMG-created element connected to element           100
+TMG element       506 is a TMG-created element connected to element            16
+TMG element       507 is a TMG-created element connected to element           119
+TMG element       508 is a TMG-created element connected to element            45
+TMG element       509 is a TMG-created element connected to element           124
+TMG element       510 is a TMG-created element connected to element           127
+TMG element       511 is a TMG-created element connected to element           110
+TMG element       512 is a TMG-created element connected to element            25
+TMG element       513 is a TMG-created element connected to element            20
+TMG element       514 is a TMG-created element connected to element           104
+TMG element       515 is a TMG-created element connected to element            67
+TMG element       516 is a TMG-created element connected to element            91
+TMG element       517 is a TMG-created element connected to element             2
+TMG element       518 is a TMG-created element connected to element           204
+TMG element       519 is a TMG-created element connected to element           269
+TMG element       520 is a TMG-created element connected to element           266
+TMG element       521 is a TMG-created element connected to element           384
+TMG element       522 is a TMG-created element connected to element           284
+TMG element       523 is a TMG-created element connected to element           386
+TMG element       524 is a TMG-created element connected to element           315
+TMG element       525 is a TMG-created element connected to element           322
+TMG element       526 is a TMG-created element connected to element           333
+TMG element       527 is a TMG-created element connected to element           126
+TMG element       528 is a TMG-created element connected to element           189
+TMG element       529 is a TMG-created element connected to element           366
+TMG element       530 is a TMG-created element connected to element           364
+TMG element       531 is a TMG-created element connected to element           185
+TMG element       532 is a TMG-created element connected to element           387
+TMG element       533 is a TMG-created element connected to element           181
+TMG element       534 is a TMG-created element connected to element            15
+TMG element       535 is a TMG-created element connected to element            46
+TMG element       536 is a TMG-created element connected to element            57
+TMG element       537 is a TMG-created element connected to element           122
+TMG element       538 is a TMG-created element connected to element           338
+TMG element       539 is a TMG-created element connected to element           170
+TMG element       540 is a TMG-created element connected to element            96
+TMG element       541 is a TMG-created element connected to element           325
+TMG element       542 is a TMG-created element connected to element           323
+TMG element       543 is a TMG-created element connected to element           120
+TMG element       544 is a TMG-created element connected to element           320
+TMG element       545 is a TMG-created element connected to element            84
+TMG element       546 is a TMG-created element connected to element           348
+TMG element       547 is a TMG-created element connected to element            14
+TMG element       548 is a TMG-created element connected to element           161
+TMG element       549 is a TMG-created element connected to element           309
+TMG element       550 is a TMG-created element connected to element            98
+TMG element       551 is a TMG-created element connected to element            58
+TMG element       552 is a TMG-created element connected to element           142
+TMG element       553 is a TMG-created element connected to element            55
+TMG element       554 is a TMG-created element connected to element           147
+TMG element       555 is a TMG-created element connected to element           154
+TMG element       556 is a TMG-created element connected to element            65
+TMG element       557 is a TMG-created element connected to element           136
+TMG element       558 is a TMG-created element connected to element            75
+TMG element       559 is a TMG-created element connected to element           160
+TMG element       560 is a TMG-created element connected to element           156
+TMG element       561 is a TMG-created element connected to element            85
+TMG element       562 is a TMG-created element connected to element           174
+TMG element       563 is a TMG-created element connected to element            74
+TMG element       564 is a TMG-created element connected to element            54
+TMG element       565 is a TMG-created element connected to element            99
+TMG element       566 is a TMG-created element connected to element           180
+TMG element       567 is a TMG-created element connected to element           183
+TMG element       568 is a TMG-created element connected to element           193
+TMG element       569 is a TMG-created element connected to element           182
+TMG element       570 is a TMG-created element connected to element           204
+TMG element       571 is a TMG-created element connected to element           208
+TMG element       572 is a TMG-created element connected to element           203
+TMG element       573 is a TMG-created element connected to element           212
+TMG element       574 is a TMG-created element connected to element           211
+TMG element       575 is a TMG-created element connected to element           198
+TMG element       576 is a TMG-created element connected to element           194
+TMG element       577 is a TMG-created element connected to element           189
+TMG element       578 is a TMG-created element connected to element           184
+TMG element       579 is a TMG-created element connected to element            18
+TMG element       580 is a TMG-created element connected to element           164
+TMG element       581 is a TMG-created element connected to element           169
+TMG element       582 is a TMG-created element connected to element           165
+TMG element       583 is a TMG-created element connected to element            83
+TMG element       584 is a TMG-created element connected to element            81
+TMG element       585 is a TMG-created element connected to element            79
+TMG element       586 is a TMG-created element connected to element            77
+TMG element       587 is a TMG-created element connected to element           105
+TMG element       588 is a TMG-created element connected to element            70
+TMG element       589 is a TMG-created element connected to element           150
+TMG element       590 is a TMG-created element connected to element            66
+TMG element       591 is a TMG-created element connected to element            63
+TMG element       592 is a TMG-created element connected to element            61
+TMG element       593 is a TMG-created element connected to element           141
+TMG element       594 is a TMG-created element connected to element            56
+TMG element       595 is a TMG-created element connected to element           135
+TMG element       596 is a TMG-created element connected to element           133
+TMG element       597 is a TMG-created element connected to element           130
+TMG element       598 is a TMG-created element connected to element            46
+TMG element       599 is a TMG-created element connected to element            22
+TMG element       600 is a TMG-created element connected to element            41
+TMG element       601 is a TMG-created element connected to element            38
+TMG element       602 is a TMG-created element connected to element            36
+TMG element       603 is a TMG-created element connected to element           115
+TMG element       604 is a TMG-created element connected to element            30
+TMG element       605 is a TMG-created element connected to element            28
+TMG element       606 is a TMG-created element connected to element           111
+TMG element       607 is a TMG-created element connected to element           108
+TMG element       608 is a TMG-created element connected to element           106
+TMG element       609 is a TMG-created element connected to element             5
+TMG element       610 is a TMG-created element connected to element            16
+TMG element       611 is a TMG-created element connected to element           258
+TMG element       612 is a TMG-created element connected to element            11
+TMG element       613 is a TMG-created element connected to element             8
+TMG element       614 is a TMG-created element connected to element             6
+TMG element       615 is a TMG-created element connected to element             4
+TMG element       616 is a TMG-created element connected to element            86
+TMG element       617 is a TMG-created element connected to element            87
+TMG element       618 is a TMG-created element connected to element           236
+TMG element       619 is a TMG-created element connected to element             7
+TMG element       620 is a TMG-created element connected to element            48
+TMG element       621 is a TMG-created element connected to element           255
+TMG element       622 is a TMG-created element connected to element           375
+TMG element       623 is a TMG-created element connected to element           383
+TMG element       624 is a TMG-created element connected to element           278
+TMG element       625 is a TMG-created element connected to element           378
+TMG element       626 is a TMG-created element connected to element           198
+TMG element       627 is a TMG-created element connected to element           197
+TMG element       628 is a TMG-created element connected to element            46
+TMG element       629 is a TMG-created element connected to element           361
+TMG element       630 is a TMG-created element connected to element           363
+TMG element       631 is a TMG-created element connected to element            70
+TMG element       632 is a TMG-created element connected to element           372
+TMG element       633 is a TMG-created element connected to element           355
+TMG element       634 is a TMG-created element connected to element           358
+TMG element       635 is a TMG-created element connected to element           346
+TMG element       636 is a TMG-created element connected to element           352
+TMG element       637 is a TMG-created element connected to element           381
+TMG element       638 is a TMG-created element connected to element           359
+TMG element       639 is a TMG-created element connected to element            30
+TMG element       640 is a TMG-created element connected to element           367
+TMG element       641 is a TMG-created element connected to element           369
+TMG element       642 is a TMG-created element connected to element           186
+TMG element       643 is a TMG-created element connected to element           158
+TMG element       644 is a TMG-created element connected to element           383
+TMG element       645 is a TMG-created element connected to element           184
+TMG element       646 is a TMG-created element connected to element           285
+TMG element       647 is a TMG-created element connected to element             5
+TMG element       648 is a TMG-created element connected to element           379
+TMG element       649 is a TMG-created element connected to element             9
+TMG element       650 is a TMG-created element connected to element           376
+TMG element       651 is a TMG-created element connected to element            27
+TMG element       652 is a TMG-created element connected to element            44
+TMG element       653 is a TMG-created element connected to element           177
+TMG element       654 is a TMG-created element connected to element           346
+TMG element       655 is a TMG-created element connected to element           345
+TMG element       656 is a TMG-created element connected to element           343
+TMG element       657 is a TMG-created element connected to element           318
+TMG element       658 is a TMG-created element connected to element           339
+TMG element       659 is a TMG-created element connected to element            35
+TMG element       660 is a TMG-created element connected to element            37
+TMG element       661 is a TMG-created element connected to element           169
+TMG element       662 is a TMG-created element connected to element           329
+TMG element       663 is a TMG-created element connected to element           327
+TMG element       664 is a TMG-created element connected to element           166
+TMG element       665 is a TMG-created element connected to element           330
+TMG element       666 is a TMG-created element connected to element           333
+TMG element       667 is a TMG-created element connected to element           322
+TMG element       668 is a TMG-created element connected to element           321
+TMG element       669 is a TMG-created element connected to element            11
+TMG element       670 is a TMG-created element connected to element           341
+TMG element       671 is a TMG-created element connected to element            65
+TMG element       672 is a TMG-created element connected to element           163
+TMG element       673 is a TMG-created element connected to element           315
+TMG element       674 is a TMG-created element connected to element           314
+TMG element       675 is a TMG-created element connected to element           202
+TMG element       676 is a TMG-created element connected to element           181
+TMG element       677 is a TMG-created element connected to element           123
+TMG element       678 is a TMG-created element connected to element           225
+TMG element       679 is a TMG-created element connected to element           237
+TMG element       680 is a TMG-created element connected to element           224
+TMG element       681 is a TMG-created element connected to element           249
+TMG element       682 is a TMG-created element connected to element           248
+TMG element       683 is a TMG-created element connected to element           223
+TMG element       684 is a TMG-created element connected to element           180
+TMG element       685 is a TMG-created element connected to element           272
+TMG element       686 is a TMG-created element connected to element           281
+TMG element       687 is a TMG-created element connected to element           271
+TMG element       688 is a TMG-created element connected to element           291
+TMG element       689 is a TMG-created element connected to element           290
+TMG element       690 is a TMG-created element connected to element           270
+TMG element       691 is a TMG-created element connected to element           222
+TMG element       692 is a TMG-created element connected to element           350
+TMG element       693 is a TMG-created element connected to element           311
+TMG element       694 is a TMG-created element connected to element           310
+TMG element       695 is a TMG-created element connected to element           319
+TMG element       696 is a TMG-created element connected to element           309
+TMG element       697 is a TMG-created element connected to element           331
+TMG element       698 is a TMG-created element connected to element           335
+TMG element       699 is a TMG-created element connected to element           330
+TMG element       700 is a TMG-created element connected to element           342
+TMG element       701 is a TMG-created element connected to element           347
+TMG element       702 is a TMG-created element connected to element           341
+TMG element       703 is a TMG-created element connected to element           326
+TMG element       704 is a TMG-created element connected to element           320
+TMG element       705 is a TMG-created element connected to element           316
+TMG element       706 is a TMG-created element connected to element           311
+TMG element       707 is a TMG-created element connected to element           301
+TMG element       708 is a TMG-created element connected to element           302
+TMG element       709 is a TMG-created element connected to element           297
+TMG element       710 is a TMG-created element connected to element           292
+TMG element       711 is a TMG-created element connected to element           289
+TMG element       712 is a TMG-created element connected to element           282
+TMG element       713 is a TMG-created element connected to element           276
+TMG element       714 is a TMG-created element connected to element           273
+TMG element       715 is a TMG-created element connected to element           261
+TMG element       716 is a TMG-created element connected to element           262
+TMG element       717 is a TMG-created element connected to element           256
+TMG element       718 is a TMG-created element connected to element           250
+TMG element       719 is a TMG-created element connected to element           245
+TMG element       720 is a TMG-created element connected to element           238
+TMG element       721 is a TMG-created element connected to element           231
+TMG element       722 is a TMG-created element connected to element           226
+TMG element       723 is a TMG-created element connected to element           217
+TMG element       724 is a TMG-created element connected to element           218
+TMG element       725 is a TMG-created element connected to element           216
+TMG element       726 is a TMG-created element connected to element           213
+TMG element       727 is a TMG-created element connected to element             2
+TMG element       728 is a TMG-created element connected to element           209
+TMG element       729 is a TMG-created element connected to element           207
+TMG element       730 is a TMG-created element connected to element           205
+TMG element       731 is a TMG-created element connected to element           201
+TMG element       732 is a TMG-created element connected to element           199
+TMG element       733 is a TMG-created element connected to element           196
+TMG element       734 is a TMG-created element connected to element           195
+TMG element       735 is a TMG-created element connected to element           192
+TMG element       736 is a TMG-created element connected to element           190
+TMG element       737 is a TMG-created element connected to element           188
+TMG element       738 is a TMG-created element connected to element           185
+TMG element       739 is a TMG-created element connected to element           216
+TMG element       740 is a TMG-created element connected to element           118
+TMG element       741 is a TMG-created element connected to element           175
+TMG element       742 is a TMG-created element connected to element           176
+TMG element       743 is a TMG-created element connected to element           172
+TMG element       744 is a TMG-created element connected to element           170
+TMG element       745 is a TMG-created element connected to element           168
+TMG element       746 is a TMG-created element connected to element           166
+TMG element       747 is a TMG-created element connected to element           135
+TMG element       748 is a TMG-created element connected to element           163
+TMG element       749 is a TMG-created element connected to element            19
+TMG element       750 is a TMG-created element connected to element           161
+TMG element       751 is a TMG-created element connected to element            80
+TMG element       752 is a TMG-created element connected to element           159
+TMG element       753 is a TMG-created element connected to element           157
+TMG element       754 is a TMG-created element connected to element            76
+TMG element       755 is a TMG-created element connected to element           227
+TMG element       756 is a TMG-created element connected to element           151
+TMG element       757 is a TMG-created element connected to element            72
+TMG element       758 is a TMG-created element connected to element           152
+TMG element       759 is a TMG-created element connected to element            20
+TMG element       760 is a TMG-created element connected to element            69
+TMG element       761 is a TMG-created element connected to element            67
+TMG element       762 is a TMG-created element connected to element           148
+TMG element       763 is a TMG-created element connected to element           146
+TMG element       764 is a TMG-created element connected to element           145
+TMG element       765 is a TMG-created element connected to element           144
+TMG element       766 is a TMG-created element connected to element           143
+TMG element       767 is a TMG-created element connected to element           139
+TMG element       768 is a TMG-created element connected to element           140
+TMG element       769 is a TMG-created element connected to element           139
+TMG element       770 is a TMG-created element connected to element           138
+TMG element       771 is a TMG-created element connected to element            89
+TMG element       772 is a TMG-created element connected to element            44
+TMG element       773 is a TMG-created element connected to element           134
+TMG element       774 is a TMG-created element connected to element            52
+TMG element       775 is a TMG-created element connected to element            50
+TMG element       776 is a TMG-created element connected to element            49
+TMG element       777 is a TMG-created element connected to element            48
+TMG element       778 is a TMG-created element connected to element           128
+TMG element       779 is a TMG-created element connected to element           242
+TMG element       780 is a TMG-created element connected to element             4
+TMG element       781 is a TMG-created element connected to element            42
+TMG element       782 is a TMG-created element connected to element           125
+TMG element       783 is a TMG-created element connected to element           123
+TMG element       784 is a TMG-created element connected to element           122
+TMG element       785 is a TMG-created element connected to element           121
+TMG element       786 is a TMG-created element connected to element           120
+TMG element       787 is a TMG-created element connected to element            32
+TMG element       788 is a TMG-created element connected to element            34
+TMG element       789 is a TMG-created element connected to element            23
+TMG element       790 is a TMG-created element connected to element           116
+TMG element       791 is a TMG-created element connected to element            29
+TMG element       792 is a TMG-created element connected to element           114
+TMG element       793 is a TMG-created element connected to element           112
+TMG element       794 is a TMG-created element connected to element            26
+TMG element       795 is a TMG-created element connected to element           109
+TMG element       796 is a TMG-created element connected to element            23
+TMG element       797 is a TMG-created element connected to element            22
+TMG element       798 is a TMG-created element connected to element            21
+TMG element       799 is a TMG-created element connected to element            64
+TMG element       800 is a TMG-created element connected to element            19
+TMG element       801 is a TMG-created element connected to element           103
+TMG element       802 is a TMG-created element connected to element           102
+TMG element       803 is a TMG-created element connected to element           321
+TMG element       804 is a TMG-created element connected to element            96
+TMG element       805 is a TMG-created element connected to element            98
+TMG element       806 is a TMG-created element connected to element            97
+TMG element       807 is a TMG-created element connected to element            10
+TMG element       808 is a TMG-created element connected to element            94
+TMG element       809 is a TMG-created element connected to element            25
+TMG element       810 is a TMG-created element connected to element            92
+TMG element       811 is a TMG-created element connected to element           263
+TMG element       812 is a TMG-created element connected to element            90
+TMG element       813 is a TMG-created element connected to element            88
+TMG element       814 is a TMG-created element connected to element             1
+TMG element       815 is a TMG-created element connected to element           111
+TMG element       816 is a TMG-created element connected to element           228
+TMG element       817 is a TMG-created element connected to element           230
+TMG element       818 is a TMG-created element connected to element           234
+TMG element       819 is a TMG-created element connected to element            26
+TMG element       820 is a TMG-created element connected to element           284
+TMG element       821 is a TMG-created element connected to element            16
+TMG element       822 is a TMG-created element connected to element           203
+TMG element       823 is a TMG-created element connected to element           252
+TMG element       824 is a TMG-created element connected to element           258
+TMG element       825 is a TMG-created element connected to element           373
+TMG element       826 is a TMG-created element connected to element           201
+TMG element       827 is a TMG-created element connected to element           151
+TMG element       828 is a TMG-created element connected to element           101
+TMG element       829 is a TMG-created element connected to element            27
+TMG element       830 is a TMG-created element connected to element           380
+TMG element       831 is a TMG-created element connected to element           276
+TMG element       832 is a TMG-created element connected to element           199
+TMG element       833 is a TMG-created element connected to element           128
+TMG element       834 is a TMG-created element connected to element           394
+TMG element       835 is a TMG-created element connected to element           113
+TMG element       836 is a TMG-created element connected to element           389
+TMG element       837 is a TMG-created element connected to element           299
+TMG element       838 is a TMG-created element connected to element            15
+TMG element       839 is a TMG-created element connected to element           154
+TMG element       840 is a TMG-created element connected to element           305
+TMG element       841 is a TMG-created element connected to element           313
+TMG element       842 is a TMG-created element connected to element           195
+TMG element       843 is a TMG-created element connected to element            71
+TMG element       844 is a TMG-created element connected to element            73
+TMG element       845 is a TMG-created element connected to element           371
+TMG element       846 is a TMG-created element connected to element           100
+TMG element       847 is a TMG-created element connected to element           155
+TMG element       848 is a TMG-created element connected to element           193
+TMG element       849 is a TMG-created element connected to element            29
+TMG element       850 is a TMG-created element connected to element            45
+TMG element       851 is a TMG-created element connected to element           338
+TMG element       852 is a TMG-created element connected to element           337
+TMG element       853 is a TMG-created element connected to element           340
+TMG element       854 is a TMG-created element connected to element           191
+TMG element       855 is a TMG-created element connected to element           292
+TMG element       856 is a TMG-created element connected to element           190
+TMG element       857 is a TMG-created element connected to element           379
+TMG element       858 is a TMG-created element connected to element            77
+TMG element       859 is a TMG-created element connected to element             8
+TMG element       860 is a TMG-created element connected to element           362
+TMG element       861 is a TMG-created element connected to element           356
+TMG element       862 is a TMG-created element connected to element           367
+TMG element       863 is a TMG-created element connected to element           370
+TMG element       864 is a TMG-created element connected to element            42
+TMG element       865 is a TMG-created element connected to element           358
+TMG element       866 is a TMG-created element connected to element           365
+TMG element       867 is a TMG-created element connected to element           329
+TMG element       868 is a TMG-created element connected to element           388
+TMG element       869 is a TMG-created element connected to element            31
+TMG element       870 is a TMG-created element connected to element           384
+TMG element       871 is a TMG-created element connected to element           302
+TMG element       872 is a TMG-created element connected to element           150
+TMG element       873 is a TMG-created element connected to element           395
+TMG element       874 is a TMG-created element connected to element           304
+TMG element       875 is a TMG-created element connected to element           117
+TMG element       876 is a TMG-created element connected to element           392
+TMG element       877 is a TMG-created element connected to element           377
+TMG element       878 is a TMG-created element connected to element             8
+TMG element       879 is a TMG-created element connected to element            81
+TMG element       880 is a TMG-created element connected to element           308
+TMG element       881 is a TMG-created element connected to element           381
+TMG element       882 is a TMG-created element connected to element            19
+TMG element       883 is a TMG-created element connected to element           310
+TMG element       884 is a TMG-created element connected to element           179
+TMG element       885 is a TMG-created element connected to element            30
+TMG element       886 is a TMG-created element connected to element           349
+TMG element       887 is a TMG-created element connected to element            34
+TMG element       888 is a TMG-created element connected to element            48
+TMG element       889 is a TMG-created element connected to element           347
+TMG element       890 is a TMG-created element connected to element            55
+TMG element       891 is a TMG-created element connected to element            95
+TMG element       892 is a TMG-created element connected to element            60
+TMG element       893 is a TMG-created element connected to element           344
+TMG element       894 is a TMG-created element connected to element           175
+TMG element       895 is a TMG-created element connected to element           118
+TMG element       896 is a TMG-created element connected to element           319
+TMG element       897 is a TMG-created element connected to element            38
+TMG element       898 is a TMG-created element connected to element           173
+TMG element       899 is a TMG-created element connected to element           308
+TMG element       900 is a TMG-created element connected to element            10
+TMG element       901 is a TMG-created element connected to element           336
+TMG element       902 is a TMG-created element connected to element           334
+TMG element       903 is a TMG-created element connected to element           332
+TMG element       904 is a TMG-created element connected to element           165
+TMG element       905 is a TMG-created element connected to element           119
+TMG element       906 is a TMG-created element connected to element           168
+TMG element       907 is a TMG-created element connected to element           167
+TMG element       908 is a TMG-created element connected to element            36
+TMG element       909 is a TMG-created element connected to element           326
+TMG element       910 is a TMG-created element connected to element           382
+TMG element       911 is a TMG-created element connected to element           392
+TMG element       912 is a TMG-created element connected to element           331
+TMG element       913 is a TMG-created element connected to element           324
+TMG element       914 is a TMG-created element connected to element           350
+TMG element       915 is a TMG-created element connected to element           388
+TMG element       916 is a TMG-created element connected to element           369
+TMG element       917 is a TMG-created element connected to element           387
+TMG element       918 is a TMG-created element connected to element           349
+TMG element       919 is a TMG-created element connected to element           353
+TMG element       920 is a TMG-created element connected to element           340
+TMG element       921 is a TMG-created element connected to element           354
+TMG element       922 is a TMG-created element connected to element           164
+TMG element       923 is a TMG-created element connected to element           359
+TMG element       924 is a TMG-created element connected to element           371
+TMG element       925 is a TMG-created element connected to element           317
+TMG element       926 is a TMG-created element connected to element            33
+TMG element       927 is a TMG-created element connected to element           372
+TMG element       928 is a TMG-created element connected to element           360
+TMG element       929 is a TMG-created element connected to element           348
+TMG element       930 is a TMG-created element connected to element            83
+TMG element       931 is a TMG-created element connected to element           307
+TMG element       932 is a TMG-created element connected to element           179
+TMG element       933 is a TMG-created element connected to element           378
+TMG element       934 is a TMG-created element connected to element           373
+TMG element       935 is a TMG-created element connected to element           391
+TMG element       936 is a TMG-created element connected to element            69
+TMG element       937 is a TMG-created element connected to element           124
+TMG element       938 is a TMG-created element connected to element           271
+TMG element       939 is a TMG-created element connected to element           394
+TMG element       940 is a TMG-created element connected to element             3
+TMG element       941 is a TMG-created element connected to element            11
+TMG element       942 is a TMG-created element connected to element             1
+TMG element       943 is a TMG-created element connected to element            14
+TMG element       944 is a TMG-created element connected to element            40
+TMG element       945 is a TMG-created element connected to element            13
+TMG element       946 is a TMG-created element connected to element            18
+TMG element       947 is a TMG-created element connected to element            20
+TMG element       948 is a TMG-created element connected to element            17
+TMG element       949 is a TMG-created element connected to element            12
+TMG element       950 is a TMG-created element connected to element             2
+TMG element       951 is a TMG-created element connected to element           382
+TMG element       952 is a TMG-created element connected to element            10
+TMG element       953 is a TMG-created element connected to element             6
+TMG element       954 is a TMG-created element connected to element             4
+TMG element       955 is a TMG-created element connected to element           182
+TMG element       956 is a TMG-created element connected to element           112
+TMG element       957 is a TMG-created element connected to element           396
+TMG element       958 is a TMG-created element connected to element           183
+TMG element       959 is a TMG-created element connected to element            41
+TMG element       960 is a TMG-created element connected to element             6
+TMG element       961 is a TMG-created element connected to element           375
+TMG element       962 is a TMG-created element connected to element           380
+TMG element       963 is a TMG-created element connected to element           385
+TMG element       964 is a TMG-created element connected to element           390
+TMG element       965 is a TMG-created element connected to element           361
+TMG element       966 is a TMG-created element connected to element           363
+TMG element       967 is a TMG-created element connected to element           368
+TMG element       968 is a TMG-created element connected to element           357
+TMG element       969 is a TMG-created element connected to element           352
+TMG element       970 is a TMG-created element connected to element           351
+TMG element       971 is a TMG-created element connected to element           356
+TMG element       972 is a TMG-created element connected to element           370
+TMG element       973 is a TMG-created element connected to element           365
+TMG element       974 is a TMG-created element connected to element           385
+TMG element       975 is a TMG-created element connected to element           395
+TMG element       976 is a TMG-created element connected to element           396
+TMG element       977 is a TMG-created element connected to element           377
+TMG element       978 is a TMG-created element connected to element           376
+TMG element       979 is a TMG-created element connected to element            43
+TMG element       980 is a TMG-created element connected to element            14
+TMG element       981 is a TMG-created element connected to element           345
+TMG element       982 is a TMG-created element connected to element           343
+TMG element       983 is a TMG-created element connected to element           339
+TMG element       984 is a TMG-created element connected to element           336
+TMG element       985 is a TMG-created element connected to element           334
+TMG element       986 is a TMG-created element connected to element           332
+TMG element       987 is a TMG-created element connected to element           328
+TMG element       988 is a TMG-created element connected to element           327
+TMG element       989 is a TMG-created element connected to element           324
+TMG element       990 is a TMG-created element connected to element           323
+TMG element       991 is a TMG-created element connected to element           318
+TMG element       992 is a TMG-created element connected to element           317
+TMG element       993 is a TMG-created element connected to element           314
+TMG element       994 is a TMG-created element connected to element           312
+TMG element       995 is a TMG-created element connected to element           127
+TMG element       996 is a TMG-created element connected to element           393
+TMG element       997 is a TMG-created element connected to element           304
+TMG element       998 is a TMG-created element connected to element           303
+TMG element       999 is a TMG-created element connected to element           300
+TMG element      1000 is a TMG-created element connected to element           298
+TMG element      1001 is a TMG-created element connected to element           296
+TMG element      1002 is a TMG-created element connected to element           293
+TMG element      1003 is a TMG-created element connected to element           393
+TMG element      1004 is a TMG-created element connected to element           288
+TMG element      1005 is a TMG-created element connected to element           285
+TMG element      1006 is a TMG-created element connected to element           283
+TMG element      1007 is a TMG-created element connected to element           280
+TMG element      1008 is a TMG-created element connected to element           277
+TMG element      1009 is a TMG-created element connected to element           275
+TMG element      1010 is a TMG-created element connected to element           274
+TMG element      1011 is a TMG-created element connected to element           267
+TMG element      1012 is a TMG-created element connected to element           268
+TMG element      1013 is a TMG-created element connected to element           265
+TMG element      1014 is a TMG-created element connected to element           263
+TMG element      1015 is a TMG-created element connected to element           260
+TMG element      1016 is a TMG-created element connected to element           259
+TMG element      1017 is a TMG-created element connected to element           254
+TMG element      1018 is a TMG-created element connected to element           251
+TMG element      1019 is a TMG-created element connected to element            87
+TMG element      1020 is a TMG-created element connected to element           246
+TMG element      1021 is a TMG-created element connected to element           242
+TMG element      1022 is a TMG-created element connected to element           239
+TMG element      1023 is a TMG-created element connected to element           235
+TMG element      1024 is a TMG-created element connected to element           232
+TMG element      1025 is a TMG-created element connected to element           229
+TMG element      1026 is a TMG-created element connected to element           205
+TMG element      1027 is a TMG-created element connected to element           219
+TMG element      1028 is a TMG-created element connected to element           220
+TMG element      1029 is a TMG-created element connected to element           206
+TMG element      1030 is a TMG-created element connected to element            49
+TMG element      1031 is a TMG-created element connected to element           102
+TMG element      1032 is a TMG-created element connected to element           207
+TMG element      1033 is a TMG-created element connected to element           215
+TMG element      1034 is a TMG-created element connected to element           214
+TMG element      1035 is a TMG-created element connected to element           208
+TMG element      1036 is a TMG-created element connected to element           131
+TMG element      1037 is a TMG-created element connected to element           210
+TMG element      1038 is a TMG-created element connected to element           209
+TMG element      1039 is a TMG-created element connected to element            50
+TMG element      1040 is a TMG-created element connected to element            17
+TMG element      1041 is a TMG-created element connected to element           210
+TMG element      1042 is a TMG-created element connected to element           206
+TMG element      1043 is a TMG-created element connected to element           101
+TMG element      1044 is a TMG-created element connected to element           211
+TMG element      1045 is a TMG-created element connected to element           132
+TMG element      1046 is a TMG-created element connected to element           200
+TMG element      1047 is a TMG-created element connected to element           212
+TMG element      1048 is a TMG-created element connected to element           197
+TMG element      1049 is a TMG-created element connected to element            51
+TMG element      1050 is a TMG-created element connected to element           213
+TMG element      1051 is a TMG-created element connected to element           103
+TMG element      1052 is a TMG-created element connected to element            86
+TMG element      1053 is a TMG-created element connected to element           214
+TMG element      1054 is a TMG-created element connected to element           191
+TMG element      1055 is a TMG-created element connected to element           133
+TMG element      1056 is a TMG-created element connected to element           215
+TMG element      1057 is a TMG-created element connected to element           187
+TMG element      1058 is a TMG-created element connected to element           186
+TMG element      1059 is a TMG-created element connected to element            25
+TMG element      1060 is a TMG-created element connected to element            52
+TMG element      1061 is a TMG-created element connected to element            35
+TMG element      1062 is a TMG-created element connected to element           217
+TMG element      1063 is a TMG-created element connected to element           177
+TMG element      1064 is a TMG-created element connected to element           178
+TMG element      1065 is a TMG-created element connected to element           218
+TMG element      1066 is a TMG-created element connected to element           134
+TMG element      1067 is a TMG-created element connected to element           173
+TMG element      1068 is a TMG-created element connected to element           219
+TMG element      1069 is a TMG-created element connected to element            53
+TMG element      1070 is a TMG-created element connected to element           171
+TMG element      1071 is a TMG-created element connected to element           220
+TMG element      1072 is a TMG-created element connected to element           104
+TMG element      1073 is a TMG-created element connected to element           167
+TMG element      1074 is a TMG-created element connected to element           221
+TMG element      1075 is a TMG-created element connected to element           131
+TMG element      1076 is a TMG-created element connected to element             1
+TMG element      1077 is a TMG-created element connected to element           222
+TMG element      1078 is a TMG-created element connected to element            84
+TMG element      1079 is a TMG-created element connected to element            54
+TMG element      1080 is a TMG-created element connected to element           223
+TMG element      1081 is a TMG-created element connected to element           137
+TMG element      1082 is a TMG-created element connected to element            82
+TMG element      1083 is a TMG-created element connected to element           224
+TMG element      1084 is a TMG-created element connected to element            88
+TMG element      1085 is a TMG-created element connected to element           136
+TMG element      1086 is a TMG-created element connected to element           225
+TMG element      1087 is a TMG-created element connected to element           158
+TMG element      1088 is a TMG-created element connected to element            78
+TMG element      1089 is a TMG-created element connected to element           226
+TMG element      1090 is a TMG-created element connected to element            55
+TMG element      1091 is a TMG-created element connected to element            26
+TMG element      1092 is a TMG-created element connected to element            24
+TMG element      1093 is a TMG-created element connected to element            73
+TMG element      1094 is a TMG-created element connected to element           155
+TMG element      1095 is a TMG-created element connected to element           228
+TMG element      1096 is a TMG-created element connected to element           137
+TMG element      1097 is a TMG-created element connected to element           153
+TMG element      1098 is a TMG-created element connected to element            71
+TMG element      1099 is a TMG-created element connected to element           229
+TMG element      1100 is a TMG-created element connected to element            56
+TMG element      1101 is a TMG-created element connected to element             3
+TMG element      1102 is a TMG-created element connected to element           230
+TMG element      1103 is a TMG-created element connected to element            68
+TMG element      1104 is a TMG-created element connected to element           149
+TMG element      1105 is a TMG-created element connected to element           231
+TMG element      1106 is a TMG-created element connected to element           138
+TMG element      1107 is a TMG-created element connected to element           162
+TMG element      1108 is a TMG-created element connected to element           232
+TMG element      1109 is a TMG-created element connected to element            57
+TMG element      1110 is a TMG-created element connected to element            64
+TMG element      1111 is a TMG-created element connected to element           233
+TMG element      1112 is a TMG-created element connected to element           106
+TMG element      1113 is a TMG-created element connected to element            62
+TMG element      1114 is a TMG-created element connected to element           234
+TMG element      1115 is a TMG-created element connected to element            29
+TMG element      1116 is a TMG-created element connected to element            60
+TMG element      1117 is a TMG-created element connected to element            59
+TMG element      1118 is a TMG-created element connected to element           235
+TMG element      1119 is a TMG-created element connected to element            58
+TMG element      1120 is a TMG-created element connected to element            21
+TMG element      1121 is a TMG-created element connected to element           236
+TMG element      1122 is a TMG-created element connected to element            57
+TMG element      1123 is a TMG-created element connected to element            31
+TMG element      1124 is a TMG-created element connected to element           237
+TMG element      1125 is a TMG-created element connected to element           140
+TMG element      1126 is a TMG-created element connected to element            51
+TMG element      1127 is a TMG-created element connected to element           238
+TMG element      1128 is a TMG-created element connected to element            53
+TMG element      1129 is a TMG-created element connected to element            59
+TMG element      1130 is a TMG-created element connected to element           239
+TMG element      1131 is a TMG-created element connected to element           107
+TMG element      1132 is a TMG-created element connected to element           132
+TMG element      1133 is a TMG-created element connected to element           240
+TMG element      1134 is a TMG-created element connected to element            28
+TMG element      1135 is a TMG-created element connected to element           141
+TMG element      1136 is a TMG-created element connected to element           241
+TMG element      1137 is a TMG-created element connected to element           129
+TMG element      1138 is a TMG-created element connected to element            47
+TMG element      1139 is a TMG-created element connected to element            23
+TMG element      1140 is a TMG-created element connected to element            60
+TMG element      1141 is a TMG-created element connected to element           227
+TMG element      1142 is a TMG-created element connected to element           243
+TMG element      1143 is a TMG-created element connected to element            43
+TMG element      1144 is a TMG-created element connected to element           126
+TMG element      1145 is a TMG-created element connected to element           244
+TMG element      1146 is a TMG-created element connected to element           142
+TMG element      1147 is a TMG-created element connected to element            40
+TMG element      1148 is a TMG-created element connected to element           245
+TMG element      1149 is a TMG-created element connected to element            61
+TMG element      1150 is a TMG-created element connected to element            39
+TMG element      1151 is a TMG-created element connected to element           246
+TMG element      1152 is a TMG-created element connected to element           108
+TMG element      1153 is a TMG-created element connected to element            37
+TMG element      1154 is a TMG-created element connected to element           247
+TMG element      1155 is a TMG-created element connected to element           143
+TMG element      1156 is a TMG-created element connected to element           257
+TMG element      1157 is a TMG-created element connected to element           248
+TMG element      1158 is a TMG-created element connected to element            33
+TMG element      1159 is a TMG-created element connected to element            62
+TMG element      1160 is a TMG-created element connected to element           249
+TMG element      1161 is a TMG-created element connected to element           117
+TMG element      1162 is a TMG-created element connected to element            31
+TMG element      1163 is a TMG-created element connected to element           250
+TMG element      1164 is a TMG-created element connected to element            90
+TMG element      1165 is a TMG-created element connected to element           144
+TMG element      1166 is a TMG-created element connected to element           251
+TMG element      1167 is a TMG-created element connected to element           113
+TMG element      1168 is a TMG-created element connected to element            27
+TMG element      1169 is a TMG-created element connected to element           252
+TMG element      1170 is a TMG-created element connected to element            63
+TMG element      1171 is a TMG-created element connected to element           287
+TMG element      1172 is a TMG-created element connected to element           253
+TMG element      1173 is a TMG-created element connected to element            24
+TMG element      1174 is a TMG-created element connected to element           109
+TMG element      1175 is a TMG-created element connected to element           254
+TMG element      1176 is a TMG-created element connected to element           145
+TMG element      1177 is a TMG-created element connected to element           107
+TMG element      1178 is a TMG-created element connected to element           255
+TMG element      1179 is a TMG-created element connected to element            45
+TMG element      1180 is a TMG-created element connected to element            24
+TMG element      1181 is a TMG-created element connected to element           256
+TMG element      1182 is a TMG-created element connected to element           105
+TMG element      1183 is a TMG-created element connected to element            18
+TMG element      1184 is a TMG-created element connected to element           257
+TMG element      1185 is a TMG-created element connected to element           146
+TMG element      1186 is a TMG-created element connected to element            17
+TMG element      1187 is a TMG-created element connected to element            47
+TMG element      1188 is a TMG-created element connected to element            33
+TMG element      1189 is a TMG-created element connected to element            65
+TMG element      1190 is a TMG-created element connected to element           259
+TMG element      1191 is a TMG-created element connected to element           110
+TMG element      1192 is a TMG-created element connected to element            66
+TMG element      1193 is a TMG-created element connected to element           260
+TMG element      1194 is a TMG-created element connected to element            12
+TMG element      1195 is a TMG-created element connected to element           147
+TMG element      1196 is a TMG-created element connected to element           261
+TMG element      1197 is a TMG-created element connected to element            95
+TMG element      1198 is a TMG-created element connected to element             9
+TMG element      1199 is a TMG-created element connected to element            66
+TMG element      1200 is a TMG-created element connected to element           262
+TMG element      1201 is a TMG-created element connected to element            93
+TMG element      1202 is a TMG-created element connected to element             7
+TMG element      1203 is a TMG-created element connected to element           374
+TMG element      1204 is a TMG-created element connected to element            91
+TMG element      1205 is a TMG-created element connected to element           148
+TMG element      1206 is a TMG-created element connected to element           264
+TMG element      1207 is a TMG-created element connected to element            89
+TMG element      1208 is a TMG-created element connected to element             3
+TMG element      1209 is a TMG-created element connected to element           265
+TMG element      1210 is a TMG-created element connected to element            67
+TMG element      1211 is a TMG-created element connected to element            50
+TMG element      1212 is a TMG-created element connected to element           266
+TMG element      1213 is a TMG-created element connected to element           221
+TMG element      1214 is a TMG-created element connected to element            39
+TMG element      1215 is a TMG-created element connected to element           149
+TMG element      1216 is a TMG-created element connected to element           267
+TMG element      1217 is a TMG-created element connected to element           130
+TMG element      1218 is a TMG-created element connected to element           233
+TMG element      1219 is a TMG-created element connected to element           268
+TMG element      1220 is a TMG-created element connected to element            68
+TMG element      1221 is a TMG-created element connected to element           389
+TMG element      1222 is a TMG-created element connected to element           269
+TMG element      1223 is a TMG-created element connected to element           244
+TMG element      1224 is a TMG-created element connected to element           243
+TMG element      1225 is a TMG-created element connected to element           270
+TMG element      1226 is a TMG-created element connected to element           247
+TMG element      1227 is a TMG-created element connected to element            12
+TMG element      1228 is a TMG-created element connected to element           253
+TMG element      1229 is a TMG-created element connected to element            73
+TMG element      1230 is a TMG-created element connected to element           202
+TMG element      1231 is a TMG-created element connected to element           272
+TMG element      1232 is a TMG-created element connected to element           129
+TMG element      1233 is a TMG-created element connected to element           264
+TMG element      1234 is a TMG-created element connected to element           273
+TMG element      1235 is a TMG-created element connected to element            32
+TMG element      1236 is a TMG-created element connected to element             9
+TMG element      1237 is a TMG-created element connected to element           274
+TMG element      1238 is a TMG-created element connected to element            22
+TMG element      1239 is a TMG-created element connected to element            70
+TMG element      1240 is a TMG-created element connected to element           275
+TMG element      1241 is a TMG-created element connected to element           200
+TMG element      1242 is a TMG-created element connected to element            47
+TMG element      1243 is a TMG-created element connected to element            54
+TMG element      1244 is a TMG-created element connected to element            92
+TMG element      1245 is a TMG-created element connected to element           152
+TMG element      1246 is a TMG-created element connected to element           277
+TMG element      1247 is a TMG-created element connected to element           391
+TMG element      1248 is a TMG-created element connected to element           286
+TMG element      1249 is a TMG-created element connected to element           278
+TMG element      1250 is a TMG-created element connected to element            71
+TMG element      1251 is a TMG-created element connected to element            49
+TMG element      1252 is a TMG-created element connected to element           279
+TMG element      1253 is a TMG-created element connected to element            69
+TMG element      1254 is a TMG-created element connected to element            68
+TMG element      1255 is a TMG-created element connected to element           280
+TMG element      1256 is a TMG-created element connected to element           153
+TMG element      1257 is a TMG-created element connected to element           390
+TMG element      1258 is a TMG-created element connected to element           281
+TMG element      1259 is a TMG-created element connected to element            72
+TMG element      1260 is a TMG-created element connected to element            28
+TMG element      1261 is a TMG-created element connected to element           282
+TMG element      1262 is a TMG-created element connected to element           196
+TMG element      1263 is a TMG-created element connected to element            56
+TMG element      1264 is a TMG-created element connected to element           283
+TMG element      1265 is a TMG-created element connected to element            53
+TMG element      1266 is a TMG-created element connected to element           364
+TMG element      1267 is a TMG-created element connected to element            76
+TMG element      1268 is a TMG-created element connected to element            72
+TMG element      1269 is a TMG-created element connected to element            75
+TMG element      1270 is a TMG-created element connected to element            74
+TMG element      1271 is a TMG-created element connected to element           114
+TMG element      1272 is a TMG-created element connected to element            44
+TMG element      1273 is a TMG-created element connected to element           286
+TMG element      1274 is a TMG-created element connected to element           194
+TMG element      1275 is a TMG-created element connected to element            59
+TMG element      1276 is a TMG-created element connected to element           287
+TMG element      1277 is a TMG-created element connected to element           368
+TMG element      1278 is a TMG-created element connected to element           325
+TMG element      1279 is a TMG-created element connected to element           288
+TMG element      1280 is a TMG-created element connected to element            74
+TMG element      1281 is a TMG-created element connected to element            61
+TMG element      1282 is a TMG-created element connected to element           289
+TMG element      1283 is a TMG-created element connected to element            93
+TMG element      1284 is a TMG-created element connected to element            58
+TMG element      1285 is a TMG-created element connected to element           290
+TMG element      1286 is a TMG-created element connected to element           156
+TMG element      1287 is a TMG-created element connected to element           354
+TMG element      1288 is a TMG-created element connected to element           291
+TMG element      1289 is a TMG-created element connected to element            75
+TMG element      1290 is a TMG-created element connected to element           344
+TMG element      1291 is a TMG-created element connected to element            52
+TMG element      1292 is a TMG-created element connected to element           115
+TMG element      1293 is a TMG-created element connected to element            64
+TMG element      1294 is a TMG-created element connected to element           351
+TMG element      1295 is a TMG-created element connected to element           293
+TMG element      1296 is a TMG-created element connected to element           353
+TMG element      1297 is a TMG-created element connected to element            63
+TMG element      1298 is a TMG-created element connected to element           294
+TMG element      1299 is a TMG-created element connected to element            62
+TMG element      1300 is a TMG-created element connected to element           342
+TMG element      1301 is a TMG-created element connected to element           295
+TMG element      1302 is a TMG-created element connected to element           360
+TMG element      1303 is a TMG-created element connected to element            76
+TMG element      1304 is a TMG-created element connected to element           296
+TMG element      1305 is a TMG-created element connected to element           157
+TMG element      1306 is a TMG-created element connected to element           188
+TMG element      1307 is a TMG-created element connected to element            99
+TMG element      1308 is a TMG-created element connected to element           297
+TMG element      1309 is a TMG-created element connected to element            78
+TMG element      1310 is a TMG-created element connected to element           187
+TMG element      1311 is a TMG-created element connected to element           298
+TMG element      1312 is a TMG-created element connected to element           116
+TMG element      1313 is a TMG-created element connected to element           355
+TMG element      1314 is a TMG-created element connected to element           299
+TMG element      1315 is a TMG-created element connected to element            97
+TMG element      1316 is a TMG-created element connected to element           174
+TMG element      1317 is a TMG-created element connected to element           300
+TMG element      1318 is a TMG-created element connected to element            51
+TMG element      1319 is a TMG-created element connected to element            79
+TMG element      1320 is a TMG-created element connected to element           301
+TMG element      1321 is a TMG-created element connected to element            21
+TMG element      1322 is a TMG-created element connected to element           306
+TMG element      1323 is a TMG-created element connected to element            13
+TMG element      1324 is a TMG-created element connected to element            94
+TMG element      1325 is a TMG-created element connected to element           159
+TMG element      1326 is a TMG-created element connected to element           303
+TMG element      1327 is a TMG-created element connected to element            13
+TMG element      1328 is a TMG-created element connected to element            82
+TMG element      1329 is a TMG-created element connected to element            32
+TMG element      1330 is a TMG-created element connected to element            80
+TMG element      1353 is a TMG-created element connected to element           172
+TMG element      1354 is a TMG-created element connected to element           340
+TMG element      1355 is a TMG-created element connected to element            96
+TMG element      1356 is a TMG-created element connected to element           339
+TMG element      1357 is a TMG-created element connected to element           171
+TMG element      1358 is a TMG-created element connected to element            38
+TMG element      1359 is a TMG-created element connected to element            11
+TMG element      1360 is a TMG-created element connected to element           172
+TMG element      1361 is a TMG-created element connected to element           337
+TMG element      1362 is a TMG-created element connected to element           337
+TMG element      1363 is a TMG-created element connected to element           171
+TMG element      1364 is a TMG-created element connected to element           279
+TMG element      1365 is a TMG-created element connected to element           171
+TMG element      1366 is a TMG-created element connected to element            36
+TMG element      1367 is a TMG-created element connected to element            96
+TMG element      1368 is a TMG-created element connected to element           335
+TMG element      1369 is a TMG-created element connected to element           170
+TMG element      1370 is a TMG-created element connected to element           119
+TMG element      1371 is a TMG-created element connected to element           170
+TMG element      1372 is a TMG-created element connected to element           333
+TMG element      1373 is a TMG-created element connected to element           333
+TMG element      1374 is a TMG-created element connected to element           169
+TMG element      1375 is a TMG-created element connected to element           169
+TMG element      1376 is a TMG-created element connected to element            37
+TMG element      1377 is a TMG-created element connected to element           330
+TMG element      1378 is a TMG-created element connected to element           331
+TMG element      1379 is a TMG-created element connected to element           329
+TMG element      1380 is a TMG-created element connected to element           168
+TMG element      1381 is a TMG-created element connected to element            96
+TMG element      1382 is a TMG-created element connected to element            91
+TMG element      1383 is a TMG-created element connected to element           329
+TMG element      1384 is a TMG-created element connected to element            35
+TMG element      1385 is a TMG-created element connected to element           166
+TMG element      1386 is a TMG-created element connected to element           328
+TMG element      1387 is a TMG-created element connected to element            90
+TMG element      1388 is a TMG-created element connected to element           119
+TMG element      1389 is a TMG-created element connected to element           327
+TMG element      1390 is a TMG-created element connected to element           325
+TMG element      1391 is a TMG-created element connected to element           165
+TMG element      1392 is a TMG-created element connected to element           269
+TMG element      1393 is a TMG-created element connected to element           166
+TMG element      1394 is a TMG-created element connected to element           325
+TMG element      1395 is a TMG-created element connected to element           325
+TMG element      1396 is a TMG-created element connected to element            36
+TMG element      1397 is a TMG-created element connected to element             9
+TMG element      1398 is a TMG-created element connected to element           324
+TMG element      1399 is a TMG-created element connected to element           164
+TMG element      1400 is a TMG-created element connected to element           323
+TMG element      1401 is a TMG-created element connected to element           324
+TMG element      1402 is a TMG-created element connected to element           327
+TMG element      1403 is a TMG-created element connected to element           165
+TMG element      1404 is a TMG-created element connected to element           322
+TMG element      1405 is a TMG-created element connected to element           328
+TMG element      1406 is a TMG-created element connected to element           323
+TMG element      1407 is a TMG-created element connected to element            85
+TMG element      1408 is a TMG-created element connected to element           328
+TMG element      1409 is a TMG-created element connected to element            34
+TMG element      1410 is a TMG-created element connected to element           330
+TMG element      1411 is a TMG-created element connected to element            94
+TMG element      1412 is a TMG-created element connected to element           322
+TMG element      1413 is a TMG-created element connected to element           322
+TMG element      1414 is a TMG-created element connected to element           164
+TMG element      1415 is a TMG-created element connected to element           321
+TMG element      1416 is a TMG-created element connected to element           332
+TMG element      1417 is a TMG-created element connected to element           331
+TMG element      1418 is a TMG-created element connected to element            84
+TMG element      1419 is a TMG-created element connected to element           118
+TMG element      1420 is a TMG-created element connected to element           320
+TMG element      1421 is a TMG-created element connected to element           321
+TMG element      1422 is a TMG-created element connected to element           334
+TMG element      1423 is a TMG-created element connected to element           333
+TMG element      1424 is a TMG-created element connected to element           164
+TMG element      1425 is a TMG-created element connected to element           320
+TMG element      1426 is a TMG-created element connected to element           335
+TMG element      1427 is a TMG-created element connected to element           320
+TMG element      1428 is a TMG-created element connected to element            85
+TMG element      1429 is a TMG-created element connected to element           335
+TMG element      1430 is a TMG-created element connected to element           318
+TMG element      1431 is a TMG-created element connected to element           258
+TMG element      1432 is a TMG-created element connected to element            35
+TMG element      1433 is a TMG-created element connected to element           318
+TMG element      1434 is a TMG-created element connected to element           338
+TMG element      1435 is a TMG-created element connected to element           337
+TMG element      1436 is a TMG-created element connected to element            83
+TMG element      1437 is a TMG-created element connected to element           318
+TMG element      1438 is a TMG-created element connected to element           338
+TMG element      1439 is a TMG-created element connected to element           162
+TMG element      1440 is a TMG-created element connected to element            10
+TMG element      1441 is a TMG-created element connected to element           339
+TMG element      1442 is a TMG-created element connected to element           316
+TMG element      1443 is a TMG-created element connected to element           256
+TMG element      1444 is a TMG-created element connected to element           316
+TMG element      1445 is a TMG-created element connected to element            84
+TMG element      1446 is a TMG-created element connected to element           316
+TMG element      1447 is a TMG-created element connected to element           315
+TMG element      1448 is a TMG-created element connected to element           315
+TMG element      1449 is a TMG-created element connected to element            82
+TMG element      1450 is a TMG-created element connected to element            33
+TMG element      1451 is a TMG-created element connected to element           313
+TMG element      1452 is a TMG-created element connected to element           162
+TMG element      1453 is a TMG-created element connected to element           314
+TMG element      1454 is a TMG-created element connected to element            33
+TMG element      1455 is a TMG-created element connected to element           313
+TMG element      1456 is a TMG-created element connected to element           313
+TMG element      1457 is a TMG-created element connected to element            83
+TMG element      1458 is a TMG-created element connected to element           312
+TMG element      1459 is a TMG-created element connected to element             8
+TMG element      1460 is a TMG-created element connected to element           312
+TMG element      1461 is a TMG-created element connected to element            81
+TMG element      1462 is a TMG-created element connected to element           311
+TMG element      1463 is a TMG-created element connected to element           311
+TMG element      1464 is a TMG-created element connected to element           160
+TMG element      1465 is a TMG-created element connected to element            34
+TMG element      1466 is a TMG-created element connected to element           309
+TMG element      1467 is a TMG-created element connected to element           249
+TMG element      1468 is a TMG-created element connected to element            82
+TMG element      1469 is a TMG-created element connected to element            32
+TMG element      1470 is a TMG-created element connected to element            94
+TMG element      1471 is a TMG-created element connected to element           309
+TMG element      1472 is a TMG-created element connected to element           309
+TMG element      1473 is a TMG-created element connected to element           307
+TMG element      1474 is a TMG-created element connected to element            80
+TMG element      1475 is a TMG-created element connected to element           116
+TMG element      1476 is a TMG-created element connected to element           308
+TMG element      1477 is a TMG-created element connected to element           160
+TMG element      1478 is a TMG-created element connected to element           306
+TMG element      1479 is a TMG-created element connected to element           307
+TMG element      1480 is a TMG-created element connected to element           306
+TMG element      1481 is a TMG-created element connected to element            81
+TMG element      1482 is a TMG-created element connected to element           306
+TMG element      1483 is a TMG-created element connected to element            32
+TMG element      1484 is a TMG-created element connected to element           305
+TMG element      1485 is a TMG-created element connected to element           305
+TMG element      1486 is a TMG-created element connected to element            79
+TMG element      1487 is a TMG-created element connected to element           304
+TMG element      1488 is a TMG-created element connected to element           158
+TMG element      1489 is a TMG-created element connected to element             9
+TMG element      1490 is a TMG-created element connected to element           304
+TMG element      1491 is a TMG-created element connected to element           302
+TMG element      1492 is a TMG-created element connected to element           242
+TMG element      1493 is a TMG-created element connected to element            80
+TMG element      1494 is a TMG-created element connected to element            30
+TMG element      1495 is a TMG-created element connected to element           301
+TMG element      1496 is a TMG-created element connected to element           241
+TMG element      1497 is a TMG-created element connected to element            78
+TMG element      1498 is a TMG-created element connected to element           115
+TMG element      1499 is a TMG-created element connected to element           301
+TMG element      1500 is a TMG-created element connected to element           240
+TMG element      1501 is a TMG-created element connected to element           158
+TMG element      1502 is a TMG-created element connected to element           299
+TMG element      1503 is a TMG-created element connected to element           300
+TMG element      1504 is a TMG-created element connected to element            79
+TMG element      1505 is a TMG-created element connected to element           299
+TMG element      1506 is a TMG-created element connected to element           238
+TMG element      1507 is a TMG-created element connected to element           116
+TMG element      1508 is a TMG-created element connected to element             7
+TMG element      1509 is a TMG-created element connected to element           297
+TMG element      1510 is a TMG-created element connected to element            77
+TMG element      1511 is a TMG-created element connected to element           237
+TMG element      1512 is a TMG-created element connected to element           156
+TMG element      1513 is a TMG-created element connected to element           297
+TMG element      1514 is a TMG-created element connected to element           236
+TMG element      1515 is a TMG-created element connected to element           296
+TMG element      1516 is a TMG-created element connected to element            78
+TMG element      1517 is a TMG-created element connected to element            30
+TMG element      1518 is a TMG-created element connected to element            92
+TMG element      1519 is a TMG-created element connected to element           295
+TMG element      1520 is a TMG-created element connected to element           296
+TMG element      1521 is a TMG-created element connected to element           294
+TMG element      1522 is a TMG-created element connected to element           115
+TMG element      1523 is a TMG-created element connected to element           295
+TMG element      1524 is a TMG-created element connected to element            76
+TMG element      1525 is a TMG-created element connected to element           294
+TMG element      1526 is a TMG-created element connected to element           294
+TMG element      1527 is a TMG-created element connected to element            76
+TMG element      1528 is a TMG-created element connected to element           292
+TMG element      1529 is a TMG-created element connected to element           230
+TMG element      1530 is a TMG-created element connected to element            77
+TMG element      1531 is a TMG-created element connected to element           115
+TMG element      1532 is a TMG-created element connected to element           292
+TMG element      1533 is a TMG-created element connected to element           291
+TMG element      1534 is a TMG-created element connected to element            75
+TMG element      1535 is a TMG-created element connected to element           292
+TMG element      1536 is a TMG-created element connected to element           156
+TMG element      1537 is a TMG-created element connected to element             8
+TMG element      1538 is a TMG-created element connected to element           291
+TMG element      1539 is a TMG-created element connected to element           291
+TMG element      1540 is a TMG-created element connected to element           290
+TMG element      1541 is a TMG-created element connected to element            75
+TMG element      1542 is a TMG-created element connected to element            28
+TMG element      1543 is a TMG-created element connected to element           225
+TMG element      1544 is a TMG-created element connected to element           289
+TMG element      1545 is a TMG-created element connected to element           224
+TMG element      1546 is a TMG-created element connected to element            74
+TMG element      1547 is a TMG-created element connected to element           114
+TMG element      1548 is a TMG-created element connected to element           288
+TMG element      1549 is a TMG-created element connected to element           154
+TMG element      1550 is a TMG-created element connected to element           223
+TMG element      1551 is a TMG-created element connected to element           287
+TMG element      1552 is a TMG-created element connected to element           222
+TMG element      1553 is a TMG-created element connected to element            74
+TMG element      1554 is a TMG-created element connected to element           285
+TMG element      1555 is a TMG-created element connected to element            29
+TMG element      1556 is a TMG-created element connected to element             7
+TMG element      1557 is a TMG-created element connected to element           221
+TMG element      1558 is a TMG-created element connected to element            72
+TMG element      1559 is a TMG-created element connected to element           284
+TMG element      1560 is a TMG-created element connected to element           285
+TMG element      1561 is a TMG-created element connected to element           154
+TMG element      1562 is a TMG-created element connected to element           284
+TMG element      1563 is a TMG-created element connected to element            28
+TMG element      1564 is a TMG-created element connected to element           282
+TMG element      1565 is a TMG-created element connected to element           218
+TMG element      1566 is a TMG-created element connected to element           112
+TMG element      1567 is a TMG-created element connected to element           281
+TMG element      1568 is a TMG-created element connected to element            72
+TMG element      1569 is a TMG-created element connected to element           282
+TMG element      1570 is a TMG-created element connected to element           152
+TMG element      1571 is a TMG-created element connected to element           281
+TMG element      1572 is a TMG-created element connected to element           281
+TMG element      1573 is a TMG-created element connected to element           279
+TMG element      1574 is a TMG-created element connected to element            72
+TMG element      1575 is a TMG-created element connected to element           280
+TMG element      1576 is a TMG-created element connected to element            28
+TMG element      1577 is a TMG-created element connected to element           279
+TMG element      1578 is a TMG-created element connected to element           279
+TMG element      1579 is a TMG-created element connected to element            70
+TMG element      1580 is a TMG-created element connected to element           278
+TMG element      1581 is a TMG-created element connected to element           151
+TMG element      1582 is a TMG-created element connected to element             7
+TMG element      1583 is a TMG-created element connected to element           278
+TMG element      1584 is a TMG-created element connected to element           276
+TMG element      1585 is a TMG-created element connected to element           212
+TMG element      1586 is a TMG-created element connected to element           152
+TMG element      1587 is a TMG-created element connected to element            27
+TMG element      1588 is a TMG-created element connected to element           276
+TMG element      1589 is a TMG-created element connected to element           211
+TMG element      1590 is a TMG-created element connected to element            70
+TMG element      1591 is a TMG-created element connected to element           111
+TMG element      1592 is a TMG-created element connected to element           275
+TMG element      1593 is a TMG-created element connected to element           275
+TMG element      1594 is a TMG-created element connected to element           150
+TMG element      1595 is a TMG-created element connected to element           273
+TMG element      1596 is a TMG-created element connected to element           209
+TMG element      1597 is a TMG-created element connected to element            70
+TMG element      1598 is a TMG-created element connected to element           272
+TMG element      1599 is a TMG-created element connected to element           208
+TMG element      1600 is a TMG-created element connected to element            27
+TMG element      1601 is a TMG-created element connected to element             5
+TMG element      1602 is a TMG-created element connected to element           272
+TMG element      1603 is a TMG-created element connected to element            69
+TMG element      1604 is a TMG-created element connected to element           272
+TMG element      1605 is a TMG-created element connected to element           150
+TMG element      1606 is a TMG-created element connected to element            91
+TMG element      1607 is a TMG-created element connected to element           271
+TMG element      1608 is a TMG-created element connected to element           271
+TMG element      1609 is a TMG-created element connected to element            91
+TMG element      1610 is a TMG-created element connected to element           269
+TMG element      1611 is a TMG-created element connected to element            25
+TMG element      1612 is a TMG-created element connected to element           284
+TMG element      1613 is a TMG-created element connected to element           154
+TMG element      1614 is a TMG-created element connected to element           270
+TMG element      1615 is a TMG-created element connected to element           110
+TMG element      1616 is a TMG-created element connected to element           269
+TMG element      1617 is a TMG-created element connected to element           204
+TMG element      1618 is a TMG-created element connected to element            67
+TMG element      1619 is a TMG-created element connected to element           267
+TMG element      1620 is a TMG-created element connected to element           148
+TMG element      1621 is a TMG-created element connected to element           203
+TMG element      1622 is a TMG-created element connected to element           266
+TMG element      1623 is a TMG-created element connected to element           202
+TMG element      1624 is a TMG-created element connected to element            68
+TMG element      1625 is a TMG-created element connected to element           266
+TMG element      1626 is a TMG-created element connected to element           111
+TMG element      1627 is a TMG-created element connected to element           266
+TMG element      1628 is a TMG-created element connected to element           266
+TMG element      1629 is a TMG-created element connected to element            67
+TMG element      1630 is a TMG-created element connected to element           265
+TMG element      1631 is a TMG-created element connected to element           147
+TMG element      1632 is a TMG-created element connected to element            91
+TMG element      1633 is a TMG-created element connected to element           198
+TMG element      1634 is a TMG-created element connected to element           263
+TMG element      1635 is a TMG-created element connected to element           197
+TMG element      1636 is a TMG-created element connected to element            67
+TMG element      1637 is a TMG-created element connected to element            25
+TMG element      1638 is a TMG-created element connected to element           262
+TMG element      1639 is a TMG-created element connected to element           196
+TMG element      1640 is a TMG-created element connected to element            65
+TMG element      1641 is a TMG-created element connected to element           110
+TMG element      1642 is a TMG-created element connected to element           261
+TMG element      1643 is a TMG-created element connected to element           262
+TMG element      1644 is a TMG-created element connected to element           147
+TMG element      1645 is a TMG-created element connected to element           194
+TMG element      1646 is a TMG-created element connected to element           261
+TMG element      1647 is a TMG-created element connected to element           192
+TMG element      1648 is a TMG-created element connected to element           147
+TMG element      1649 is a TMG-created element connected to element           260
+TMG element      1650 is a TMG-created element connected to element           110
+TMG element      1651 is a TMG-created element connected to element             5
+TMG element      1652 is a TMG-created element connected to element           191
+TMG element      1653 is a TMG-created element connected to element            65
+TMG element      1654 is a TMG-created element connected to element           258
+TMG element      1655 is a TMG-created element connected to element           190
+TMG element      1656 is a TMG-created element connected to element           146
+TMG element      1657 is a TMG-created element connected to element           258
+TMG element      1658 is a TMG-created element connected to element           189
+TMG element      1659 is a TMG-created element connected to element            65
+TMG element      1660 is a TMG-created element connected to element            23
+TMG element      1661 is a TMG-created element connected to element            89
+TMG element      1662 is a TMG-created element connected to element           256
+TMG element      1663 is a TMG-created element connected to element           188
+TMG element      1664 is a TMG-created element connected to element           255
+TMG element      1665 is a TMG-created element connected to element            63
+TMG element      1666 is a TMG-created element connected to element           108
+TMG element      1667 is a TMG-created element connected to element           256
+TMG element      1668 is a TMG-created element connected to element           145
+TMG element      1669 is a TMG-created element connected to element           255
+TMG element      1670 is a TMG-created element connected to element           255
+TMG element      1671 is a TMG-created element connected to element           254
+TMG element      1672 is a TMG-created element connected to element           145
+TMG element      1673 is a TMG-created element connected to element           185
+TMG element      1674 is a TMG-created element connected to element           109
+TMG element      1675 is a TMG-created element connected to element           252
+TMG element      1676 is a TMG-created element connected to element           184
+TMG element      1677 is a TMG-created element connected to element            63
+TMG element      1678 is a TMG-created element connected to element           252
+TMG element      1679 is a TMG-created element connected to element           144
+TMG element      1680 is a TMG-created element connected to element             5
+TMG element      1681 is a TMG-created element connected to element           183
+TMG element      1682 is a TMG-created element connected to element           250
+TMG element      1683 is a TMG-created element connected to element           182
+TMG element      1684 is a TMG-created element connected to element            63
+TMG element      1685 is a TMG-created element connected to element            22
+TMG element      1686 is a TMG-created element connected to element           249
+TMG element      1687 is a TMG-created element connected to element           181
+TMG element      1688 is a TMG-created element connected to element            61
+TMG element      1689 is a TMG-created element connected to element           108
+TMG element      1690 is a TMG-created element connected to element           249
+TMG element      1691 is a TMG-created element connected to element           180
+TMG element      1692 is a TMG-created element connected to element           142
+TMG element      1693 is a TMG-created element connected to element           248
+TMG element      1694 is a TMG-created element connected to element           248
+TMG element      1695 is a TMG-created element connected to element           143
+TMG element      1696 is a TMG-created element connected to element           246
+TMG element      1697 is a TMG-created element connected to element           178
+TMG element      1698 is a TMG-created element connected to element           108
+TMG element      1699 is a TMG-created element connected to element             4
+TMG element      1700 is a TMG-created element connected to element           245
+TMG element      1701 is a TMG-created element connected to element            61
+TMG element      1702 is a TMG-created element connected to element           177
+TMG element      1703 is a TMG-created element connected to element           142
+TMG element      1704 is a TMG-created element connected to element           245
+TMG element      1705 is a TMG-created element connected to element           176
+TMG element      1706 is a TMG-created element connected to element           243
+TMG element      1707 is a TMG-created element connected to element           142
+TMG element      1708 is a TMG-created element connected to element            22
+TMG element      1709 is a TMG-created element connected to element            89
+TMG element      1710 is a TMG-created element connected to element           175
+TMG element      1711 is a TMG-created element connected to element           242
+TMG element      1712 is a TMG-created element connected to element           174
+TMG element      1713 is a TMG-created element connected to element            60
+TMG element      1714 is a TMG-created element connected to element           106
+TMG element      1715 is a TMG-created element connected to element           241
+TMG element      1716 is a TMG-created element connected to element           141
+TMG element      1717 is a TMG-created element connected to element           242
+TMG element      1718 is a TMG-created element connected to element           240
+TMG element      1719 is a TMG-created element connected to element           172
+TMG element      1720 is a TMG-created element connected to element           141
+TMG element      1721 is a TMG-created element connected to element           240
+TMG element      1722 is a TMG-created element connected to element            22
+TMG element      1723 is a TMG-created element connected to element           171
+TMG element      1724 is a TMG-created element connected to element            58
+TMG element      1725 is a TMG-created element connected to element           238
+TMG element      1726 is a TMG-created element connected to element           170
+TMG element      1727 is a TMG-created element connected to element           139
+TMG element      1728 is a TMG-created element connected to element             4
+TMG element      1729 is a TMG-created element connected to element           237
+TMG element      1730 is a TMG-created element connected to element           169
+TMG element      1731 is a TMG-created element connected to element           140
+TMG element      1732 is a TMG-created element connected to element            20
+TMG element      1733 is a TMG-created element connected to element           236
+TMG element      1734 is a TMG-created element connected to element           237
+TMG element      1735 is a TMG-created element connected to element           236
+TMG element      1736 is a TMG-created element connected to element            57
+TMG element      1737 is a TMG-created element connected to element           105
+TMG element      1738 is a TMG-created element connected to element           236
+TMG element      1739 is a TMG-created element connected to element           139
+TMG element      1740 is a TMG-created element connected to element           234
+TMG element      1741 is a TMG-created element connected to element           166
+TMG element      1742 is a TMG-created element connected to element           165
+TMG element      1743 is a TMG-created element connected to element            58
+TMG element      1744 is a TMG-created element connected to element           234
+TMG element      1745 is a TMG-created element connected to element           163
+TMG element      1746 is a TMG-created element connected to element           106
+TMG element      1747 is a TMG-created element connected to element             2
+TMG element      1748 is a TMG-created element connected to element           232
+TMG element      1749 is a TMG-created element connected to element            57
+TMG element      1750 is a TMG-created element connected to element           162
+TMG element      1751 is a TMG-created element connected to element           138
+TMG element      1752 is a TMG-created element connected to element           231
+TMG element      1753 is a TMG-created element connected to element           161
+TMG element      1754 is a TMG-created element connected to element           231
+TMG element      1755 is a TMG-created element connected to element            57
+TMG element      1756 is a TMG-created element connected to element            20
+TMG element      1757 is a TMG-created element connected to element            87
+TMG element      1758 is a TMG-created element connected to element           160
+TMG element      1759 is a TMG-created element connected to element           230
+TMG element      1760 is a TMG-created element connected to element           159
+TMG element      1761 is a TMG-created element connected to element            55
+TMG element      1762 is a TMG-created element connected to element           104
+TMG element      1763 is a TMG-created element connected to element           228
+TMG element      1764 is a TMG-created element connected to element           136
+TMG element      1765 is a TMG-created element connected to element           158
+TMG element      1766 is a TMG-created element connected to element           157
+TMG element      1767 is a TMG-created element connected to element           227
+TMG element      1768 is a TMG-created element connected to element            56
+TMG element      1769 is a TMG-created element connected to element           228
+TMG element      1770 is a TMG-created element connected to element            20
+TMG element      1771 is a TMG-created element connected to element           226
+TMG element      1772 is a TMG-created element connected to element           154
+TMG element      1773 is a TMG-created element connected to element            55
+TMG element      1774 is a TMG-created element connected to element           225
+TMG element      1775 is a TMG-created element connected to element           136
+TMG element      1776 is a TMG-created element connected to element            88
+TMG element      1777 is a TMG-created element connected to element           226
+TMG element      1778 is a TMG-created element connected to element           225
+TMG element      1779 is a TMG-created element connected to element           225
+TMG element      1780 is a TMG-created element connected to element            55
+TMG element      1781 is a TMG-created element connected to element            18
+TMG element      1782 is a TMG-created element connected to element           224
+TMG element      1783 is a TMG-created element connected to element           224
+TMG element      1784 is a TMG-created element connected to element            54
+TMG element      1785 is a TMG-created element connected to element           104
+TMG element      1786 is a TMG-created element connected to element           223
+TMG element      1787 is a TMG-created element connected to element           150
+TMG element      1788 is a TMG-created element connected to element           135
+TMG element      1789 is a TMG-created element connected to element           222
+TMG element      1790 is a TMG-created element connected to element           222
+TMG element      1791 is a TMG-created element connected to element            54
+TMG element      1792 is a TMG-created element connected to element           220
+TMG element      1793 is a TMG-created element connected to element           148
+TMG element      1794 is a TMG-created element connected to element           104
+TMG element      1795 is a TMG-created element connected to element           219
+TMG element      1796 is a TMG-created element connected to element            52
+TMG element      1797 is a TMG-created element connected to element           147
+TMG element      1798 is a TMG-created element connected to element           133
+TMG element      1799 is a TMG-created element connected to element           218
+TMG element      1800 is a TMG-created element connected to element           146
+TMG element      1801 is a TMG-created element connected to element           217
+TMG element      1802 is a TMG-created element connected to element           134
+TMG element      1803 is a TMG-created element connected to element            18
+TMG element      1804 is a TMG-created element connected to element             1
+TMG element      1805 is a TMG-created element connected to element           218
+TMG element      1806 is a TMG-created element connected to element           217
+TMG element      1807 is a TMG-created element connected to element           217
+TMG element      1808 is a TMG-created element connected to element            52
+TMG element      1809 is a TMG-created element connected to element           103
+TMG element      1810 is a TMG-created element connected to element           216
+TMG element      1811 is a TMG-created element connected to element           133
+TMG element      1812 is a TMG-created element connected to element           216
+TMG element      1813 is a TMG-created element connected to element             1
+TMG element      1814 is a TMG-created element connected to element           215
+TMG element      1815 is a TMG-created element connected to element           142
+TMG element      1816 is a TMG-created element connected to element           133
+TMG element      1817 is a TMG-created element connected to element           213
+TMG element      1818 is a TMG-created element connected to element            18
+TMG element      1819 is a TMG-created element connected to element           141
+TMG element      1820 is a TMG-created element connected to element            50
+TMG element      1821 is a TMG-created element connected to element           212
+TMG element      1822 is a TMG-created element connected to element           213
+TMG element      1823 is a TMG-created element connected to element           131
+TMG element      1824 is a TMG-created element connected to element           212
+TMG element      1825 is a TMG-created element connected to element           212
+TMG element      1826 is a TMG-created element connected to element           132
+TMG element      1827 is a TMG-created element connected to element            16
+TMG element      1828 is a TMG-created element connected to element           211
+TMG element      1829 is a TMG-created element connected to element           211
+TMG element      1830 is a TMG-created element connected to element           209
+TMG element      1831 is a TMG-created element connected to element            50
+TMG element      1832 is a TMG-created element connected to element           102
+TMG element      1833 is a TMG-created element connected to element            86
+TMG element      1834 is a TMG-created element connected to element           210
+TMG element      1835 is a TMG-created element connected to element           130
+TMG element      1836 is a TMG-created element connected to element           208
+TMG element      1837 is a TMG-created element connected to element           136
+TMG element      1838 is a TMG-created element connected to element           208
+TMG element      1839 is a TMG-created element connected to element            50
+TMG element      1840 is a TMG-created element connected to element           208
+TMG element      1841 is a TMG-created element connected to element           102
+TMG element      1842 is a TMG-created element connected to element           207
+TMG element      1843 is a TMG-created element connected to element           207
+TMG element      1844 is a TMG-created element connected to element            48
+TMG element      1845 is a TMG-created element connected to element           205
+TMG element      1846 is a TMG-created element connected to element           130
+TMG element      1847 is a TMG-created element connected to element           133
+TMG element      1848 is a TMG-created element connected to element           204
+TMG element      1849 is a TMG-created element connected to element           353
+TMG element      1850 is a TMG-created element connected to element           357
+TMG element      1851 is a TMG-created element connected to element           205
+TMG element      1852 is a TMG-created element connected to element           130
+TMG element      1853 is a TMG-created element connected to element            15
+TMG element      1854 is a TMG-created element connected to element             2
+TMG element      1855 is a TMG-created element connected to element           358
+TMG element      1856 is a TMG-created element connected to element           355
+TMG element      1857 is a TMG-created element connected to element           367
+TMG element      1858 is a TMG-created element connected to element           372
+TMG element      1859 is a TMG-created element connected to element           204
+TMG element      1860 is a TMG-created element connected to element           369
+TMG element      1861 is a TMG-created element connected to element           363
+TMG element      1862 is a TMG-created element connected to element           204
+TMG element      1863 is a TMG-created element connected to element           366
+TMG element      1864 is a TMG-created element connected to element           362
+TMG element      1865 is a TMG-created element connected to element            48
+TMG element      1866 is a TMG-created element connected to element           100
+TMG element      1867 is a TMG-created element connected to element           386
+TMG element      1868 is a TMG-created element connected to element           388
+TMG element      1869 is a TMG-created element connected to element           203
+TMG element      1870 is a TMG-created element connected to element           387
+TMG element      1871 is a TMG-created element connected to element           395
+TMG element      1872 is a TMG-created element connected to element           203
+TMG element      1873 is a TMG-created element connected to element           128
+TMG element      1874 is a TMG-created element connected to element           394
+TMG element      1875 is a TMG-created element connected to element           392
+TMG element      1876 is a TMG-created element connected to element           378
+TMG element      1877 is a TMG-created element connected to element           379
+TMG element      1878 is a TMG-created element connected to element           202
+TMG element      1879 is a TMG-created element connected to element           384
+TMG element      1880 is a TMG-created element connected to element           383
+TMG element      1881 is a TMG-created element connected to element           202
+TMG element      1882 is a TMG-created element connected to element           375
+TMG element      1883 is a TMG-created element connected to element           374
+TMG element      1884 is a TMG-created element connected to element            48
+TMG element      1885 is a TMG-created element connected to element           373
+TMG element      1886 is a TMG-created element connected to element           375
+TMG element      1887 is a TMG-created element connected to element           201
+TMG element      1888 is a TMG-created element connected to element           347
+TMG element      1889 is a TMG-created element connected to element           201
+TMG element      1890 is a TMG-created element connected to element            16
+TMG element      1891 is a TMG-created element connected to element           375
+TMG element      1892 is a TMG-created element connected to element           375
+TMG element      1893 is a TMG-created element connected to element           384
+TMG element      1894 is a TMG-created element connected to element           127
+TMG element      1895 is a TMG-created element connected to element            46
+TMG element      1896 is a TMG-created element connected to element           383
+TMG element      1897 is a TMG-created element connected to element           199
+TMG element      1898 is a TMG-created element connected to element           384
+TMG element      1899 is a TMG-created element connected to element           384
+TMG element      1900 is a TMG-created element connected to element           125
+TMG element      1901 is a TMG-created element connected to element           127
+TMG element      1902 is a TMG-created element connected to element           378
+TMG element      1903 is a TMG-created element connected to element           343
+TMG element      1904 is a TMG-created element connected to element           198
+TMG element      1905 is a TMG-created element connected to element           378
+TMG element      1906 is a TMG-created element connected to element           378
+TMG element      1907 is a TMG-created element connected to element           124
+TMG element      1908 is a TMG-created element connected to element           394
+TMG element      1909 is a TMG-created element connected to element           128
+TMG element      1910 is a TMG-created element connected to element            15
+TMG element      1911 is a TMG-created element connected to element           341
+TMG element      1912 is a TMG-created element connected to element           198
+TMG element      1913 is a TMG-created element connected to element           394
+TMG element      1914 is a TMG-created element connected to element           394
+TMG element      1915 is a TMG-created element connected to element           198
+TMG element      1916 is a TMG-created element connected to element           389
+TMG element      1917 is a TMG-created element connected to element           339
+TMG element      1918 is a TMG-created element connected to element           197
+TMG element      1919 is a TMG-created element connected to element            45
+TMG element      1920 is a TMG-created element connected to element           100
+TMG element      1921 is a TMG-created element connected to element           389
+TMG element      1922 is a TMG-created element connected to element           338
+TMG element      1923 is a TMG-created element connected to element           122
+TMG element      1924 is a TMG-created element connected to element           386
+TMG element      1925 is a TMG-created element connected to element           127
+TMG element      1926 is a TMG-created element connected to element           337
+TMG element      1927 is a TMG-created element connected to element           196
+TMG element      1928 is a TMG-created element connected to element           386
+TMG element      1929 is a TMG-created element connected to element           386
+TMG element      1930 is a TMG-created element connected to element           121
+TMG element      1931 is a TMG-created element connected to element           364
+TMG element      1932 is a TMG-created element connected to element           335
+TMG element      1933 is a TMG-created element connected to element           194
+TMG element      1934 is a TMG-created element connected to element           127
+TMG element      1935 is a TMG-created element connected to element           364
+TMG element      1936 is a TMG-created element connected to element           364
+TMG element      1937 is a TMG-created element connected to element           120
+TMG element      1938 is a TMG-created element connected to element           363
+TMG element      1939 is a TMG-created element connected to element            15
+TMG element      1940 is a TMG-created element connected to element           333
+TMG element      1941 is a TMG-created element connected to element           193
+TMG element      1942 is a TMG-created element connected to element           372
+TMG element      1943 is a TMG-created element connected to element           371
+TMG element      1944 is a TMG-created element connected to element           119
+TMG element      1945 is a TMG-created element connected to element           372
+TMG element      1946 is a TMG-created element connected to element           372
+TMG element      1947 is a TMG-created element connected to element           193
+TMG element      1948 is a TMG-created element connected to element            43
+TMG element      1949 is a TMG-created element connected to element           355
+TMG element      1950 is a TMG-created element connected to element           330
+TMG element      1951 is a TMG-created element connected to element           192
+TMG element      1952 is a TMG-created element connected to element           355
+TMG element      1953 is a TMG-created element connected to element           193
+TMG element      1954 is a TMG-created element connected to element            44
+TMG element      1955 is a TMG-created element connected to element           355
+TMG element      1956 is a TMG-created element connected to element           357
+TMG element      1957 is a TMG-created element connected to element           328
+TMG element      1958 is a TMG-created element connected to element           192
+TMG element      1959 is a TMG-created element connected to element            14
+TMG element      1960 is a TMG-created element connected to element           357
+TMG element      1961 is a TMG-created element connected to element           192
+TMG element      1962 is a TMG-created element connected to element           357
+TMG element      1963 is a TMG-created element connected to element            45
+TMG element      1964 is a TMG-created element connected to element           352
+TMG element      1965 is a TMG-created element connected to element           326
+TMG element      1966 is a TMG-created element connected to element           190
+TMG element      1967 is a TMG-created element connected to element           325
+TMG element      1968 is a TMG-created element connected to element           114
+TMG element      1969 is a TMG-created element connected to element            42
+TMG element      1970 is a TMG-created element connected to element            98
+TMG element      1971 is a TMG-created element connected to element           352
+TMG element      1972 is a TMG-created element connected to element           323
+TMG element      1973 is a TMG-created element connected to element           322
+TMG element      1974 is a TMG-created element connected to element           189
+TMG element      1975 is a TMG-created element connected to element           125
+TMG element      1976 is a TMG-created element connected to element           353
+TMG element      1977 is a TMG-created element connected to element           320
+TMG element      1978 is a TMG-created element connected to element           190
+TMG element      1979 is a TMG-created element connected to element           359
+TMG element      1980 is a TMG-created element connected to element           319
+TMG element      1981 is a TMG-created element connected to element           189
+TMG element      1982 is a TMG-created element connected to element           359
+TMG element      1983 is a TMG-created element connected to element           359
+TMG element      1984 is a TMG-created element connected to element           189
+TMG element      1985 is a TMG-created element connected to element            43
+TMG element      1986 is a TMG-created element connected to element           356
+TMG element      1987 is a TMG-created element connected to element           317
+TMG element      1988 is a TMG-created element connected to element           188
+TMG element      1989 is a TMG-created element connected to element            14
+TMG element      1990 is a TMG-created element connected to element           367
+TMG element      1991 is a TMG-created element connected to element           316
+TMG element      1992 is a TMG-created element connected to element           111
+TMG element      1993 is a TMG-created element connected to element           367
+TMG element      1994 is a TMG-created element connected to element            41
+TMG element      1995 is a TMG-created element connected to element           315
+TMG element      1996 is a TMG-created element connected to element           186
+TMG element      1997 is a TMG-created element connected to element           369
+TMG element      1998 is a TMG-created element connected to element           314
+TMG element      1999 is a TMG-created element connected to element           110
+TMG element      2000 is a TMG-created element connected to element           125
+TMG element      2001 is a TMG-created element connected to element           369
+TMG element      2002 is a TMG-created element connected to element           313
+TMG element      2003 is a TMG-created element connected to element           185
+TMG element      2004 is a TMG-created element connected to element           366
+TMG element      2005 is a TMG-created element connected to element           312
+TMG element      2006 is a TMG-created element connected to element           186
+TMG element      2007 is a TMG-created element connected to element           366
+TMG element      2008 is a TMG-created element connected to element            42
+TMG element      2009 is a TMG-created element connected to element            13
+TMG element      2010 is a TMG-created element connected to element           366
+TMG element      2011 is a TMG-created element connected to element           185
+TMG element      2012 is a TMG-created element connected to element           362
+TMG element      2013 is a TMG-created element connected to element           362
+TMG element      2014 is a TMG-created element connected to element           185
+TMG element      2015 is a TMG-created element connected to element           388
+TMG element      2016 is a TMG-created element connected to element           309
+TMG element      2017 is a TMG-created element connected to element           183
+TMG element      2018 is a TMG-created element connected to element            40
+TMG element      2019 is a TMG-created element connected to element            98
+TMG element      2020 is a TMG-created element connected to element           387
+TMG element      2021 is a TMG-created element connected to element           388
+TMG element      2022 is a TMG-created element connected to element           184
+TMG element      2023 is a TMG-created element connected to element           387
+TMG element      2024 is a TMG-created element connected to element           124
+TMG element      2025 is a TMG-created element connected to element           307
+TMG element      2026 is a TMG-created element connected to element           183
+TMG element      2027 is a TMG-created element connected to element           395
+TMG element      2028 is a TMG-created element connected to element           306
+TMG element      2029 is a TMG-created element connected to element           183
+TMG element      2030 is a TMG-created element connected to element           392
+TMG element      2031 is a TMG-created element connected to element           305
+TMG element      2032 is a TMG-created element connected to element           181
+TMG element      2033 is a TMG-created element connected to element            41
+TMG element      2034 is a TMG-created element connected to element           392
+TMG element      2035 is a TMG-created element connected to element           304
+TMG element      2036 is a TMG-created element connected to element           150
+TMG element      2037 is a TMG-created element connected to element           182
+TMG element      2038 is a TMG-created element connected to element           379
+TMG element      2039 is a TMG-created element connected to element            98
+TMG element      2040 is a TMG-created element connected to element           377
+TMG element      2041 is a TMG-created element connected to element           181
+TMG element      2042 is a TMG-created element connected to element           379
+TMG element      2043 is a TMG-created element connected to element           379
+TMG element      2044 is a TMG-created element connected to element           104
+TMG element      2045 is a TMG-created element connected to element            39
+TMG element      2046 is a TMG-created element connected to element           381
+TMG element      2047 is a TMG-created element connected to element           301
+TMG element      2048 is a TMG-created element connected to element           180
+TMG element      2049 is a TMG-created element connected to element           122
+TMG element      2050 is a TMG-created element connected to element           381
+TMG element      2051 is a TMG-created element connected to element           381
+TMG element      2052 is a TMG-created element connected to element           180
+TMG element      2053 is a TMG-created element connected to element           374
+TMG element      2054 is a TMG-created element connected to element           376
+TMG element      2055 is a TMG-created element connected to element           178
+TMG element      2056 is a TMG-created element connected to element           374
+TMG element      2057 is a TMG-created element connected to element           374
+TMG element      2058 is a TMG-created element connected to element           102
+TMG element      2059 is a TMG-created element connected to element            40
+TMG element      2060 is a TMG-created element connected to element            11
+TMG element      2061 is a TMG-created element connected to element           350
+TMG element      2062 is a TMG-created element connected to element           350
+TMG element      2063 is a TMG-created element connected to element           295
+TMG element      2064 is a TMG-created element connected to element           178
+TMG element      2065 is a TMG-created element connected to element           348
+TMG element      2066 is a TMG-created element connected to element           178
+TMG element      2067 is a TMG-created element connected to element           294
+TMG element      2068 is a TMG-created element connected to element            38
+TMG element      2069 is a TMG-created element connected to element            96
+TMG element      2070 is a TMG-created element connected to element           348
+TMG element      2071 is a TMG-created element connected to element           348
+TMG element      2072 is a TMG-created element connected to element           176
+TMG element      2073 is a TMG-created element connected to element           348
+TMG element      2074 is a TMG-created element connected to element           100
+TMG element      2075 is a TMG-created element connected to element           121
+TMG element      2076 is a TMG-created element connected to element           346
+TMG element      2077 is a TMG-created element connected to element           290
+TMG element      2078 is a TMG-created element connected to element           346
+TMG element      2079 is a TMG-created element connected to element           176
+TMG element      2080 is a TMG-created element connected to element           346
+TMG element      2081 is a TMG-created element connected to element           176
+TMG element      2082 is a TMG-created element connected to element           345
+TMG element      2083 is a TMG-created element connected to element           345
+TMG element      2084 is a TMG-created element connected to element            39
+TMG element      2085 is a TMG-created element connected to element           343
+TMG element      2086 is a TMG-created element connected to element           174
+TMG element      2087 is a TMG-created element connected to element           344
+TMG element      2088 is a TMG-created element connected to element            98
+TMG element      2089 is a TMG-created element connected to element            97
+TMG element      2090 is a TMG-created element connected to element           343
+TMG element      2091 is a TMG-created element connected to element           343
+TMG element      2092 is a TMG-created element connected to element           341
+TMG element      2093 is a TMG-created element connected to element           174
+TMG element      2094 is a TMG-created element connected to element            37
+TMG element      2095 is a TMG-created element connected to element           285
+TMG element      2096 is a TMG-created element connected to element           174
+TMG element      2097 is a TMG-created element connected to element           341
+TMG element      2098 is a TMG-created element connected to element           284
+TMG element      2099 is a TMG-created element connected to element           121
+
+                Association of boundary elements and CG elements
+
+CG element         1 has boundary elements       814      1076       942       397      1813
+      1804
+CG element         2 has boundary elements       517       727      1747       950      1804
+      1854
+CG element         3 has boundary elements      1208      1101      1699       940      1747
+      1776
+CG element         4 has boundary elements       615       780      1651       954      1699
+      1728
+CG element         5 has boundary elements       499       609      1601       647      1651
+      1680
+CG element         6 has boundary elements       614       960      1556       953      1601
+      1632
+CG element         7 has boundary elements      1202       619      1508       494      1556
+      1582
+CG element         8 has boundary elements       613       859      1459       878      1508
+      1537
+CG element         9 has boundary elements      1198       649      1397      1236      1459
+      1489
+CG element        10 has boundary elements       807       900      1359       952      1397
+      1440
+CG element        11 has boundary elements       612       669      2060       941      1359
+      1381
+CG element        12 has boundary elements      1194      1227      2009       949      2060
+      2089
+CG element        13 has boundary elements      1323      1327      1959       945      2009
+      2039
+CG element        14 has boundary elements       547       980      1910       943      1959
+      1989
+CG element        15 has boundary elements       504       838      1853       534      1910
+      1939
+CG element        16 has boundary elements       610       821      1827       506      1853
+      1890
+CG element        17 has boundary elements      1186      1040      1803       948      1827
+      1841
+CG element        18 has boundary elements      1183       579      1781       946      1803
+      1818
+CG element        19 has boundary elements       800       749      1756       882      1781
+      1794
+CG element        20 has boundary elements       513       759      1732       947      1756
+      1770
+CG element        21 has boundary elements       798      1120      1708      1321      1732
+      1746
+CG element        22 has boundary elements       797       599      1685      1238      1708
+      1722
+CG element        23 has boundary elements       796       789      1660      1139      1685
+      1698
+CG element        24 has boundary elements      1173      1180      1637      1092      1660
+      1674
+CG element        25 has boundary elements       512       809      1611      1059      1637
+      1650
+CG element        26 has boundary elements       794       819      1587      1091      1611
+      1626
+CG element        27 has boundary elements      1168       829      1563       651      1587
+      1600
+CG element        28 has boundary elements       605      1260      1542      1134      1563
+      1576
+CG element        29 has boundary elements       791       849      1517      1115      1542
+      1555
+CG element        30 has boundary elements       604       639      1494       885      1517
+      1531
+CG element        31 has boundary elements      1162       869      1469      1123      1494
+      1507
+CG element        32 has boundary elements       787      1329      1454      1235      1469
+      1483
+CG element        33 has boundary elements      1158       926       409      1188      1454
+      1450
+CG element        34 has boundary elements       788       887      1409       410      1450
+      1465
+CG element        35 has boundary elements      1061       659      1384       411      1409
+      1432
+CG element        36 has boundary elements       602       908      1366       412      1384
+      1396
+CG element        37 has boundary elements      1153       660      2094       413      1366
+      1376
+CG element        38 has boundary elements       601       897      2068       414      2094
+      1358
+CG element        39 has boundary elements      1150      1214      2045       415      2068
+      2084
+CG element        40 has boundary elements      1147       944      2018       416      2045
+      2059
+CG element        41 has boundary elements       600       959      1994       417      2018
+      2033
+CG element        42 has boundary elements       781       864      1969       418      1994
+      2008
+CG element        43 has boundary elements      1143       979      1948       419      1969
+      1985
+CG element        44 has boundary elements       772      1272       652       420      1948
+      1954
+CG element        45 has boundary elements       508       850      1919      1179      1954
+      1963
+CG element        46 has boundary elements       598       628      1895       535      1919
+      1934
+CG element        47 has boundary elements      1138      1242      1865      1187      1895
+      1909
+CG element        48 has boundary elements       777       620      1844       888      1865
+      1884
+CG element        49 has boundary elements       776      1030      1831      1251      1844
+      1852
+CG element        50 has boundary elements       775      1039      1820      1211      1831
+      1839
+CG element        51 has boundary elements      1126      1049      1808      1318      1820
+      1826
+CG element        52 has boundary elements       774      1060      1796      1291      1808
+      1816
+CG element        53 has boundary elements      1128      1069      1784      1265      1796
+      1802
+CG element        54 has boundary elements       564      1079      1773      1243      1784
+      1791
+CG element        55 has boundary elements       553      1090      1761       890      1773
+      1780
+CG element        56 has boundary elements       594      1100      1749      1263      1761
+      1768
+CG element        57 has boundary elements      1122      1109      1736       536      1749
+      1755
+CG element        58 has boundary elements       551      1119      1724      1284      1736
+      1743
+CG element        59 has boundary elements      1117      1129      1713      1275      1724
+      1731
+CG element        60 has boundary elements      1116      1140      1701       892      1713
+      1720
+CG element        61 has boundary elements       592      1149      1688      1281      1701
+      1707
+CG element        62 has boundary elements      1113      1159      1677      1299      1688
+      1695
+CG element        63 has boundary elements       591      1170      1665      1297      1677
+      1684
+CG element        64 has boundary elements      1110       799      1653      1293      1665
+      1672
+CG element        65 has boundary elements       556      1189      1640       671      1653
+      1659
+CG element        66 has boundary elements       590      1199      1629      1192      1640
+      1648
+CG element        67 has boundary elements       761      1210      1618       515      1629
+      1636
+CG element        68 has boundary elements      1103      1220      1603      1254      1618
+      1624
+CG element        69 has boundary elements       760       936      1590      1253      1603
+      2036
+CG element        70 has boundary elements       588      1239      1579       631      1590
+      1597
+CG element        71 has boundary elements      1098      1250      1568       843      1579
+      1586
+CG element        72 has boundary elements       757      1259      1558      1268      1568
+      1574
+CG element        73 has boundary elements      1093      1229      1546       844      1558
+      1613
+CG element        74 has boundary elements       563      1280      1534      1270      1546
+      1553
+CG element        75 has boundary elements       558      1289      1524      1269      1534
+      1541
+CG element        76 has boundary elements       754      1303       398      1267      1524
+      1527
+CG element        77 has boundary elements       586       858      1510       399      1527
+      1530
+CG element        78 has boundary elements      1088      1309      1497       400      1510
+      1516
+CG element        79 has boundary elements       585      1319      1486       401      1497
+      1504
+CG element        80 has boundary elements       751      1330      1474       402      1486
+      1493
+CG element        81 has boundary elements       584       879      1461       403      1474
+      1481
+CG element        82 has boundary elements      1082      1328      1449       404      1461
+      1468
+CG element        83 has boundary elements       583       930      1436       405      1449
+      1457
+CG element        84 has boundary elements      1078       545      1418       406      1436
+      1445
+CG element        85 has boundary elements       561       481      1407       407      1418
+      1428
+CG element        86 has boundary elements       616      1052      1813       408      1407
+      1833
+CG element        87 has boundary elements       617      1019      1854      1833      1414
+      1757
+CG element        88 has boundary elements       813      1084      1709      1776      1757
+      1403
+CG element        89 has boundary elements      1207       771      1661      1728      1709
+      1393
+CG element        90 has boundary elements       812      1164      1609      1680      1661
+      1387
+CG element        91 has boundary elements       516      1204      1606      1632      1609
+      1382
+CG element        92 has boundary elements       810      1244      1518      1582      1606
+      1375
+CG element        93 has boundary elements      1201      1283      1470      1537      1518
+      1371
+CG element        94 has boundary elements       808      1324      1411      1489      1470
+      1365
+CG element        95 has boundary elements      1197       891      1367      1440      1411
+      1360
+CG element        96 has boundary elements       804       540      2069      1381      1367
+      1355
+CG element        97 has boundary elements       806      1315      2019      2089      2069
+      2096
+CG element        98 has boundary elements       805       550      1970      2039      2019
+      2088
+CG element        99 has boundary elements       565      1307      1920      1989      1970
+      2081
+CG element       100 has boundary elements       505       846      1866      1939      1920
+      2074
+CG element       101 has boundary elements      1043       828      1832      1890      1866
+      2066
+CG element       102 has boundary elements       802      1031      1809      1841      1832
+      2058
+CG element       103 has boundary elements       801      1051      1785      1818      1809
+      2052
+CG element       104 has boundary elements       514      1072      1762      1794      1785
+      2044
+CG element       105 has boundary elements      1182       587      1737      1770      1762
+      2037
+CG element       106 has boundary elements       608      1112      1714      1746      1737
+      2029
+CG element       107 has boundary elements      1177      1131      1689      1722      1714
+      2022
+CG element       108 has boundary elements       607      1152      1666      1698      1689
+      2014
+CG element       109 has boundary elements      1174       795      1641      1674      1666
+      2006
+CG element       110 has boundary elements       511      1191      1615      1650      1641
+      1999
+CG element       111 has boundary elements       606       815      1591      1626      1615
+      1992
+CG element       112 has boundary elements       793       956      1566      1600      1591
+      1984
+CG element       113 has boundary elements      1167       835      1547      1576      1566
+      1978
+CG element       114 has boundary elements       792      1271      1522      1555      1547
+      1968
+CG element       115 has boundary elements       603      1292      1498      1531      1522
+      1961
+CG element       116 has boundary elements       790      1312      1475      1507      1498
+      1953
+CG element       117 has boundary elements      1161       875      1465      1483      1475
+      1419
+CG element       118 has boundary elements       740       895      1388      1432      1419
+      1947
+CG element       119 has boundary elements       507       905      1370      1396      1388
+      1944
+CG element       120 has boundary elements       786       543      2099      1376      1370
+      1937
+CG element       121 has boundary elements       785       476      2075      1358      2099
+      1930
+CG element       122 has boundary elements       784       537      2049      2084      2075
+      1923
+CG element       123 has boundary elements       783       677      2024      2059      2049
+      1915
+CG element       124 has boundary elements       509       937      2000      2033      2024
+      1907
+CG element       125 has boundary elements       782       493      1975      2008      2000
+      1900
+CG element       126 has boundary elements      1144       527      1963      1985      1975
+      1925
+CG element       127 has boundary elements       510       995      1901      1934      1925
+      1894
+CG element       128 has boundary elements       778       833      1873      1909      1901
+      1889
+CG element       129 has boundary elements      1137      1232      1846      1884      1873
+      1881
+CG element       130 has boundary elements       597      1217      1835      1852      1846
+      1872
+CG element       131 has boundary elements      1075      1036      1823      1839      1835
+      1862
+CG element       132 has boundary elements      1132      1045      1811      1826      1823
+      1851
+CG element       133 has boundary elements       596      1055      1798      1816      1811
+      1847
+CG element       134 has boundary elements       773      1066      1788      1802      1798
+      1843
+CG element       135 has boundary elements       595       747      1775      1791      1788
+      1840
+CG element       136 has boundary elements       557      1085      1764      1780      1775
+      1837
+CG element       137 has boundary elements      1081      1096      1751      1768      1764
+      1834
+CG element       138 has boundary elements       770      1106      1739      1755      1751
+      1829
+CG element       139 has boundary elements       769       767      1727      1743      1739
+      1825
+CG element       140 has boundary elements       768      1125      1716      1731      1727
+      1822
+CG element       141 has boundary elements       593      1135      1703      1720      1716
+      1819
+CG element       142 has boundary elements       552      1146      1692      1707      1703
+      1815
+CG element       143 has boundary elements       766      1155      1679      1695      1692
+      1812
+CG element       144 has boundary elements       765      1165      1668      1684      1679
+      1807
+CG element       145 has boundary elements       764      1176      1656      1672      1668
+      1805
+CG element       146 has boundary elements       763      1185      1644      1659      1656
+      1800
+CG element       147 has boundary elements       554      1195      1631      1648      1644
+      1797
+CG element       148 has boundary elements       762      1205      1620      1636      1631
+      1793
+CG element       149 has boundary elements      1104      1215      1605      1624      1620
+      1790
+CG element       150 has boundary elements       589       872      1594      2036      1605
+      1787
+CG element       151 has boundary elements       756       827      1581      1597      1594
+      1783
+CG element       152 has boundary elements       758      1245      1570      1586      1581
+      1779
+CG element       153 has boundary elements      1097      1256      1561      1574      1570
+      1777
+CG element       154 has boundary elements       555       839      1549      1613      1561
+      1772
+CG element       155 has boundary elements      1094       847      1536      1553      1549
+      1769
+CG element       156 has boundary elements       560      1286      1530      1541      1536
+      1512
+CG element       157 has boundary elements       753      1305      1501      1516      1512
+      1766
+CG element       158 has boundary elements      1087       643      1488      1504      1501
+      1765
+CG element       159 has boundary elements       752      1325      1477      1493      1488
+      1760
+CG element       160 has boundary elements       559       503      1464      1481      1477
+      1758
+CG element       161 has boundary elements       750       548      1452      1468      1464
+      1753
+CG element       162 has boundary elements      1107       475      1439      1457      1452
+      1750
+CG element       163 has boundary elements       748       672      1424      1445      1439
+      1745
+CG element       164 has boundary elements       580       922      1414      1428      1424
+      1399
+CG element       165 has boundary elements       582       904      1403      1399      1742
+      1391
+CG element       166 has boundary elements       746       664      1385      1393      1391
+      1741
+CG element       167 has boundary elements      1073       907      1380      1387      1385
+      1738
+CG element       168 has boundary elements       745       906      1374      1382      1380
+      1734
+CG element       169 has boundary elements       581       661      1369      1375      1374
+      1730
+CG element       170 has boundary elements       744       539      1363      1371      1369
+      1726
+CG element       171 has boundary elements      1070       474      1357      1365      1363
+      1723
+CG element       172 has boundary elements       743       478      1353      1360      1357
+      1719
+CG element       173 has boundary elements      1067       898      2093      1355      1353
+      1717
+CG element       174 has boundary elements       562      1316      2086      2096      2093
+      1712
+CG element       175 has boundary elements       741       894      2079      2088      2086
+      1710
+CG element       176 has boundary elements       742       477      2072      2081      2079
+      1705
+CG element       177 has boundary elements      1063       653      2064      2074      2072
+      1702
+CG element       178 has boundary elements      1064       483      2055      2066      2064
+      1697
+CG element       179 has boundary elements       932       884      2048      2058      2055
+      1694
+CG element       180 has boundary elements       684       566      2041      2052      2048
+      1691
+CG element       181 has boundary elements       676       533      2032      2044      2041
+      1687
+CG element       182 has boundary elements       569       955      2026      2037      2032
+      1683
+CG element       183 has boundary elements       567       958      2017      2029      2026
+      1681
+CG element       184 has boundary elements       578       645      2011      2022      2017
+      1676
+CG element       185 has boundary elements       738       531      2003      2014      2011
+      1673
+CG element       186 has boundary elements      1058       642      1996      2006      2003
+      1670
+CG element       187 has boundary elements      1057      1310      1988      1999      1996
+      1667
+CG element       188 has boundary elements       737      1306      1981      1992      1988
+      1663
+CG element       189 has boundary elements       577       528      1974      1984      1981
+      1658
+CG element       190 has boundary elements       736       856      1966      1978      1974
+      1655
+CG element       191 has boundary elements      1054       854      1958      1968      1966
+      1652
+CG element       192 has boundary elements       735       491      1951      1961      1958
+      1647
+CG element       193 has boundary elements       568       848      1947      1953      1951
+      1941
+CG element       194 has boundary elements       576      1274      1933      1944      1941
+      1645
+CG element       195 has boundary elements       734       842      1927      1937      1933
+      1643
+CG element       196 has boundary elements       733      1262      1918      1930      1927
+      1639
+CG element       197 has boundary elements      1048       627      1912      1923      1918
+      1635
+CG element       198 has boundary elements       575       626      1904      1915      1912
+      1633
+CG element       199 has boundary elements       732       832      1897      1907      1904
+      1628
+CG element       200 has boundary elements      1046      1241      1894      1900      1897
+      1887
+CG element       201 has boundary elements       731       826      1878      1889      1887
+      1625
+CG element       202 has boundary elements       675      1230      1869      1881      1878
+      1623
+CG element       203 has boundary elements       572       822      1859      1872      1869
+      1621
+CG element       204 has boundary elements       570       518      1848      1862      1859
+      1617
+CG element       205 has boundary elements       730      1026      1845      1851      1848
+      1614
+CG element       206 has boundary elements      1042      1029      1842      1847      1845
+      1608
+CG element       207 has boundary elements       729      1032      1838      1843      1842
+      1604
+CG element       208 has boundary elements       571      1035      1836      1840      1838
+      1599
+CG element       209 has boundary elements       728      1038      1830      1837      1836
+      1596
+CG element       210 has boundary elements      1037      1041      1828      1834      1830
+      1593
+CG element       211 has boundary elements       574      1044      1824      1829      1828
+      1589
+CG element       212 has boundary elements       573      1047      1821      1825      1824
+      1585
+CG element       213 has boundary elements       726      1050      1817      1822      1821
+      1583
+CG element       214 has boundary elements      1034      1053      1814      1819      1817
+      1578
+CG element       215 has boundary elements      1033      1056      1810      1815      1814
+      1575
+CG element       216 has boundary elements       725       739      1806      1812      1810
+      1572
+CG element       217 has boundary elements       723      1062      1801      1807      1806
+      1569
+CG element       218 has boundary elements       724      1065      1799      1805      1801
+      1565
+CG element       219 has boundary elements      1027      1068      1795      1800      1799
+      1562
+CG element       220 has boundary elements      1028      1071      1792      1797      1795
+      1560
+CG element       221 has boundary elements      1213      1074      1789      1793      1792
+      1557
+CG element       222 has boundary elements       691      1077      1786      1790      1789
+      1552
+CG element       223 has boundary elements       683      1080      1782      1787      1786
+      1550
+CG element       224 has boundary elements       680      1083      1778      1783      1782
+      1545
+CG element       225 has boundary elements       678      1086      1774      1779      1778
+      1543
+CG element       226 has boundary elements       722      1089      1771      1777      1774
+      1539
+CG element       227 has boundary elements      1141       755      1767      1772      1771
+      1535
+CG element       228 has boundary elements       816      1095      1766      1769      1767
+      1763
+CG element       229 has boundary elements      1025      1099      1759      1765      1763
+      1532
+CG element       230 has boundary elements       817      1102      1754      1760      1759
+      1529
+CG element       231 has boundary elements       721      1105      1752      1758      1754
+      1526
+CG element       232 has boundary elements      1024      1108      1748      1753      1752
+      1523
+CG element       233 has boundary elements      1218      1111      1744      1750      1748
+      1520
+CG element       234 has boundary elements       818      1114      1742      1745      1744
+      1740
+CG element       235 has boundary elements      1023      1118      1741      1740      1515
+      1735
+CG element       236 has boundary elements       618      1121      1733      1738      1735
+      1514
+CG element       237 has boundary elements       679      1124      1729      1734      1733
+      1511
+CG element       238 has boundary elements       720      1127      1725      1730      1729
+      1506
+CG element       239 has boundary elements      1022      1130      1721      1726      1725
+      1503
+CG element       240 has boundary elements       498      1133      1718      1723      1721
+      1500
+CG element       241 has boundary elements       500      1136      1715      1719      1718
+      1496
+CG element       242 has boundary elements      1021       779      1711      1717      1715
+      1492
+CG element       243 has boundary elements      1224      1142      1706      1712      1711
+      1490
+CG element       244 has boundary elements      1223      1145      1704      1710      1706
+      1485
+CG element       245 has boundary elements       719      1148      1700      1705      1704
+      1482
+CG element       246 has boundary elements      1020      1151      1696      1702      1700
+      1479
+CG element       247 has boundary elements      1226      1154      1693      1697      1696
+      1476
+CG element       248 has boundary elements       682      1157      1690      1694      1693
+      1472
+CG element       249 has boundary elements       681      1160      1686      1691      1690
+      1467
+CG element       250 has boundary elements       718      1163      1682      1687      1686
+      1463
+CG element       251 has boundary elements      1018      1166      1678      1683      1682
+      1460
+CG element       252 has boundary elements       823      1169      1675      1681      1678
+      1456
+CG element       253 has boundary elements      1228      1172      1671      1676      1675
+      1453
+CG element       254 has boundary elements      1017      1175      1669      1673      1671
+      1448
+CG element       255 has boundary elements       621      1178      1664      1670      1669
+      1446
+CG element       256 has boundary elements       717      1181      1662      1667      1664
+      1443
+CG element       257 has boundary elements      1156      1184      1657      1663      1662
+      1437
+CG element       258 has boundary elements       824       611      1654      1658      1657
+      1431
+CG element       259 has boundary elements      1016      1190      1649      1655      1654
+      1427
+CG element       260 has boundary elements      1015      1193      1646      1652      1649
+      1421
+CG element       261 has boundary elements       715      1196      1645      1647      1646
+      1642
+CG element       262 has boundary elements       716      1200      1638      1643      1642
+      1415
+CG element       263 has boundary elements      1014       811      1634      1639      1638
+      1413
+CG element       264 has boundary elements      1233      1206      1630      1635      1634
+      1406
+CG element       265 has boundary elements      1013      1209      1627      1633      1630
+      1401
+CG element       266 has boundary elements       520      1212      1625      1628      1627
+      1622
+CG element       267 has boundary elements      1011      1216      1619      1623      1622
+      1398
+CG element       268 has boundary elements      1012      1219      1616      1621      1619
+      1395
+CG element       269 has boundary elements       519      1222      1610      1617      1616
+      1392
+CG element       270 has boundary elements       690      1225      1607      1614      1610
+      1389
+CG element       271 has boundary elements       687       938      1602      1608      1607
+      1386
+CG element       272 has boundary elements       685      1231      1598      1604      1602
+      1383
+CG element       273 has boundary elements       714      1234      1595      1599      1598
+      1410
+CG element       274 has boundary elements      1010      1237      1592      1596      1595
+      1378
+CG element       275 has boundary elements      1009      1240      1588      1593      1592
+      1416
+CG element       276 has boundary elements       713       831      1584      1589      1588
+      1373
+CG element       277 has boundary elements      1008      1246      1580      1585      1584
+      1422
+CG element       278 has boundary elements       624      1249      1577      1583      1580
+      1368
+CG element       279 has boundary elements       495      1252      1573      1578      1577
+      1364
+CG element       280 has boundary elements      1007      1255      1571      1575      1573
+      1362
+CG element       281 has boundary elements       686      1258      1567      1572      1571
+      1434
+CG element       282 has boundary elements       712      1261      1564      1569      1567
+      1356
+CG element       283 has boundary elements      1006      1264      1612      1565      1564
+      1354
+CG element       284 has boundary elements       522       820      1559      1562      1612
+      2098
+CG element       285 has boundary elements      1005       646      1554      1560      1559
+      2095
+CG element       286 has boundary elements      1248      1273      1551      1557      1554
+      2091
+CG element       287 has boundary elements      1171      1276      1548      1552      1551
+      2087
+CG element       288 has boundary elements      1004      1279      1544      1550      1548
+      2083
+CG element       289 has boundary elements       711      1282      1540      1545      1544
+      2080
+CG element       290 has boundary elements       689      1285      1538      1543      1540
+      2077
+CG element       291 has boundary elements       688      1288      1533      1539      1538
+      2073
+CG element       292 has boundary elements       710       855      1532      1535      1533
+      1528
+CG element       293 has boundary elements      1002      1295      1525      1529      1528
+      2070
+CG element       294 has boundary elements       496      1298      1521      1526      1525
+      2067
+CG element       295 has boundary elements       501      1301      1519      1523      1521
+      2063
+CG element       296 has boundary elements      1001      1304      1515      1520      1519
+      1513
+CG element       297 has boundary elements       709      1308      1514      1513      2061
+      1509
+CG element       298 has boundary elements      1000      1311      1505      1511      1509
+      2057
+CG element       299 has boundary elements       837      1314      1502      1506      1505
+      2054
+CG element       300 has boundary elements       999      1317      1499      1503      1502
+      2051
+CG element       301 has boundary elements       707      1320      1495      1500      1499
+      2047
+CG element       302 has boundary elements       708       871      1491      1496      1495
+      2043
+CG element       303 has boundary elements       998      1326      1487      1492      1491
+      2040
+CG element       304 has boundary elements       997       874      1484      1490      1487
+      2035
+CG element       305 has boundary elements       840       487      1480      1485      1484
+      2031
+CG element       306 has boundary elements      1322       486      1478      1482      1480
+      2028
+CG element       307 has boundary elements       931       490      1473      1479      1478
+      2025
+CG element       308 has boundary elements       899       880      1471      1476      1473
+      2021
+CG element       309 has boundary elements       696       549      1466      1472      1471
+      2016
+CG element       310 has boundary elements       694       883      1462      1467      1466
+      2013
+CG element       311 has boundary elements       706       693      1458      1463      1462
+      2010
+CG element       312 has boundary elements       994       497      1455      1460      1458
+      2005
+CG element       313 has boundary elements       841       473      1451      1456      1455
+      2002
+CG element       314 has boundary elements       993       674      1447      1453      1451
+      1998
+CG element       315 has boundary elements       524       673      1444      1448      1447
+      1995
+CG element       316 has boundary elements       705       482      1442      1446      1444
+      1991
+CG element       317 has boundary elements       992       925      1433      1443      1442
+      1987
+CG element       318 has boundary elements       991       657      1430      1437      1433
+      1983
+CG element       319 has boundary elements       695       896      1425      1431      1430
+      1980
+CG element       320 has boundary elements       704       544      1420      1427      1425
+      1977
+CG element       321 has boundary elements       803       668      1415      1421      1420
+      1412
+CG element       322 has boundary elements       525       667      1404      1413      1412
+      1973
+CG element       323 has boundary elements       990       542      1400      1406      1404
+      1972
+CG element       324 has boundary elements       989       913      1398      1401      1400
+      1394
+CG element       325 has boundary elements      1278       541      1390      1395      1394
+      1967
+CG element       326 has boundary elements       703       909      1402      1392      1390
+      1965
+CG element       327 has boundary elements       988       663      1405      1389      1402
+      1962
+CG element       328 has boundary elements       987       479      1408      1386      1405
+      1957
+CG element       329 has boundary elements       867       662      1379      1383      1408
+      1955
+CG element       330 has boundary elements       699       665      1377      1410      1379
+      1950
+CG element       331 has boundary elements       697       912      1417      1378      1377
+      1946
+CG element       332 has boundary elements       986       903      1372      1416      1417
+      1943
+CG element       333 has boundary elements       526       666      1423      1373      1372
+      1940
+CG element       334 has boundary elements       985       902      1426      1422      1423
+      1936
+CG element       335 has boundary elements       698       480      1429      1368      1426
+      1932
+CG element       336 has boundary elements       984       901      1361      1364      1429
+      1929
+CG element       337 has boundary elements       852       485      1435      1362      1361
+      1926
+CG element       338 has boundary elements       851       538      1438      1434      1435
+      1922
+CG element       339 has boundary elements       983       658      1441      1356      1438
+      1917
+CG element       340 has boundary elements       853       920      2097      1354      1441
+      1914
+CG element       341 has boundary elements       702       670      2092      2098      2097
+      1911
+CG element       342 has boundary elements       700      1300      2090      2095      2092
+      1906
+CG element       343 has boundary elements       982       656      2085      2091      2090
+      1903
+CG element       344 has boundary elements      1290       893      2082      2087      2085
+      1899
+CG element       345 has boundary elements       981       655      2078      2083      2082
+      1896
+CG element       346 has boundary elements       635       654      2076      2080      2078
+      1892
+CG element       347 has boundary elements       701       889      2071      2077      2076
+      1888
+CG element       348 has boundary elements       929       546      2070      2073      2071
+      2065
+CG element       349 has boundary elements       918       886      2062      2067      2065
+      1885
+CG element       350 has boundary elements       914       692      2061      2063      2062
+      2056
+CG element       351 has boundary elements       970      1294      1973      1977      1976
+      1971
+CG element       352 has boundary elements       969       636      1967      1972      1971
+      1964
+CG element       353 has boundary elements       919      1296      1976      1980      1979
+      1849
+CG element       354 has boundary elements       921      1287      1965      1964      1849
+      1960
+CG element       355 has boundary elements      1313       633      1949      1955      1952
+      1856
+CG element       356 has boundary elements       971       861      1991      1990      1856
+      1986
+CG element       357 has boundary elements       968       492      1962      1960      1850
+      1956
+CG element       358 has boundary elements       865       634      1952      1957      1956
+      1855
+CG element       359 has boundary elements       923       638      1850      1979      1983
+      1982
+CG element       360 has boundary elements       928      1302      1986      1855      1982
+      1987
+CG element       361 has boundary elements       965       629      1928      1932      1931
+      1864
+CG element       362 has boundary elements       860       502      2013      2012      1864
+      2007
+CG element       363 has boundary elements       966       630      1940      1938      1861
+      1935
+CG element       364 has boundary elements       530      1266      1931      1936      1935
+      1863
+CG element       365 has boundary elements       973       866      1861      2001      2005
+      2004
+CG element       366 has boundary elements       529       488      2007      1863      2004
+      2010
+CG element       367 has boundary elements       862       640      1990      1995      1993
+      1857
+CG element       368 has boundary elements       967      1277      1950      1949      1857
+      1945
+CG element       369 has boundary elements       916       641      2002      2001      1860
+      1997
+CG element       370 has boundary elements       972       863      1993      1998      1997
+      1858
+CG element       371 has boundary elements       924       845      1860      1938      1943
+      1942
+CG element       372 has boundary elements       927       632      1945      1858      1942
+      1946
+CG element       373 has boundary elements       934       825      1885      1888      1886
+      1883
+CG element       374 has boundary elements      1203       484      2057      2056      1883
+      2053
+CG element       375 has boundary elements       961       622      1886      1892      1891
+      1882
+CG element       376 has boundary elements       978       650      2054      2053      1882
+      2050
+CG element       377 has boundary elements       977       877      2034      2040      2038
+      1876
+CG element       378 has boundary elements       933       625      1906      1905      1876
+      1902
+CG element       379 has boundary elements       857       648      2038      2043      2042
+      1877
+CG element       380 has boundary elements       962       830      1903      1902      1877
+      1898
+CG element       381 has boundary elements       637       881      2051      2050      1880
+      2046
+CG element       382 has boundary elements       910       951      2042      2047      2046
+      1879
+CG element       383 has boundary elements       644       623      1880      1891      1896
+      1893
+CG element       384 has boundary elements       870       521      1898      1879      1893
+      1899
+CG element       385 has boundary elements       974       963      2012      2016      2015
+      1867
+CG element       386 has boundary elements       489       523      1929      1928      1867
+      1924
+CG element       387 has boundary elements       917       532      2025      2023      1870
+      2020
+CG element       388 has boundary elements       915       868      2015      2021      2020
+      1868
+CG element       389 has boundary elements      1221       836      1870      1916      1922
+      1921
+CG element       390 has boundary elements       964      1257      1924      1868      1921
+      1926
+CG element       391 has boundary elements       935      1247      1905      1911      1908
+      1875
+CG element       392 has boundary elements       911       876      2035      2034      1875
+      2030
+CG element       393 has boundary elements       996      1003      1917      1916      1871
+      1913
+CG element       394 has boundary elements       939       834      1908      1914      1913
+      1874
+CG element       395 has boundary elements       975       873      1871      2023      2028
+      2027
+CG element       396 has boundary elements       976       957      2030      1874      2027
+      2031
+
+
+                   Analyzer module calculation results
+
+
+       
+
+No. of iterations     2       TDmax = 0.000E+00 at element      1182
+
+Minimum temperature                 =   100.000 at element       409 INIT_BC
+Maximum temperature                 =   200.000 at element       397 INIT_BC
+Average temperature                 =   150.000
+
+                         Temperature summary for groups
+
+        Maximum    at   Minimum    at   Average     Total      Total     Total
+          Temp  element  Temp   element  Temp      Heat in  Capacitance   Mass
+
+ Group: INIT_BC
+         200.00     397  100.00     409  150.00   0.00E+00    1.35E+15  3.10E+06
+ Group: Temperature(3)
+         200.00     397  200.00     397  200.00   0.00E+00    0.00E+00  0.00E+00
+ Group: Temperature(4)
+         100.00     409  100.00     409  100.00   0.00E+00    0.00E+00  0.00E+00
+
+ Summary for thermal elements
+
+ Maximum heat balance deviation occurs           at element      1510        
+ Heat flow into sinks                = 2.036E+09
+ Heat flow from non-fluid sinks      = 2.036E+09
+ Heat load into elements             = 0.000E+00
+ Heat load into sinks                = 0.000E+00
+ Heat flow from fluid sinks          = 0.000E+00
+ Deviation from heat balance         =-6.471E-04
+
+
