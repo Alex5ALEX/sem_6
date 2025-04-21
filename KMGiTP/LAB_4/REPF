@@ -1,0 +1,418 @@
+LAB_4_SIM-Solution_1                          Mon Apr 21  TMG2022.1.4  4/21/2025
+
+
+Options for run:
+Module selection parameter=                     231
+File translation control parameter=             512
+Subdivision parameter=                            3
+Radiative Coupling Threshold=           0.00000E+00
+First conductance # for SINDA output=             0
+Residual view factor control value=               0
+Stefan-Boltzmann constant=              5.66900E-08
+Solution is steady state with 
+temperature convergence criterion       < 1.000E-03
+Absolute temperature offset=               -273.150
+Results output interval=                  0.000E+00
+Steady state iteration damping parameter= 1.000E+00
+Load time=                                1.000E-01
+Iteration limit=                              10000
+Conductive conductances and capacitances will be calculated with CG method
+                   Card 9 PARAMS Cards
+
+Parameter Card: PARAM UNITS 5  1.000000E+03  1.000000E+03  1.000000E+00 -2.7
+Parameter Card: PARAM ILU 10  1.000000E-05 100 MAX                          
+Parameter Card: PARAM COND NEW                                              
+Parameter Card: PARAM CNVGTRA 1.0                                           
+Parameter Card: PARAM CSOLVE 2                                              
+Parameter Card: PARAM PDMAX -1.000000E-02                                   
+Parameter Card: PARAM HYDLOOP 100                                           
+Parameter Card: PARAM HYDDAMP  1.000000E+00                                 
+Parameter Card: PARAM MAXNODEID 404                                         
+Parameter Card: PARAM OPPENHEIM 1                                           
+Parameter Card: PARAM QOPPCAL                                               
+Parameter Card: PARAM SPECTRA 0 14387.69 0  0.000000E+00 0 0 0 0            
+Parameter Card: PARAM TIMETABLE TRUNCATE                                    
+
+               Group name association with a long group name
+
+Name    Long group name
+
+Tempera Temperature(1)
+Tempert Temperature(2)
+INIT_BC INIT_BC
+Therm_1 Thermal Coupling(1) - Primary Region
+Therm_2 Thermal Coupling(1) - Secondary Region
+Parameter Card: PARAM TC_CONVECT OFF                                        
+Parameter Card: PARAM EXPRESSION RADIANS                                    
+
+
+          MAT Cards created from combining OPTICAL and MAT Cards
+
+New MAT Card   Old MAT Card  Front OPTICAL Card Reverse OPTICAL Card
+
+       3               1               1                   0
+       4               2               1                   0
+
+
+                    Multispectral Data Summary
+
+Number of spectral bands:                         0
+Constant in Planck's spectral energy distribution 1.43877E+04
+IR and solar spectrum separation is at            3.00000E+00 microns
+Band limits in microns:
+
+Band
+
+                    Calculation data for the GRAYB Module
+
+
+                    Calculation data for the POWER Module
+
+
+No element renumbering or merging was performed.
+ 
+
+                              Elements created by TMG
+
+TMG element      1307 is a TMG-created element connected to element            30
+TMG element      1308 is a TMG-created element connected to element            32
+TMG element      1309 is a TMG-created element connected to element            32
+TMG element      1310 is a TMG-created element connected to element            33
+TMG element      1311 is a TMG-created element connected to element            39
+TMG element      1312 is a TMG-created element connected to element            38
+TMG element      1313 is a TMG-created element connected to element            38
+TMG element      1314 is a TMG-created element connected to element            42
+TMG element      1315 is a TMG-created element connected to element            42
+TMG element      1316 is a TMG-created element connected to element            44
+TMG element      1317 is a TMG-created element connected to element            44
+TMG element      1318 is a TMG-created element connected to element            49
+TMG element      1319 is a TMG-created element connected to element            47
+TMG element      1320 is a TMG-created element connected to element            47
+TMG element      1321 is a TMG-created element connected to element            97
+TMG element      1322 is a TMG-created element connected to element            99
+TMG element      1323 is a TMG-created element connected to element            94
+TMG element      1324 is a TMG-created element connected to element            98
+TMG element      1325 is a TMG-created element connected to element            94
+TMG element      1326 is a TMG-created element connected to element            95
+TMG element      1327 is a TMG-created element connected to element            92
+TMG element      1328 is a TMG-created element connected to element            92
+TMG element      1329 is a TMG-created element connected to element            91
+TMG element      1330 is a TMG-created element connected to element            88
+TMG element      1331 is a TMG-created element connected to element            88
+TMG element      1332 is a TMG-created element connected to element            89
+TMG element      1333 is a TMG-created element connected to element            83
+TMG element      1334 is a TMG-created element connected to element            83
+TMG element      1335 is a TMG-created element connected to element            82
+TMG element      1336 is a TMG-created element connected to element            82
+TMG element      1337 is a TMG-created element connected to element            85
+TMG element      1338 is a TMG-created element connected to element            48
+TMG element      1339 is a TMG-created element connected to element            86
+TMG element      1340 is a TMG-created element connected to element            80
+TMG element      1341 is a TMG-created element connected to element            80
+TMG element      1342 is a TMG-created element connected to element            79
+TMG element      1343 is a TMG-created element connected to element            76
+TMG element      1344 is a TMG-created element connected to element            45
+TMG element      1345 is a TMG-created element connected to element            76
+TMG element      1346 is a TMG-created element connected to element            77
+TMG element      1347 is a TMG-created element connected to element            52
+TMG element      1348 is a TMG-created element connected to element            52
+TMG element      1349 is a TMG-created element connected to element            51
+TMG element      1350 is a TMG-created element connected to element            51
+TMG element      1351 is a TMG-created element connected to element            54
+TMG element      1352 is a TMG-created element connected to element            33
+TMG element      1353 is a TMG-created element connected to element            55
+TMG element      1354 is a TMG-created element connected to element            55
+TMG element      1355 is a TMG-created element connected to element            61
+TMG element      1356 is a TMG-created element connected to element            60
+TMG element      1357 is a TMG-created element connected to element            57
+TMG element      1358 is a TMG-created element connected to element            36
+TMG element      1359 is a TMG-created element connected to element            57
+TMG element      1360 is a TMG-created element connected to element            58
+TMG element      1361 is a TMG-created element connected to element            58
+TMG element      1362 is a TMG-created element connected to element            64
+TMG element      1363 is a TMG-created element connected to element            35
+TMG element      1364 is a TMG-created element connected to element            63
+TMG element      1365 is a TMG-created element connected to element            63
+TMG element      1366 is a TMG-created element connected to element            66
+TMG element      1367 is a TMG-created element connected to element            67
+TMG element      1368 is a TMG-created element connected to element            67
+TMG element      1369 is a TMG-created element connected to element            70
+TMG element      1370 is a TMG-created element connected to element            41
+TMG element      1371 is a TMG-created element connected to element            69
+TMG element      1372 is a TMG-created element connected to element            69
+TMG element      1373 is a TMG-created element connected to element            74
+TMG element      1374 is a TMG-created element connected to element            73
+TMG element      1375 is a TMG-created element connected to element            72
+TMG element      1376 is a TMG-created element connected to element            22
+TMG element      1377 is a TMG-created element connected to element            23
+TMG element      1378 is a TMG-created element connected to element            24
+TMG element      1379 is a TMG-created element connected to element            19
+TMG element      1380 is a TMG-created element connected to element            19
+TMG element      1381 is a TMG-created element connected to element            20
+TMG element      1382 is a TMG-created element connected to element            17
+TMG element      1383 is a TMG-created element connected to element            17
+TMG element      1384 is a TMG-created element connected to element            16
+TMG element      1385 is a TMG-created element connected to element            13
+TMG element      1386 is a TMG-created element connected to element            13
+TMG element      1387 is a TMG-created element connected to element            14
+TMG element      1388 is a TMG-created element connected to element             8
+TMG element      1389 is a TMG-created element connected to element             8
+TMG element      1390 is a TMG-created element connected to element             7
+TMG element      1391 is a TMG-created element connected to element             7
+TMG element      1392 is a TMG-created element connected to element            10
+TMG element      1393 is a TMG-created element connected to element            11
+TMG element      1394 is a TMG-created element connected to element             5
+TMG element      1395 is a TMG-created element connected to element             5
+TMG element      1396 is a TMG-created element connected to element             4
+TMG element      1397 is a TMG-created element connected to element             1
+TMG element      1398 is a TMG-created element connected to element             1
+TMG element      1399 is a TMG-created element connected to element             2
+TMG element      1400 is a TMG-created element connected to element             2
+TMG element      1401 is a TMG-created element connected to element            27
+TMG element      1402 is a TMG-created element connected to element            26
+TMG element      1403 is a TMG-created element connected to element            26
+TMG element      1404 is a TMG-created element connected to element            29
+TMG element      1405 is a TMG-created element connected to element            30
+
+                Association of boundary elements and CG elements
+
+CG element         1 has boundary elements       104       304       103      1397       303
+      1398
+CG element         2 has boundary elements       106       306       305      1400       105
+      1399
+CG element         3 has boundary elements       108       308      1398       307      1399
+       107
+CG element         4 has boundary elements       109       309       310      1397       110
+      1396
+CG element         5 has boundary elements       112       312       111      1394       311
+      1395
+CG element         6 has boundary elements       114       314      1396       113      1395
+       313
+CG element         7 has boundary elements       115       315       316      1391       116
+      1390
+CG element         8 has boundary elements       117       317       118      1388       318
+      1389
+CG element         9 has boundary elements       120       320      1390       119      1389
+       319
+CG element        10 has boundary elements       122       322       121      1391       321
+      1392
+CG element        11 has boundary elements       124       324       323      1394       123
+      1393
+CG element        12 has boundary elements       126       326      1392       325      1393
+       125
+CG element        13 has boundary elements       128       328       127      1385       327
+      1386
+CG element        14 has boundary elements       130       330       329      1388       129
+      1387
+CG element        15 has boundary elements       132       332      1386       331      1387
+       131
+CG element        16 has boundary elements       133       333       334      1385       134
+      1384
+CG element        17 has boundary elements       136       336       135      1382       335
+      1383
+CG element        18 has boundary elements       137       337      1384       138      1383
+       338
+CG element        19 has boundary elements       140       340       139      1379       339
+      1380
+CG element        20 has boundary elements       142       342       341      1382       141
+      1381
+CG element        21 has boundary elements       144       344      1380       343      1381
+       143
+CG element        22 has boundary elements       146       346       145       102       345
+      1376
+CG element        23 has boundary elements       148       348      1377       147      1376
+       347
+CG element        24 has boundary elements       150       350       349      1379       149
+      1378
+CG element        25 has boundary elements       152       352      1377       351      1378
+       151
+CG element        26 has boundary elements       154       354       353      1403       153
+      1402
+CG element        27 has boundary elements       156       356       155      1400       355
+      1401
+CG element        28 has boundary elements       158       358      1402       157      1401
+       357
+CG element        29 has boundary elements       160       360       159      1403       359
+      1404
+CG element        30 has boundary elements       162       362       361      1307       161
+      1405
+CG element        31 has boundary elements       164       364      1404       363      1405
+       163
+CG element        32 has boundary elements       165       365       166      1308       366
+      1309
+CG element        33 has boundary elements       168       368       367      1310       167
+      1352
+CG element        34 has boundary elements       170       370      1309       369      1352
+       169
+CG element        35 has boundary elements       172       372       371      1308       171
+      1363
+CG element        36 has boundary elements       174       374       173      1307       373
+      1358
+CG element        37 has boundary elements       176       376      1363       175      1358
+       375
+CG element        38 has boundary elements       178       378       377      1313       177
+      1312
+CG element        39 has boundary elements       180       380       179      1310       379
+      1311
+CG element        40 has boundary elements       182       382      1312       181      1311
+       381
+CG element        41 has boundary elements       184       384       183      1313       383
+      1370
+CG element        42 has boundary elements       186       386       385      1315       185
+      1314
+CG element        43 has boundary elements       188       388      1370       387      1314
+       187
+CG element        44 has boundary elements       190       390       389      1317       189
+      1316
+CG element        45 has boundary elements       192       392       191      1315       391
+      1344
+CG element        46 has boundary elements       194       394      1316       193      1344
+       393
+CG element        47 has boundary elements       196       396       395      1320       195
+      1319
+CG element        48 has boundary elements       198       398      1338       397      1319
+       197
+CG element        49 has boundary elements       200       400       199      1317       399
+      1318
+CG element        50 has boundary elements       202       402      1338       201      1318
+       401
+CG element        51 has boundary elements       204       404       403      1350       203
+      1349
+CG element        52 has boundary elements       206       406       205      1347       405
+      1348
+CG element        53 has boundary elements       208       408      1349       207      1348
+       407
+CG element        54 has boundary elements       210       410       209      1350       409
+      1351
+CG element        55 has boundary elements       212       412       411      1354       211
+      1353
+CG element        56 has boundary elements       214       414      1351       413      1353
+       213
+CG element        57 has boundary elements       216       416       215      1357       415
+      1359
+CG element        58 has boundary elements       218       418       417      1361       217
+      1360
+CG element        59 has boundary elements       220       420      1359       419      1360
+       219
+CG element        60 has boundary elements       222       422       421      1357       221
+      1356
+CG element        61 has boundary elements       224       424       223      1354       423
+      1355
+CG element        62 has boundary elements       226       426      1356       225      1355
+       425
+CG element        63 has boundary elements       228       428       427      1365       227
+      1364
+CG element        64 has boundary elements       229       429       230      1361       430
+      1362
+CG element        65 has boundary elements       232       432      1364       231      1362
+       431
+CG element        66 has boundary elements       234       434       233      1365       433
+      1366
+CG element        67 has boundary elements       236       436       435      1368       235
+      1367
+CG element        68 has boundary elements       238       438      1366       437      1367
+       237
+CG element        69 has boundary elements       240       440       439      1372       239
+      1371
+CG element        70 has boundary elements       242       442       241      1368       441
+      1369
+CG element        71 has boundary elements       244       444      1371       243      1369
+       443
+CG element        72 has boundary elements       246       446       445       101       245
+      1375
+CG element        73 has boundary elements       248       448      1374       447      1375
+       247
+CG element        74 has boundary elements       250       450       249      1372       449
+      1373
+CG element        75 has boundary elements       252       452      1374       251      1373
+       451
+CG element        76 has boundary elements       254       454       253      1343       453
+      1345
+CG element        77 has boundary elements       256       456       455      1347       255
+      1346
+CG element        78 has boundary elements       258       458      1345       457      1346
+       257
+CG element        79 has boundary elements       260       460       459      1343       259
+      1342
+CG element        80 has boundary elements       262       462       261      1340       461
+      1341
+CG element        81 has boundary elements       264       464      1342       263      1341
+       463
+CG element        82 has boundary elements       266       466       465      1336       265
+      1335
+CG element        83 has boundary elements       268       468       267      1333       467
+      1334
+CG element        84 has boundary elements       270       470      1335       269      1334
+       469
+CG element        85 has boundary elements       272       472       271      1336       471
+      1337
+CG element        86 has boundary elements       274       474       473      1340       273
+      1339
+CG element        87 has boundary elements       276       476      1337       475      1339
+       275
+CG element        88 has boundary elements       278       478       277      1330       477
+      1331
+CG element        89 has boundary elements       280       480       479      1333       279
+      1332
+CG element        90 has boundary elements       282       482      1331       481      1332
+       281
+CG element        91 has boundary elements       284       484       483      1330       283
+      1329
+CG element        92 has boundary elements       286       486       285      1327       485
+      1328
+CG element        93 has boundary elements       288       488      1329       287      1328
+       487
+CG element        94 has boundary elements       290       490       289      1323       489
+      1325
+CG element        95 has boundary elements       292       492       491      1327       291
+      1326
+CG element        96 has boundary elements       294       494      1325       493      1326
+       293
+CG element        97 has boundary elements       296       496       295      1320       495
+      1321
+CG element        98 has boundary elements       298       498      1324       297      1321
+       497
+CG element        99 has boundary elements       300       500       499      1323       299
+      1322
+CG element       100 has boundary elements       302       502      1324       501      1322
+       301
+
+
+                   Analyzer module calculation results
+
+
+       
+
+No. of iterations     2       TDmax = 0.000E+00 at element       269
+
+Minimum temperature                 =    20.000 at element       102 INIT_BC
+Maximum temperature                 =   100.000 at element       101 INIT_BC
+Average temperature                 =    60.000
+
+                         Temperature summary for groups
+
+        Maximum    at   Minimum    at   Average     Total      Total     Total
+          Temp  element  Temp   element  Temp      Heat in  Capacitance   Mass
+
+ Group: INIT_BC
+         100.00     101   20.00     102   60.00   0.00E+00    3.40E+14  7.83E+05
+ Group: Temperature(1)
+         100.00     101  100.00     101  100.00   0.00E+00    0.00E+00  0.00E+00
+ Group: Temperature(2)
+          20.00     102   20.00     102   20.00   0.00E+00    0.00E+00  0.00E+00
+ Group: Thermal Coupling(1) - Primary Region
+          99.60     246   20.40     145   60.00   0.00E+00    0.00E+00  0.00E+00
+ Group: Thermal Coupling(1) - Secondary Region
+          99.60     446   20.40     345   60.00   0.00E+00    0.00E+00  0.00E+00
+
+ Summary for thermal elements
+
+ Maximum heat balance deviation occurs           at element      1374        
+ Heat flow into sinks                = 4.480E+04
+ Heat flow from non-fluid sinks      = 4.480E+04
+ Heat load into elements             = 0.000E+00
+ Heat load into sinks                = 0.000E+00
+ Heat flow from fluid sinks          = 0.000E+00
+ Deviation from heat balance         =-1.229E-08
+
+

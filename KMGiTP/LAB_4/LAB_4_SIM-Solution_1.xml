@@ -1,0 +1,1772 @@
+<!--
+*================================================================
+*           Simcenter 3D Thermal/Flow - Version NX 2023 
+*           Maya Heat Transfer Technologies Ltd, 514-369-5706    
+*
+*        INPUT FILE: LAB_4_SIM-Solution_1.xml
+*        CREATED ON: Mon Apr 21 09:56:23 2025
+*          SIM FILE: E:\university\sem_6\KMGiTP\LAB_4\LAB_4_SIM.sim
+*          FEM FILE: E:\university\sem_6\KMGiTP\LAB_4\LAB_4_FEM.fem
+*
+*================================================================ 
+-->
+<SolutionFile version="NX 2023"
+  solver="Simcenter 3D Thermal/Flow"
+  class="Thermal"
+  solution="Thermal"
+  simulationName="LAB_4_SIM"
+  solutionName="Solution 1">
+  <CustomerDefaultList>
+  </CustomerDefaultList>
+  <Units>
+    <System>Millimeters</System>
+    <LengthConversionFactor>  1.0000000E+03</LengthConversionFactor>
+    <ForceConversionFactor>  1.0000000E+03</ForceConversionFactor>
+    <TemperatureConversionFactor>  1.0000000E+00</TemperatureConversionFactor>
+    <AbsoluteTemperatureShift> -2.7315000E+02</AbsoluteTemperatureShift>
+  </Units>
+  <NXBaseModelUnits>
+    <System>Millimeters</System>
+    <LengthConversionFactor>  1.0000000E+03</LengthConversionFactor>
+    <ForceConversionFactor>  1.0000000E+03</ForceConversionFactor>
+    <TemperatureConversionFactor>  1.0000000E+00</TemperatureConversionFactor>
+    <AbsoluteTemperatureShift> -2.7315000E+02</AbsoluteTemperatureShift>
+  </NXBaseModelUnits>
+  <ModelInformation>
+    <NumberOfElements>100</NumberOfElements>
+    <NumberOfNodes>404</NumberOfNodes>
+    <Origin>  0.0000000E+00     0.0000000E+00     0.0000000E+00</Origin>
+    <AxisymmetricExtension>0</AxisymmetricExtension>
+    <UserFunctionHighestCorrelation>0</UserFunctionHighestCorrelation>
+    <Orientation>
+      <X>  1.0000000E+00     0.0000000E+00     0.0000000E+00</X>
+      <Y>  0.0000000E+00     1.0000000E+00     0.0000000E+00</Y>
+      <Z>  0.0000000E+00     0.0000000E+00     1.0000000E+00</Z>
+    </Orientation>
+  </ModelInformation>
+  <SolverParameters>
+    <Thermal>
+      <Property name="Steady State - Convergence Criteria">
+        <Value>0</Value>
+      </Property>
+      <Property name="Steady State - Maximum Temperature Change">
+        <Value>  1.0000000E-03</Value>
+      </Property>
+      <Property name="Steady State - Heat Imbalance">
+        <Value>0</Value>
+      </Property>
+      <Property name="Heat Imbalance Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="Global Fraction">
+        <Value>  1.0000000E-02</Value>
+      </Property>
+      <Property name="Absolute">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Thermal Steady State - Iteration Limit">
+        <Value>10000</Value>
+      </Property>
+      <Property name="Transient - Maximum Temperature Change">
+        <Value>  1.0000000E-01</Value>
+      </Property>
+      <Property name="Thermal Transient - Iteration Limit">
+        <Value>10000</Value>
+      </Property>
+      <Property name="Relaxation Factor">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Convergence Trace">
+        <Value>0</Value>
+      </Property>
+      <Property name="Duct Flow Pressure Convergence Criteria">
+        <Value>  1.0000000E-02</Value>
+      </Property>
+      <Property name="Duct Flow Iteration Limit">
+        <Value>100</Value>
+      </Property>
+      <Property name="Duct Flow Relaxation Factor">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Duct Flow Convergence Trace">
+        <Value>0</Value>
+      </Property>
+      <Property name="Duct Flow Include Head Loss Correlations for Bends and Branches">
+        <Value>0</Value>
+      </Property>
+      <Property name="Convergence Norm">
+        <Value>0</Value>
+      </Property>
+      <Property name="Convergence Criterion MAX">
+        <Value>  1.0000000E-05</Value>
+      </Property>
+      <Property name="Convergence Criterion">
+        <Value>  1.0000000E-08</Value>
+      </Property>
+      <Property name="Conjugate Gradient Solver Iteration Limit">
+        <Value>100</Value>
+      </Property>
+      <Property name="Convergence Matrix Fill Value">
+        <Value>10</Value>
+      </Property>
+      <Property name="Element Discretization">
+        <Value>1</Value>
+      </Property>
+      <Property name="Shell Accuracy">
+        <Value>1</Value>
+      </Property>
+      <Property name="Solid Element Capacitance Distribution">
+        <Value>1</Value>
+      </Property>
+      <Property name="Element Convention for Temperature Constraint">
+        <Value>0</Value>
+      </Property>
+      <Property name="Duct Thermal Discretization">
+        <Value>1</Value>
+      </Property>
+      <Property name="Elements Part of a Thermal Coupling Do Not Convect to Environment">
+        <Value>1</Value>
+      </Property>
+    </Thermal>
+    <Flow3D>
+      <Property name="Steady State - Relaxation Time Step">
+        <Value>0</Value>
+      </Property>
+      <Property name="Physical Time Step">
+        <Value>0</Value>
+      </Property>
+      <Property name="Time Step">
+        <Value>  5.0000000E-01</Value>
+      </Property>
+      <Property name="Time Step Table">
+        <Value> -7.7777700E+05</Value>
+      </Property>
+      <Property name="Time Step Factor">
+        <Value>  2.0000000E+01</Value>
+      </Property>
+      <Property name="Convergence Criteria">
+        <Value>1</Value>
+      </Property>
+      <Property name="Maximum Residuals">
+        <Value>  2.0000000E-04</Value>
+      </Property>
+      <Property name="Global Flow Imbalance Fraction Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="Global Flow Imbalance Fraction">
+        <Value>  2.0000000E-02</Value>
+      </Property>
+      <Property name="Global Heat Imbalance Fraction Option">
+        <Value>1</Value>
+      </Property>
+      <Property name="Global Heat Imbalance Fraction">
+        <Value>  2.0000000E-02</Value>
+      </Property>
+      <Property name="3D Flow Steady State - Iteration Limit">
+        <Value>1000</Value>
+      </Property>
+      <Property name="3D Flow Transient - Iteration Limit">
+        <Value>100</Value>
+      </Property>
+      <Property name="Freeze Flow Field at Convergence for Steady State">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Flow Field for Steady State">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Temperature Change for Steady State">
+        <Value>  2.0000000E+00</Value>
+      </Property>
+      <Property name="Freeze Flow Field for Transient">
+        <Value>0</Value>
+      </Property>
+      <Property name="Maximum Normalized Velocity Change">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Maximum Normalized Pressure Change">
+        <Value>  1.0000000E-08</Value>
+      </Property>
+      <Property name="Restart Flow Field for Transient">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Temperature Change for Transient">
+        <Value>  2.0000000E+00</Value>
+      </Property>
+      <Property name="Freeze Flow Field at Specified Times">
+        <Value>0</Value>
+      </Property>
+      <Property name="Freeze Flow Field Specified Times" type="arrayFloat">
+      </Property>
+      <Property name="Reactivate Flow Calculation at Specified Times">
+        <Value>0</Value>
+      </Property>
+      <Property name="Reactivate Flow Calculation Specified Times" type="arrayFloat">
+      </Property>
+      <Property name="Global Relaxation Factor">
+        <Value>  7.5000000E-01</Value>
+      </Property>
+      <Property name="Mass Relaxation Factor">
+        <Value>  7.5000000E-01</Value>
+      </Property>
+      <Property name="Fluids Relaxation Factor">
+        <Value>  9.0000000E-01</Value>
+      </Property>
+      <Property name="Turbulence Relaxation Factor">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Screen Resistance Relaxation Factor">
+        <Value>  2.5000000E-01</Value>
+      </Property>
+      <Property name="Fan Curves (I/O/Internal Fans) Relaxation Factor">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Fan Curves (Recirculation Fans) Relaxation Factor">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Momentum Advection Scheme">
+        <Value>0</Value>
+      </Property>
+      <Property name="Momentum Limiter Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="Momentum Limiter Stabilization">
+        <Value>0</Value>
+      </Property>
+      <Property name="Momentum Limiter">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Energy Advection Scheme">
+        <Value>0</Value>
+      </Property>
+      <Property name="Energy Limiter Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="Energy Limiter Stabilization">
+        <Value>0</Value>
+      </Property>
+      <Property name="Energy Limiter">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="K-Epsilon Advection Scheme">
+        <Value>0</Value>
+      </Property>
+      <Property name="K-Epsilon Limiter Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="K-Epsilon Limiter Stabilization">
+        <Value>0</Value>
+      </Property>
+      <Property name="K-Epsilon Limiter">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Humidity Tracer Fluids Homogeneous Mixtures Advection Scheme">
+        <Value>0</Value>
+      </Property>
+      <Property name="Humidity Tracer Fluids Homogeneous Mixtures Limiter Option">
+        <Value>0</Value>
+      </Property>
+      <Property name="Humidity Tracer Fluids Homogeneous Mixtures Limiter Stabilization">
+        <Value>0</Value>
+      </Property>
+      <Property name="Humidity Tracer Fluids Homogeneous Mixtures Limiter">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Buoyancy Model">
+        <Value>0</Value>
+      </Property>
+    </Flow3D>
+    <Coupled>
+      <Property name="Communication Frequency">
+        <Value>1</Value>
+      </Property>
+      <Property name="Coupled Solver Maximum Temperature Change">
+        <Value>  1.0000000E-01</Value>
+      </Property>
+      <Property name="Coupled Solver Global Heat Imbalance Fraction">
+        <Value>  1.0000000E-02</Value>
+      </Property>
+    </Coupled>
+    <Radiation>
+      <Property name="View Factor Adjustment">
+        <Value>0</Value>
+      </Property>
+      <Property name="Small View Factors">
+        <Value>0</Value>
+      </Property>
+      <Property name="View Factors less than">
+        <Value>  1.0000000E-12</Value>
+      </Property>
+      <Property name="Sum of Disposed View Factors less than">
+        <Value>  5.0000000E-02</Value>
+      </Property>
+      <Property name="Use Radiation Patches">
+        <Value>0</Value>
+      </Property>
+      <Property name="On Screen Rendering">
+        <Value>0</Value>
+      </Property>
+      <Property name="Ignore specular and transparent effects for radiation request calculations">
+        <Value>1</Value>
+      </Property>
+      <Property name="Allow all elements to shadow for orbital and solar heating requests">
+        <Value>0</Value>
+      </Property>
+      <Property name="Element Subdivision">
+        <Value>3</Value>
+      </Property>
+      <Property name="Number of Axisymmetric Segments">
+        <Value>16</Value>
+      </Property>
+      <Property name="Close End of Beams">
+        <Value>0</Value>
+      </Property>
+    </Radiation>
+  </SolverParameters>
+  <SolutionParameters>
+    <Details>
+      <Property name="Description">
+        <Value></Value>
+      </Property>
+      <Property name="Run Directory Options">
+        <Value>2</Value>
+      </Property>
+      <Property name="Run Directory Location">
+        <Value></Value>
+      </Property>
+      <Property name="Values Outside Time-dependent Tables">
+        <Value>0</Value>
+      </Property>
+      <Property name="Solution Type">
+        <Value>0</Value>
+      </Property>
+      <Property name="Transient Thermal Loads to Use for Steady State">
+        <Value>0</Value>
+      </Property>
+      <Property name="Use Loads at Time">
+        <Value>  1.0000000E-01</Value>
+      </Property>
+      <Property name="Thermostat">
+        <Value>0</Value>
+      </Property>
+      <Property name="Run Solution in Parallel">
+        <Value>0</Value>
+      </Property>
+      <Property name="Parallel Configuration File">
+        <Value></Value>
+      </Property>
+      <Property name="Invalid Material Properties Check">
+        <Value>1</Value>
+      </Property>
+    </Details>
+    <AmbientConditions>
+      <Property name="Altitude Value">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Ambient Pressure">
+        <Value>0</Value>
+      </Property>
+      <Property name="Absolute Pressure">
+        <Value>  1.0135100E+02</Value>
+      </Property>
+      <Property name="Fluid Temperature">
+        <Value>  2.0000000E+01</Value>
+      </Property>
+      <Property name="Radiative Environment Temperature">
+        <Value>  2.0000000E+01</Value>
+      </Property>
+      <Property name="Gravitational Acceleration">
+        <Value>  9.8100000E+03</Value>
+      </Property>
+      <Property name="Gravity Direction">
+        <Value>  0.0000000E+00     0.0000000E+00    -1.0000000E+00</Value>
+      </Property>
+    </AmbientConditions>
+    <InitialConditions>
+      <Property name="Thermal Initial Temperature">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Temperature Value">
+        <Value>  2.0000000E+01</Value>
+      </Property>
+      <Property name="Results Directory">
+        <Value></Value>
+      </Property>
+      <Property name="TEMPF File">
+        <Value></Value>
+      </Property>
+      <Property name="Results to Use for Initial Conditions">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Conditions Use Results at Time">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Transient Thermal Loads to Use for Steady State Initial Conditions">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Conditions Use Loads at Time">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+    </InitialConditions>
+    <Restart>
+      <Property name="Perform Restart">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Files Location">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Directory">
+        <Value></Value>
+      </Property>
+    </Restart>
+    <TransientSetup>
+      <Property name="Start Time">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="End">
+        <Value>0</Value>
+      </Property>
+      <Property name="End Time">
+        <Value>  5.0000000E+02</Value>
+      </Property>
+      <Property name="Maximum Number of Cycles">
+        <Value>10</Value>
+      </Property>
+      <Property name="Maximum Number of Intervals">
+        <Value>10</Value>
+      </Property>
+      <Property name="End Solve if Temperature Between Cycles less than">
+        <Value>  1.0000000E-01</Value>
+      </Property>
+      <Property name="End Solve if Temperature Between Time Intervals less than">
+        <Value>  1.0000000E-01</Value>
+      </Property>
+      <Property name="Specify Cycle Period">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Specify Time Interval">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Target Temperature" type="arraySSMO">
+      </Property>
+      <Property name="Target Temperature Change" type="arraySSMO">
+      </Property>
+      <Property name="Maximum End Time">
+        <Value>  5.0000000E+02</Value>
+      </Property>
+      <Property name="Thermal Time Step Method">
+        <Value>0</Value>
+      </Property>
+      <Property name="Thermal Number of Steps">
+        <Value>100</Value>
+      </Property>
+      <Property name="Thermal Time Step">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Thermal Time Step vs. Time Table">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Maximum Temperature Change">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Minimum Time Step">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Maximum Time Step">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Thermal Results Type">
+        <Value>1</Value>
+      </Property>
+      <Property name="Thermal Time Interval">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Thermal Number of Results">
+        <Value>10</Value>
+      </Property>
+      <Property name="Thermal Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Thermal Output Time Variation">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Cyclic Thermal Results Type">
+        <Value>0</Value>
+      </Property>
+      <Property name="Cyclic Time Interval">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Number per Cycle">
+        <Value>10</Value>
+      </Property>
+      <Property name="Cyclic Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Cyclic Output Time Variation">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Results for Last Cycle Only">
+        <Value>0</Value>
+      </Property>
+      <Property name="Run to Steady State Thermal Results Type">
+        <Value>2</Value>
+      </Property>
+      <Property name="Run to Steady State Time Interval">
+        <Value>  1.0000000E+00</Value>
+      </Property>
+      <Property name="Number per Time Interval">
+        <Value>10</Value>
+      </Property>
+      <Property name="Run to Steady State Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Run to Steady State Output Time Variation">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+    </TransientSetup>
+    <ResultsOptions>
+      <Property name="Output Files for Refresh Results Refresh Reports">
+        <Value>0</Value>
+      </Property>
+      <Property name="Create Groups for Boundary Conditions">
+        <Value>1</Value>
+      </Property>
+      <Property name="Temperatures">
+        <Value>1</Value>
+      </Property>
+      <Property name="Temperature Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Min/Max Temperatures and Occurrence Times">
+        <Value>1</Value>
+      </Property>
+      <Property name="Local Temperature Error Estimate">
+        <Value>0</Value>
+      </Property>
+      <Property name="Conductive Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Conductive Fluxes Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Convective Heat Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Convective Heat Flux Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Temperature Gradients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Temperature Gradients Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Transverse Temperature Gradients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Total Loads and Fluxes">
+        <Value>1</Value>
+      </Property>
+      <Property name="Residuals">
+        <Value>0</Value>
+      </Property>
+      <Property name="Free and Forced Convection Coefficients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Free and Forced Convection Coefficient Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Phase Change Quality">
+        <Value>0</Value>
+      </Property>
+      <Property name="RC Products">
+        <Value>0</Value>
+      </Property>
+      <Property name="Thermal Connections">
+        <Value>0</Value>
+      </Property>
+      <Property name="Coupled Area Ratio">
+        <Value>0</Value>
+      </Property>
+      <Property name="View factors Sums">
+        <Value>1</Value>
+      </Property>
+      <Property name="Net Radiative Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Radiosity Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Irradiance Fluxes">
+        <Value>0</Value>
+      </Property>
+    </ResultsOptions>
+  </SolutionParameters>
+  <MaterialList>
+    <Material uid="1" uname="Изотропный::LAB_4_FEM::[1]" type="ISO">
+      <Property name="Dependency Control">
+        <Value>0</Value>
+      </Property>
+      <Property name="Mass Density Constant" type="Constant">
+        <Value>  7.8290000E+03</Value>
+      </Property>
+      <Property name="Mass Density Temperature" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Specific Heat" type="Constant">
+        <Value>  4.3400000E+08</Value>
+      </Property>
+      <Property name="Thermal Conductivity" type="Constant">
+        <Value>  5.6000000E+04</Value>
+      </Property>
+      <Property name="Latent Heat" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Phase Temperature" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Phase Temperature Range" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Phase Specific Heat" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="IR Scattering" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="IR Extinction" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Solar Scattering" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Solar Extinction" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+      <Property name="Electrical Resistivity" type="Constant">
+        <Value>  0.0000000E+00</Value>
+      </Property>
+    </Material>
+  </MaterialList>
+  <PhysicalPropertyTableList>
+  </PhysicalPropertyTableList>
+  <BeamCrossSectionList>
+  </BeamCrossSectionList>
+  <SetList>
+  </SetList>
+  <NamedPointList>
+  </NamedPointList>
+  <CurveList>
+  </CurveList>
+  <OpticalPropertyList>
+  </OpticalPropertyList>
+  <AdvancedOpticalPropertyList>
+  </AdvancedOpticalPropertyList>
+  <NonGeometricElementList>
+  </NonGeometricElementList>
+  <LayerList>
+  </LayerList>
+  <ReferenceTemperatureList>
+  </ReferenceTemperatureList>
+  <TargetTemperatureList>
+  </TargetTemperatureList>
+  <TargetTemperatureChangeList>
+  </TargetTemperatureChangeList>
+  <ThermostatList>
+  </ThermostatList>
+  <ElementList>
+    <Set uname="3d_mesh(1)" elementType="HEXA8" material="1" opticalProperty="-1" movOption="0">
+      <E>1   85   86   185   184   283   284   383   382</E>
+      <E>2   183   182   83   84   381   380   281   282</E>
+      <E>3   85   184   183   84   283   382   381   282</E>
+      <E>4   186   185   86   87   384   383   284   285</E>
+      <E>5   88   89   188   187   286   287   386   385</E>
+      <E>6   186   87   88   187   384   285   286   385</E>
+      <E>7   192   191   92   93   390   389   290   291</E>
+      <E>8   94   95   194   193   292   293   392   391</E>
+      <E>9   192   93   94   193   390   291   292   391</E>
+      <E>10   91   92   191   190   289   290   389   388</E>
+      <E>11   189   188   89   90   387   386   287   288</E>
+      <E>12   91   190   189   90   289   388   387   288</E>
+      <E>13   97   98   197   196   295   296   395   394</E>
+      <E>14   195   194   95   96   393   392   293   294</E>
+      <E>15   97   196   195   96   295   394   393   294</E>
+      <E>16   198   197   98   99   396   395   296   297</E>
+      <E>17   100   101   200   199   298   299   398   397</E>
+      <E>18   198   99   100   199   396   297   298   397</E>
+      <E>19   103   104   203   202   301   302   401   400</E>
+      <E>20   201   200   101   102   399   398   299   300</E>
+      <E>21   103   202   201   102   301   400   399   300</E>
+      <E>22   107   2   3   206   305   5   7   404</E>
+      <E>23   205   106   107   206   403   304   305   404</E>
+      <E>24   204   203   104   105   402   401   302   303</E>
+      <E>25   106   205   204   105   304   403   402   303</E>
+      <E>26   180   179   80   81   378   377   278   279</E>
+      <E>27   82   83   182   181   280   281   380   379</E>
+      <E>28   180   81   82   181   378   279   280   379</E>
+      <E>29   79   80   179   178   277   278   377   376</E>
+      <E>30   177   176   77   78   375   374   275   276</E>
+      <E>31   79   178   177   78   277   376   375   276</E>
+      <E>32   73   74   173   172   271   272   371   370</E>
+      <E>33   171   170   71   72   369   368   269   270</E>
+      <E>34   73   172   171   72   271   370   369   270</E>
+      <E>35   174   173   74   75   372   371   272   273</E>
+      <E>36   76   77   176   175   274   275   374   373</E>
+      <E>37   174   75   76   175   372   273   274   373</E>
+      <E>38   168   167   68   69   366   365   266   267</E>
+      <E>39   70   71   170   169   268   269   368   367</E>
+      <E>40   168   69   70   169   366   267   268   367</E>
+      <E>41   67   68   167   166   265   266   365   364</E>
+      <E>42   165   164   65   66   363   362   263   264</E>
+      <E>43   67   166   165   66   265   364   363   264</E>
+      <E>44   162   161   62   63   360   359   260   261</E>
+      <E>45   64   65   164   163   262   263   362   361</E>
+      <E>46   162   63   64   163   360   261   262   361</E>
+      <E>47   158   157   58   59   356   355   256   257</E>
+      <E>48   60   159   158   59   258   357   356   257</E>
+      <E>49   61   62   161   160   259   260   359   358</E>
+      <E>50   159   60   61   160   357   258   259   358</E>
+      <E>51   130   129   30   31   328   327   228   229</E>
+      <E>52   32   33   132   131   230   231   330   329</E>
+      <E>53   130   31   32   131   328   229   230   329</E>
+      <E>54   29   30   129   128   227   228   327   326</E>
+      <E>55   127   126   27   28   325   324   225   226</E>
+      <E>56   29   128   127   28   227   326   325   226</E>
+      <E>57   23   24   123   122   221   222   321   320</E>
+      <E>58   121   120   21   22   319   318   219   220</E>
+      <E>59   23   122   121   22   221   320   319   220</E>
+      <E>60   124   123   24   25   322   321   222   223</E>
+      <E>61   26   27   126   125   224   225   324   323</E>
+      <E>62   124   25   26   125   322   223   224   323</E>
+      <E>63   118   117   18   19   316   315   216   217</E>
+      <E>64   20   21   120   119   218   219   318   317</E>
+      <E>65   118   19   20   119   316   217   218   317</E>
+      <E>66   17   18   117   116   215   216   315   314</E>
+      <E>67   115   114   15   16   313   312   213   214</E>
+      <E>68   17   116   115   16   215   314   313   214</E>
+      <E>69   112   111   12   13   310   309   210   211</E>
+      <E>70   14   15   114   113   212   213   312   311</E>
+      <E>71   112   13   14   113   310   211   212   311</E>
+      <E>72   108   4   1   9   306   8   6   207</E>
+      <E>73   10   109   108   9   208   307   306   207</E>
+      <E>74   11   12   111   110   209   210   309   308</E>
+      <E>75   109   10   11   110   307   208   209   308</E>
+      <E>76   35   36   135   134   233   234   333   332</E>
+      <E>77   133   132   33   34   331   330   231   232</E>
+      <E>78   35   134   133   34   233   332   331   232</E>
+      <E>79   136   135   36   37   334   333   234   235</E>
+      <E>80   38   39   138   137   236   237   336   335</E>
+      <E>81   136   37   38   137   334   235   236   335</E>
+      <E>82   142   141   42   43   340   339   240   241</E>
+      <E>83   44   45   144   143   242   243   342   341</E>
+      <E>84   142   43   44   143   340   241   242   341</E>
+      <E>85   41   42   141   140   239   240   339   338</E>
+      <E>86   139   138   39   40   337   336   237   238</E>
+      <E>87   41   140   139   40   239   338   337   238</E>
+      <E>88   47   48   147   146   245   246   345   344</E>
+      <E>89   145   144   45   46   343   342   243   244</E>
+      <E>90   47   146   145   46   245   344   343   244</E>
+      <E>91   148   147   48   49   346   345   246   247</E>
+      <E>92   50   51   150   149   248   249   348   347</E>
+      <E>93   148   49   50   149   346   247   248   347</E>
+      <E>94   53   54   153   152   251   252   351   350</E>
+      <E>95   151   150   51   52   349   348   249   250</E>
+      <E>96   53   152   151   52   251   350   349   250</E>
+      <E>97   57   58   157   156   255   256   355   354</E>
+      <E>98   155   56   57   156   353   254   255   354</E>
+      <E>99   154   153   54   55   352   351   252   253</E>
+      <E>100   56   155   154   55   254   353   352   253</E>
+    </Set>
+  </ElementList>
+  <ElementAssociatedDataList>
+  </ElementAssociatedDataList>
+  <NodeList>
+    <N>1     0.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+02</N>
+    <N>2     0.0000000000000000E+00     3.5258833318948746E-02     0.0000000000000000E+00</N>
+    <N>3     0.0000000000000000E+00     1.0352588891983032E+00     0.0000000000000000E+00</N>
+    <N>4     0.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+02</N>
+    <N>5     1.0000000000000000E+00     3.5258833318948746E-02     0.0000000000000000E+00</N>
+    <N>6     1.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+02</N>
+    <N>7     1.0000000000000000E+00     1.0352588891983032E+00     0.0000000000000000E+00</N>
+    <N>8     1.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+02</N>
+    <N>9     0.0000000000000000E+00     3.5258833318948746E-02     9.9000000000000000E+01</N>
+    <N>10     0.0000000000000000E+00     3.5258833318948746E-02     9.8000000000000000E+01</N>
+    <N>11     0.0000000000000000E+00     3.5258833318948746E-02     9.7000000000000000E+01</N>
+    <N>12     0.0000000000000000E+00     3.5258833318948746E-02     9.6000000000000000E+01</N>
+    <N>13     0.0000000000000000E+00     3.5258833318948746E-02     9.5000000000000000E+01</N>
+    <N>14     0.0000000000000000E+00     3.5258833318948746E-02     9.4000000000000000E+01</N>
+    <N>15     0.0000000000000000E+00     3.5258833318948746E-02     9.3000000000000000E+01</N>
+    <N>16     0.0000000000000000E+00     3.5258833318948746E-02     9.2000000000000000E+01</N>
+    <N>17     0.0000000000000000E+00     3.5258833318948746E-02     9.1000000000000000E+01</N>
+    <N>18     0.0000000000000000E+00     3.5258833318948746E-02     9.0000000000000000E+01</N>
+    <N>19     0.0000000000000000E+00     3.5258833318948746E-02     8.9000000000000000E+01</N>
+    <N>20     0.0000000000000000E+00     3.5258833318948746E-02     8.8000000000000000E+01</N>
+    <N>21     0.0000000000000000E+00     3.5258833318948746E-02     8.7000000000000000E+01</N>
+    <N>22     0.0000000000000000E+00     3.5258833318948746E-02     8.6000000000000000E+01</N>
+    <N>23     0.0000000000000000E+00     3.5258833318948746E-02     8.5000000000000000E+01</N>
+    <N>24     0.0000000000000000E+00     3.5258833318948746E-02     8.4000000000000000E+01</N>
+    <N>25     0.0000000000000000E+00     3.5258833318948746E-02     8.3000000000000000E+01</N>
+    <N>26     0.0000000000000000E+00     3.5258833318948746E-02     8.2000000000000000E+01</N>
+    <N>27     0.0000000000000000E+00     3.5258833318948746E-02     8.1000000000000000E+01</N>
+    <N>28     0.0000000000000000E+00     3.5258833318948746E-02     8.0000000000000000E+01</N>
+    <N>29     0.0000000000000000E+00     3.5258833318948746E-02     7.9000000000000000E+01</N>
+    <N>30     0.0000000000000000E+00     3.5258833318948746E-02     7.8000000000000000E+01</N>
+    <N>31     0.0000000000000000E+00     3.5258833318948746E-02     7.7000000000000000E+01</N>
+    <N>32     0.0000000000000000E+00     3.5258833318948746E-02     7.6000000000000000E+01</N>
+    <N>33     0.0000000000000000E+00     3.5258833318948746E-02     7.5000000000000000E+01</N>
+    <N>34     0.0000000000000000E+00     3.5258833318948746E-02     7.4000000000000000E+01</N>
+    <N>35     0.0000000000000000E+00     3.5258833318948746E-02     7.3000000000000000E+01</N>
+    <N>36     0.0000000000000000E+00     3.5258833318948746E-02     7.2000000000000000E+01</N>
+    <N>37     0.0000000000000000E+00     3.5258833318948746E-02     7.1000000000000000E+01</N>
+    <N>38     0.0000000000000000E+00     3.5258833318948746E-02     7.0000000000000000E+01</N>
+    <N>39     0.0000000000000000E+00     3.5258833318948746E-02     6.9000000000000000E+01</N>
+    <N>40     0.0000000000000000E+00     3.5258833318948746E-02     6.8000000000000000E+01</N>
+    <N>41     0.0000000000000000E+00     3.5258833318948746E-02     6.7000000000000000E+01</N>
+    <N>42     0.0000000000000000E+00     3.5258833318948746E-02     6.6000000000000000E+01</N>
+    <N>43     0.0000000000000000E+00     3.5258833318948746E-02     6.5000000000000000E+01</N>
+    <N>44     0.0000000000000000E+00     3.5258833318948746E-02     6.4000000000000000E+01</N>
+    <N>45     0.0000000000000000E+00     3.5258833318948746E-02     6.3000000000000000E+01</N>
+    <N>46     0.0000000000000000E+00     3.5258833318948746E-02     6.2000000000000000E+01</N>
+    <N>47     0.0000000000000000E+00     3.5258833318948746E-02     6.1000000000000000E+01</N>
+    <N>48     0.0000000000000000E+00     3.5258833318948746E-02     6.0000000000000000E+01</N>
+    <N>49     0.0000000000000000E+00     3.5258833318948746E-02     5.9000000000000000E+01</N>
+    <N>50     0.0000000000000000E+00     3.5258833318948746E-02     5.8000000000000000E+01</N>
+    <N>51     0.0000000000000000E+00     3.5258833318948746E-02     5.7000000000000000E+01</N>
+    <N>52     0.0000000000000000E+00     3.5258833318948746E-02     5.6000000000000000E+01</N>
+    <N>53     0.0000000000000000E+00     3.5258833318948746E-02     5.5000000000000000E+01</N>
+    <N>54     0.0000000000000000E+00     3.5258833318948746E-02     5.4000000000000000E+01</N>
+    <N>55     0.0000000000000000E+00     3.5258833318948746E-02     5.3000000000000000E+01</N>
+    <N>56     0.0000000000000000E+00     3.5258833318948746E-02     5.2000000000000000E+01</N>
+    <N>57     0.0000000000000000E+00     3.5258833318948746E-02     5.1000000000000000E+01</N>
+    <N>58     0.0000000000000000E+00     3.5258833318948746E-02     5.0000000000000000E+01</N>
+    <N>59     0.0000000000000000E+00     3.5258833318948746E-02     4.9000000000000000E+01</N>
+    <N>60     0.0000000000000000E+00     3.5258833318948746E-02     4.8000000000000000E+01</N>
+    <N>61     0.0000000000000000E+00     3.5258833318948746E-02     4.7000000000000000E+01</N>
+    <N>62     0.0000000000000000E+00     3.5258833318948746E-02     4.6000000000000000E+01</N>
+    <N>63     0.0000000000000000E+00     3.5258833318948746E-02     4.4999999999999993E+01</N>
+    <N>64     0.0000000000000000E+00     3.5258833318948746E-02     4.3999999999999993E+01</N>
+    <N>65     0.0000000000000000E+00     3.5258833318948746E-02     4.3000000000000007E+01</N>
+    <N>66     0.0000000000000000E+00     3.5258833318948746E-02     4.2000000000000007E+01</N>
+    <N>67     0.0000000000000000E+00     3.5258833318948746E-02     4.1000000000000000E+01</N>
+    <N>68     0.0000000000000000E+00     3.5258833318948746E-02     4.0000000000000000E+01</N>
+    <N>69     0.0000000000000000E+00     3.5258833318948746E-02     3.9000000000000000E+01</N>
+    <N>70     0.0000000000000000E+00     3.5258833318948746E-02     3.8000000000000000E+01</N>
+    <N>71     0.0000000000000000E+00     3.5258833318948746E-02     3.7000000000000000E+01</N>
+    <N>72     0.0000000000000000E+00     3.5258833318948746E-02     3.6000000000000000E+01</N>
+    <N>73     0.0000000000000000E+00     3.5258833318948746E-02     3.5000000000000000E+01</N>
+    <N>74     0.0000000000000000E+00     3.5258833318948746E-02     3.4000000000000000E+01</N>
+    <N>75     0.0000000000000000E+00     3.5258833318948746E-02     3.3000000000000000E+01</N>
+    <N>76     0.0000000000000000E+00     3.5258833318948746E-02     3.2000000000000000E+01</N>
+    <N>77     0.0000000000000000E+00     3.5258833318948746E-02     3.1000000000000000E+01</N>
+    <N>78     0.0000000000000000E+00     3.5258833318948746E-02     3.0000000000000000E+01</N>
+    <N>79     0.0000000000000000E+00     3.5258833318948746E-02     2.9000000000000000E+01</N>
+    <N>80     0.0000000000000000E+00     3.5258833318948746E-02     2.8000000000000000E+01</N>
+    <N>81     0.0000000000000000E+00     3.5258833318948746E-02     2.7000000000000000E+01</N>
+    <N>82     0.0000000000000000E+00     3.5258833318948746E-02     2.6000000000000000E+01</N>
+    <N>83     0.0000000000000000E+00     3.5258833318948746E-02     2.5000000000000000E+01</N>
+    <N>84     0.0000000000000000E+00     3.5258833318948746E-02     2.4000000000000000E+01</N>
+    <N>85     0.0000000000000000E+00     3.5258833318948746E-02     2.3000000000000000E+01</N>
+    <N>86     0.0000000000000000E+00     3.5258833318948746E-02     2.2000000000000000E+01</N>
+    <N>87     0.0000000000000000E+00     3.5258833318948746E-02     2.1000000000000000E+01</N>
+    <N>88     0.0000000000000000E+00     3.5258833318948746E-02     2.0000000000000000E+01</N>
+    <N>89     0.0000000000000000E+00     3.5258833318948746E-02     1.9000000000000000E+01</N>
+    <N>90     0.0000000000000000E+00     3.5258833318948746E-02     1.8000000000000000E+01</N>
+    <N>91     0.0000000000000000E+00     3.5258833318948746E-02     1.7000000000000000E+01</N>
+    <N>92     0.0000000000000000E+00     3.5258833318948746E-02     1.6000000000000000E+01</N>
+    <N>93     0.0000000000000000E+00     3.5258833318948746E-02     1.5000000000000000E+01</N>
+    <N>94     0.0000000000000000E+00     3.5258833318948746E-02     1.4000000000000000E+01</N>
+    <N>95     0.0000000000000000E+00     3.5258833318948746E-02     1.3000000000000000E+01</N>
+    <N>96     0.0000000000000000E+00     3.5258833318948746E-02     1.2000000000000000E+01</N>
+    <N>97     0.0000000000000000E+00     3.5258833318948746E-02     1.1000000000000000E+01</N>
+    <N>98     0.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+01</N>
+    <N>99     0.0000000000000000E+00     3.5258833318948746E-02     9.0000000000000000E+00</N>
+    <N>100     0.0000000000000000E+00     3.5258833318948746E-02     8.0000000000000000E+00</N>
+    <N>101     0.0000000000000000E+00     3.5258833318948746E-02     7.0000000000000000E+00</N>
+    <N>102     0.0000000000000000E+00     3.5258833318948746E-02     6.0000000000000000E+00</N>
+    <N>103     0.0000000000000000E+00     3.5258833318948746E-02     5.0000000000000000E+00</N>
+    <N>104     0.0000000000000000E+00     3.5258833318948746E-02     4.0000000000000000E+00</N>
+    <N>105     0.0000000000000000E+00     3.5258833318948746E-02     3.0000000000000000E+00</N>
+    <N>106     0.0000000000000000E+00     3.5258833318948746E-02     2.0000000000000000E+00</N>
+    <N>107     0.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+00</N>
+    <N>108     0.0000000000000000E+00     1.0352588891983032E+00     9.9000000000000000E+01</N>
+    <N>109     0.0000000000000000E+00     1.0352588891983032E+00     9.8000000000000000E+01</N>
+    <N>110     0.0000000000000000E+00     1.0352588891983032E+00     9.7000000000000000E+01</N>
+    <N>111     0.0000000000000000E+00     1.0352588891983032E+00     9.6000000000000000E+01</N>
+    <N>112     0.0000000000000000E+00     1.0352588891983032E+00     9.5000000000000000E+01</N>
+    <N>113     0.0000000000000000E+00     1.0352588891983032E+00     9.4000000000000000E+01</N>
+    <N>114     0.0000000000000000E+00     1.0352588891983032E+00     9.3000000000000000E+01</N>
+    <N>115     0.0000000000000000E+00     1.0352588891983032E+00     9.2000000000000000E+01</N>
+    <N>116     0.0000000000000000E+00     1.0352588891983032E+00     9.1000000000000000E+01</N>
+    <N>117     0.0000000000000000E+00     1.0352588891983032E+00     9.0000000000000000E+01</N>
+    <N>118     0.0000000000000000E+00     1.0352588891983032E+00     8.9000000000000000E+01</N>
+    <N>119     0.0000000000000000E+00     1.0352588891983032E+00     8.8000000000000000E+01</N>
+    <N>120     0.0000000000000000E+00     1.0352588891983032E+00     8.7000000000000000E+01</N>
+    <N>121     0.0000000000000000E+00     1.0352588891983032E+00     8.6000000000000000E+01</N>
+    <N>122     0.0000000000000000E+00     1.0352588891983032E+00     8.5000000000000000E+01</N>
+    <N>123     0.0000000000000000E+00     1.0352588891983032E+00     8.4000000000000000E+01</N>
+    <N>124     0.0000000000000000E+00     1.0352588891983032E+00     8.3000000000000000E+01</N>
+    <N>125     0.0000000000000000E+00     1.0352588891983032E+00     8.2000000000000000E+01</N>
+    <N>126     0.0000000000000000E+00     1.0352588891983032E+00     8.1000000000000000E+01</N>
+    <N>127     0.0000000000000000E+00     1.0352588891983032E+00     8.0000000000000000E+01</N>
+    <N>128     0.0000000000000000E+00     1.0352588891983032E+00     7.9000000000000000E+01</N>
+    <N>129     0.0000000000000000E+00     1.0352588891983032E+00     7.8000000000000000E+01</N>
+    <N>130     0.0000000000000000E+00     1.0352588891983032E+00     7.7000000000000000E+01</N>
+    <N>131     0.0000000000000000E+00     1.0352588891983032E+00     7.6000000000000000E+01</N>
+    <N>132     0.0000000000000000E+00     1.0352588891983032E+00     7.5000000000000000E+01</N>
+    <N>133     0.0000000000000000E+00     1.0352588891983032E+00     7.4000000000000000E+01</N>
+    <N>134     0.0000000000000000E+00     1.0352588891983032E+00     7.3000000000000000E+01</N>
+    <N>135     0.0000000000000000E+00     1.0352588891983032E+00     7.2000000000000000E+01</N>
+    <N>136     0.0000000000000000E+00     1.0352588891983032E+00     7.1000000000000000E+01</N>
+    <N>137     0.0000000000000000E+00     1.0352588891983032E+00     7.0000000000000000E+01</N>
+    <N>138     0.0000000000000000E+00     1.0352588891983032E+00     6.9000000000000000E+01</N>
+    <N>139     0.0000000000000000E+00     1.0352588891983032E+00     6.8000000000000000E+01</N>
+    <N>140     0.0000000000000000E+00     1.0352588891983032E+00     6.7000000000000000E+01</N>
+    <N>141     0.0000000000000000E+00     1.0352588891983032E+00     6.6000000000000000E+01</N>
+    <N>142     0.0000000000000000E+00     1.0352588891983032E+00     6.5000000000000000E+01</N>
+    <N>143     0.0000000000000000E+00     1.0352588891983032E+00     6.4000000000000000E+01</N>
+    <N>144     0.0000000000000000E+00     1.0352588891983032E+00     6.3000000000000000E+01</N>
+    <N>145     0.0000000000000000E+00     1.0352588891983032E+00     6.2000000000000000E+01</N>
+    <N>146     0.0000000000000000E+00     1.0352588891983032E+00     6.1000000000000000E+01</N>
+    <N>147     0.0000000000000000E+00     1.0352588891983032E+00     6.0000000000000000E+01</N>
+    <N>148     0.0000000000000000E+00     1.0352588891983032E+00     5.9000000000000000E+01</N>
+    <N>149     0.0000000000000000E+00     1.0352588891983032E+00     5.8000000000000000E+01</N>
+    <N>150     0.0000000000000000E+00     1.0352588891983032E+00     5.7000000000000000E+01</N>
+    <N>151     0.0000000000000000E+00     1.0352588891983032E+00     5.6000000000000000E+01</N>
+    <N>152     0.0000000000000000E+00     1.0352588891983032E+00     5.5000000000000000E+01</N>
+    <N>153     0.0000000000000000E+00     1.0352588891983032E+00     5.4000000000000000E+01</N>
+    <N>154     0.0000000000000000E+00     1.0352588891983032E+00     5.3000000000000000E+01</N>
+    <N>155     0.0000000000000000E+00     1.0352588891983032E+00     5.2000000000000000E+01</N>
+    <N>156     0.0000000000000000E+00     1.0352588891983032E+00     5.1000000000000000E+01</N>
+    <N>157     0.0000000000000000E+00     1.0352588891983032E+00     5.0000000000000000E+01</N>
+    <N>158     0.0000000000000000E+00     1.0352588891983032E+00     4.9000000000000000E+01</N>
+    <N>159     0.0000000000000000E+00     1.0352588891983032E+00     4.8000000000000000E+01</N>
+    <N>160     0.0000000000000000E+00     1.0352588891983032E+00     4.7000000000000000E+01</N>
+    <N>161     0.0000000000000000E+00     1.0352588891983032E+00     4.6000000000000000E+01</N>
+    <N>162     0.0000000000000000E+00     1.0352588891983032E+00     4.4999999999999993E+01</N>
+    <N>163     0.0000000000000000E+00     1.0352588891983032E+00     4.3999999999999993E+01</N>
+    <N>164     0.0000000000000000E+00     1.0352588891983032E+00     4.3000000000000007E+01</N>
+    <N>165     0.0000000000000000E+00     1.0352588891983032E+00     4.2000000000000007E+01</N>
+    <N>166     0.0000000000000000E+00     1.0352588891983032E+00     4.1000000000000000E+01</N>
+    <N>167     0.0000000000000000E+00     1.0352588891983032E+00     4.0000000000000000E+01</N>
+    <N>168     0.0000000000000000E+00     1.0352588891983032E+00     3.9000000000000000E+01</N>
+    <N>169     0.0000000000000000E+00     1.0352588891983032E+00     3.8000000000000000E+01</N>
+    <N>170     0.0000000000000000E+00     1.0352588891983032E+00     3.7000000000000000E+01</N>
+    <N>171     0.0000000000000000E+00     1.0352588891983032E+00     3.6000000000000000E+01</N>
+    <N>172     0.0000000000000000E+00     1.0352588891983032E+00     3.5000000000000000E+01</N>
+    <N>173     0.0000000000000000E+00     1.0352588891983032E+00     3.4000000000000000E+01</N>
+    <N>174     0.0000000000000000E+00     1.0352588891983032E+00     3.3000000000000000E+01</N>
+    <N>175     0.0000000000000000E+00     1.0352588891983032E+00     3.2000000000000000E+01</N>
+    <N>176     0.0000000000000000E+00     1.0352588891983032E+00     3.1000000000000000E+01</N>
+    <N>177     0.0000000000000000E+00     1.0352588891983032E+00     3.0000000000000000E+01</N>
+    <N>178     0.0000000000000000E+00     1.0352588891983032E+00     2.9000000000000000E+01</N>
+    <N>179     0.0000000000000000E+00     1.0352588891983032E+00     2.8000000000000000E+01</N>
+    <N>180     0.0000000000000000E+00     1.0352588891983032E+00     2.7000000000000000E+01</N>
+    <N>181     0.0000000000000000E+00     1.0352588891983032E+00     2.6000000000000000E+01</N>
+    <N>182     0.0000000000000000E+00     1.0352588891983032E+00     2.5000000000000000E+01</N>
+    <N>183     0.0000000000000000E+00     1.0352588891983032E+00     2.4000000000000000E+01</N>
+    <N>184     0.0000000000000000E+00     1.0352588891983032E+00     2.3000000000000000E+01</N>
+    <N>185     0.0000000000000000E+00     1.0352588891983032E+00     2.2000000000000000E+01</N>
+    <N>186     0.0000000000000000E+00     1.0352588891983032E+00     2.1000000000000000E+01</N>
+    <N>187     0.0000000000000000E+00     1.0352588891983032E+00     2.0000000000000000E+01</N>
+    <N>188     0.0000000000000000E+00     1.0352588891983032E+00     1.9000000000000000E+01</N>
+    <N>189     0.0000000000000000E+00     1.0352588891983032E+00     1.8000000000000000E+01</N>
+    <N>190     0.0000000000000000E+00     1.0352588891983032E+00     1.7000000000000000E+01</N>
+    <N>191     0.0000000000000000E+00     1.0352588891983032E+00     1.6000000000000000E+01</N>
+    <N>192     0.0000000000000000E+00     1.0352588891983032E+00     1.5000000000000000E+01</N>
+    <N>193     0.0000000000000000E+00     1.0352588891983032E+00     1.4000000000000000E+01</N>
+    <N>194     0.0000000000000000E+00     1.0352588891983032E+00     1.3000000000000000E+01</N>
+    <N>195     0.0000000000000000E+00     1.0352588891983032E+00     1.2000000000000000E+01</N>
+    <N>196     0.0000000000000000E+00     1.0352588891983032E+00     1.1000000000000000E+01</N>
+    <N>197     0.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+01</N>
+    <N>198     0.0000000000000000E+00     1.0352588891983032E+00     9.0000000000000000E+00</N>
+    <N>199     0.0000000000000000E+00     1.0352588891983032E+00     8.0000000000000000E+00</N>
+    <N>200     0.0000000000000000E+00     1.0352588891983032E+00     7.0000000000000000E+00</N>
+    <N>201     0.0000000000000000E+00     1.0352588891983032E+00     6.0000000000000000E+00</N>
+    <N>202     0.0000000000000000E+00     1.0352588891983032E+00     5.0000000000000000E+00</N>
+    <N>203     0.0000000000000000E+00     1.0352588891983032E+00     4.0000000000000000E+00</N>
+    <N>204     0.0000000000000000E+00     1.0352588891983032E+00     3.0000000000000000E+00</N>
+    <N>205     0.0000000000000000E+00     1.0352588891983032E+00     2.0000000000000000E+00</N>
+    <N>206     0.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+00</N>
+    <N>207     1.0000000000000000E+00     3.5258833318948746E-02     9.9000000000000000E+01</N>
+    <N>208     1.0000000000000000E+00     3.5258833318948746E-02     9.8000000000000000E+01</N>
+    <N>209     1.0000000000000000E+00     3.5258833318948746E-02     9.7000000000000000E+01</N>
+    <N>210     1.0000000000000000E+00     3.5258833318948746E-02     9.6000000000000000E+01</N>
+    <N>211     1.0000000000000000E+00     3.5258833318948746E-02     9.5000000000000000E+01</N>
+    <N>212     1.0000000000000000E+00     3.5258833318948746E-02     9.4000000000000000E+01</N>
+    <N>213     1.0000000000000000E+00     3.5258833318948746E-02     9.3000000000000000E+01</N>
+    <N>214     1.0000000000000000E+00     3.5258833318948746E-02     9.2000000000000000E+01</N>
+    <N>215     1.0000000000000000E+00     3.5258833318948746E-02     9.1000000000000000E+01</N>
+    <N>216     1.0000000000000000E+00     3.5258833318948746E-02     9.0000000000000000E+01</N>
+    <N>217     1.0000000000000000E+00     3.5258833318948746E-02     8.9000000000000000E+01</N>
+    <N>218     1.0000000000000000E+00     3.5258833318948746E-02     8.8000000000000000E+01</N>
+    <N>219     1.0000000000000000E+00     3.5258833318948746E-02     8.7000000000000000E+01</N>
+    <N>220     1.0000000000000000E+00     3.5258833318948746E-02     8.6000000000000000E+01</N>
+    <N>221     1.0000000000000000E+00     3.5258833318948746E-02     8.5000000000000000E+01</N>
+    <N>222     1.0000000000000000E+00     3.5258833318948746E-02     8.4000000000000000E+01</N>
+    <N>223     1.0000000000000000E+00     3.5258833318948746E-02     8.3000000000000000E+01</N>
+    <N>224     1.0000000000000000E+00     3.5258833318948746E-02     8.2000000000000000E+01</N>
+    <N>225     1.0000000000000000E+00     3.5258833318948746E-02     8.1000000000000000E+01</N>
+    <N>226     1.0000000000000000E+00     3.5258833318948746E-02     8.0000000000000000E+01</N>
+    <N>227     1.0000000000000000E+00     3.5258833318948746E-02     7.9000000000000000E+01</N>
+    <N>228     1.0000000000000000E+00     3.5258833318948746E-02     7.8000000000000000E+01</N>
+    <N>229     1.0000000000000000E+00     3.5258833318948746E-02     7.7000000000000000E+01</N>
+    <N>230     1.0000000000000000E+00     3.5258833318948746E-02     7.6000000000000000E+01</N>
+    <N>231     1.0000000000000000E+00     3.5258833318948746E-02     7.5000000000000000E+01</N>
+    <N>232     1.0000000000000000E+00     3.5258833318948746E-02     7.4000000000000000E+01</N>
+    <N>233     1.0000000000000000E+00     3.5258833318948746E-02     7.3000000000000000E+01</N>
+    <N>234     1.0000000000000000E+00     3.5258833318948746E-02     7.2000000000000000E+01</N>
+    <N>235     1.0000000000000000E+00     3.5258833318948746E-02     7.1000000000000000E+01</N>
+    <N>236     1.0000000000000000E+00     3.5258833318948746E-02     7.0000000000000000E+01</N>
+    <N>237     1.0000000000000000E+00     3.5258833318948746E-02     6.9000000000000000E+01</N>
+    <N>238     1.0000000000000000E+00     3.5258833318948746E-02     6.8000000000000000E+01</N>
+    <N>239     1.0000000000000000E+00     3.5258833318948746E-02     6.7000000000000000E+01</N>
+    <N>240     1.0000000000000000E+00     3.5258833318948746E-02     6.6000000000000000E+01</N>
+    <N>241     1.0000000000000000E+00     3.5258833318948746E-02     6.5000000000000000E+01</N>
+    <N>242     1.0000000000000000E+00     3.5258833318948746E-02     6.4000000000000000E+01</N>
+    <N>243     1.0000000000000000E+00     3.5258833318948746E-02     6.3000000000000000E+01</N>
+    <N>244     1.0000000000000000E+00     3.5258833318948746E-02     6.2000000000000000E+01</N>
+    <N>245     1.0000000000000000E+00     3.5258833318948746E-02     6.1000000000000000E+01</N>
+    <N>246     1.0000000000000000E+00     3.5258833318948746E-02     6.0000000000000000E+01</N>
+    <N>247     1.0000000000000000E+00     3.5258833318948746E-02     5.9000000000000000E+01</N>
+    <N>248     1.0000000000000000E+00     3.5258833318948746E-02     5.8000000000000000E+01</N>
+    <N>249     1.0000000000000000E+00     3.5258833318948746E-02     5.7000000000000000E+01</N>
+    <N>250     1.0000000000000000E+00     3.5258833318948746E-02     5.6000000000000000E+01</N>
+    <N>251     1.0000000000000000E+00     3.5258833318948746E-02     5.5000000000000000E+01</N>
+    <N>252     1.0000000000000000E+00     3.5258833318948746E-02     5.4000000000000000E+01</N>
+    <N>253     1.0000000000000000E+00     3.5258833318948746E-02     5.3000000000000000E+01</N>
+    <N>254     1.0000000000000000E+00     3.5258833318948746E-02     5.2000000000000000E+01</N>
+    <N>255     1.0000000000000000E+00     3.5258833318948746E-02     5.1000000000000000E+01</N>
+    <N>256     1.0000000000000000E+00     3.5258833318948746E-02     5.0000000000000000E+01</N>
+    <N>257     1.0000000000000000E+00     3.5258833318948746E-02     4.9000000000000000E+01</N>
+    <N>258     1.0000000000000000E+00     3.5258833318948746E-02     4.8000000000000000E+01</N>
+    <N>259     1.0000000000000000E+00     3.5258833318948746E-02     4.7000000000000000E+01</N>
+    <N>260     1.0000000000000000E+00     3.5258833318948746E-02     4.6000000000000000E+01</N>
+    <N>261     1.0000000000000000E+00     3.5258833318948746E-02     4.4999999999999993E+01</N>
+    <N>262     1.0000000000000000E+00     3.5258833318948746E-02     4.3999999999999993E+01</N>
+    <N>263     1.0000000000000000E+00     3.5258833318948746E-02     4.3000000000000007E+01</N>
+    <N>264     1.0000000000000000E+00     3.5258833318948746E-02     4.2000000000000007E+01</N>
+    <N>265     1.0000000000000000E+00     3.5258833318948746E-02     4.1000000000000000E+01</N>
+    <N>266     1.0000000000000000E+00     3.5258833318948746E-02     4.0000000000000000E+01</N>
+    <N>267     1.0000000000000000E+00     3.5258833318948746E-02     3.9000000000000000E+01</N>
+    <N>268     1.0000000000000000E+00     3.5258833318948746E-02     3.8000000000000000E+01</N>
+    <N>269     1.0000000000000000E+00     3.5258833318948746E-02     3.7000000000000000E+01</N>
+    <N>270     1.0000000000000000E+00     3.5258833318948746E-02     3.6000000000000000E+01</N>
+    <N>271     1.0000000000000000E+00     3.5258833318948746E-02     3.5000000000000000E+01</N>
+    <N>272     1.0000000000000000E+00     3.5258833318948746E-02     3.4000000000000000E+01</N>
+    <N>273     1.0000000000000000E+00     3.5258833318948746E-02     3.3000000000000000E+01</N>
+    <N>274     1.0000000000000000E+00     3.5258833318948746E-02     3.2000000000000000E+01</N>
+    <N>275     1.0000000000000000E+00     3.5258833318948746E-02     3.1000000000000000E+01</N>
+    <N>276     1.0000000000000000E+00     3.5258833318948746E-02     3.0000000000000000E+01</N>
+    <N>277     1.0000000000000000E+00     3.5258833318948746E-02     2.9000000000000000E+01</N>
+    <N>278     1.0000000000000000E+00     3.5258833318948746E-02     2.8000000000000000E+01</N>
+    <N>279     1.0000000000000000E+00     3.5258833318948746E-02     2.7000000000000000E+01</N>
+    <N>280     1.0000000000000000E+00     3.5258833318948746E-02     2.6000000000000000E+01</N>
+    <N>281     1.0000000000000000E+00     3.5258833318948746E-02     2.5000000000000000E+01</N>
+    <N>282     1.0000000000000000E+00     3.5258833318948746E-02     2.4000000000000000E+01</N>
+    <N>283     1.0000000000000000E+00     3.5258833318948746E-02     2.3000000000000000E+01</N>
+    <N>284     1.0000000000000000E+00     3.5258833318948746E-02     2.2000000000000000E+01</N>
+    <N>285     1.0000000000000000E+00     3.5258833318948746E-02     2.1000000000000000E+01</N>
+    <N>286     1.0000000000000000E+00     3.5258833318948746E-02     2.0000000000000000E+01</N>
+    <N>287     1.0000000000000000E+00     3.5258833318948746E-02     1.9000000000000000E+01</N>
+    <N>288     1.0000000000000000E+00     3.5258833318948746E-02     1.8000000000000000E+01</N>
+    <N>289     1.0000000000000000E+00     3.5258833318948746E-02     1.7000000000000000E+01</N>
+    <N>290     1.0000000000000000E+00     3.5258833318948746E-02     1.6000000000000000E+01</N>
+    <N>291     1.0000000000000000E+00     3.5258833318948746E-02     1.5000000000000000E+01</N>
+    <N>292     1.0000000000000000E+00     3.5258833318948746E-02     1.4000000000000000E+01</N>
+    <N>293     1.0000000000000000E+00     3.5258833318948746E-02     1.3000000000000000E+01</N>
+    <N>294     1.0000000000000000E+00     3.5258833318948746E-02     1.2000000000000000E+01</N>
+    <N>295     1.0000000000000000E+00     3.5258833318948746E-02     1.1000000000000000E+01</N>
+    <N>296     1.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+01</N>
+    <N>297     1.0000000000000000E+00     3.5258833318948746E-02     9.0000000000000000E+00</N>
+    <N>298     1.0000000000000000E+00     3.5258833318948746E-02     8.0000000000000000E+00</N>
+    <N>299     1.0000000000000000E+00     3.5258833318948746E-02     7.0000000000000000E+00</N>
+    <N>300     1.0000000000000000E+00     3.5258833318948746E-02     6.0000000000000000E+00</N>
+    <N>301     1.0000000000000000E+00     3.5258833318948746E-02     5.0000000000000000E+00</N>
+    <N>302     1.0000000000000000E+00     3.5258833318948746E-02     4.0000000000000000E+00</N>
+    <N>303     1.0000000000000000E+00     3.5258833318948746E-02     3.0000000000000000E+00</N>
+    <N>304     1.0000000000000000E+00     3.5258833318948746E-02     2.0000000000000000E+00</N>
+    <N>305     1.0000000000000000E+00     3.5258833318948746E-02     1.0000000000000000E+00</N>
+    <N>306     1.0000000000000000E+00     1.0352588891983032E+00     9.9000000000000000E+01</N>
+    <N>307     1.0000000000000000E+00     1.0352588891983032E+00     9.8000000000000000E+01</N>
+    <N>308     1.0000000000000000E+00     1.0352588891983032E+00     9.7000000000000000E+01</N>
+    <N>309     1.0000000000000000E+00     1.0352588891983032E+00     9.6000000000000000E+01</N>
+    <N>310     1.0000000000000000E+00     1.0352588891983032E+00     9.5000000000000000E+01</N>
+    <N>311     1.0000000000000000E+00     1.0352588891983032E+00     9.4000000000000000E+01</N>
+    <N>312     1.0000000000000000E+00     1.0352588891983032E+00     9.3000000000000000E+01</N>
+    <N>313     1.0000000000000000E+00     1.0352588891983032E+00     9.2000000000000000E+01</N>
+    <N>314     1.0000000000000000E+00     1.0352588891983032E+00     9.1000000000000000E+01</N>
+    <N>315     1.0000000000000000E+00     1.0352588891983032E+00     9.0000000000000000E+01</N>
+    <N>316     1.0000000000000000E+00     1.0352588891983032E+00     8.9000000000000000E+01</N>
+    <N>317     1.0000000000000000E+00     1.0352588891983032E+00     8.8000000000000000E+01</N>
+    <N>318     1.0000000000000000E+00     1.0352588891983032E+00     8.7000000000000000E+01</N>
+    <N>319     1.0000000000000000E+00     1.0352588891983032E+00     8.6000000000000000E+01</N>
+    <N>320     1.0000000000000000E+00     1.0352588891983032E+00     8.5000000000000000E+01</N>
+    <N>321     1.0000000000000000E+00     1.0352588891983032E+00     8.4000000000000000E+01</N>
+    <N>322     1.0000000000000000E+00     1.0352588891983032E+00     8.3000000000000000E+01</N>
+    <N>323     1.0000000000000000E+00     1.0352588891983032E+00     8.2000000000000000E+01</N>
+    <N>324     1.0000000000000000E+00     1.0352588891983032E+00     8.1000000000000000E+01</N>
+    <N>325     1.0000000000000000E+00     1.0352588891983032E+00     8.0000000000000000E+01</N>
+    <N>326     1.0000000000000000E+00     1.0352588891983032E+00     7.9000000000000000E+01</N>
+    <N>327     1.0000000000000000E+00     1.0352588891983032E+00     7.8000000000000000E+01</N>
+    <N>328     1.0000000000000000E+00     1.0352588891983032E+00     7.7000000000000000E+01</N>
+    <N>329     1.0000000000000000E+00     1.0352588891983032E+00     7.6000000000000000E+01</N>
+    <N>330     1.0000000000000000E+00     1.0352588891983032E+00     7.5000000000000000E+01</N>
+    <N>331     1.0000000000000000E+00     1.0352588891983032E+00     7.4000000000000000E+01</N>
+    <N>332     1.0000000000000000E+00     1.0352588891983032E+00     7.3000000000000000E+01</N>
+    <N>333     1.0000000000000000E+00     1.0352588891983032E+00     7.2000000000000000E+01</N>
+    <N>334     1.0000000000000000E+00     1.0352588891983032E+00     7.1000000000000000E+01</N>
+    <N>335     1.0000000000000000E+00     1.0352588891983032E+00     7.0000000000000000E+01</N>
+    <N>336     1.0000000000000000E+00     1.0352588891983032E+00     6.9000000000000000E+01</N>
+    <N>337     1.0000000000000000E+00     1.0352588891983032E+00     6.8000000000000000E+01</N>
+    <N>338     1.0000000000000000E+00     1.0352588891983032E+00     6.7000000000000000E+01</N>
+    <N>339     1.0000000000000000E+00     1.0352588891983032E+00     6.6000000000000000E+01</N>
+    <N>340     1.0000000000000000E+00     1.0352588891983032E+00     6.5000000000000000E+01</N>
+    <N>341     1.0000000000000000E+00     1.0352588891983032E+00     6.4000000000000000E+01</N>
+    <N>342     1.0000000000000000E+00     1.0352588891983032E+00     6.3000000000000000E+01</N>
+    <N>343     1.0000000000000000E+00     1.0352588891983032E+00     6.2000000000000000E+01</N>
+    <N>344     1.0000000000000000E+00     1.0352588891983032E+00     6.1000000000000000E+01</N>
+    <N>345     1.0000000000000000E+00     1.0352588891983032E+00     6.0000000000000000E+01</N>
+    <N>346     1.0000000000000000E+00     1.0352588891983032E+00     5.9000000000000000E+01</N>
+    <N>347     1.0000000000000000E+00     1.0352588891983032E+00     5.8000000000000000E+01</N>
+    <N>348     1.0000000000000000E+00     1.0352588891983032E+00     5.7000000000000000E+01</N>
+    <N>349     1.0000000000000000E+00     1.0352588891983032E+00     5.6000000000000000E+01</N>
+    <N>350     1.0000000000000000E+00     1.0352588891983032E+00     5.5000000000000000E+01</N>
+    <N>351     1.0000000000000000E+00     1.0352588891983032E+00     5.4000000000000000E+01</N>
+    <N>352     1.0000000000000000E+00     1.0352588891983032E+00     5.3000000000000000E+01</N>
+    <N>353     1.0000000000000000E+00     1.0352588891983032E+00     5.2000000000000000E+01</N>
+    <N>354     1.0000000000000000E+00     1.0352588891983032E+00     5.1000000000000000E+01</N>
+    <N>355     1.0000000000000000E+00     1.0352588891983032E+00     5.0000000000000000E+01</N>
+    <N>356     1.0000000000000000E+00     1.0352588891983032E+00     4.9000000000000000E+01</N>
+    <N>357     1.0000000000000000E+00     1.0352588891983032E+00     4.8000000000000000E+01</N>
+    <N>358     1.0000000000000000E+00     1.0352588891983032E+00     4.7000000000000000E+01</N>
+    <N>359     1.0000000000000000E+00     1.0352588891983032E+00     4.6000000000000000E+01</N>
+    <N>360     1.0000000000000000E+00     1.0352588891983032E+00     4.4999999999999993E+01</N>
+    <N>361     1.0000000000000000E+00     1.0352588891983032E+00     4.3999999999999993E+01</N>
+    <N>362     1.0000000000000000E+00     1.0352588891983032E+00     4.3000000000000007E+01</N>
+    <N>363     1.0000000000000000E+00     1.0352588891983032E+00     4.2000000000000007E+01</N>
+    <N>364     1.0000000000000000E+00     1.0352588891983032E+00     4.1000000000000000E+01</N>
+    <N>365     1.0000000000000000E+00     1.0352588891983032E+00     4.0000000000000000E+01</N>
+    <N>366     1.0000000000000000E+00     1.0352588891983032E+00     3.9000000000000000E+01</N>
+    <N>367     1.0000000000000000E+00     1.0352588891983032E+00     3.8000000000000000E+01</N>
+    <N>368     1.0000000000000000E+00     1.0352588891983032E+00     3.7000000000000000E+01</N>
+    <N>369     1.0000000000000000E+00     1.0352588891983032E+00     3.6000000000000000E+01</N>
+    <N>370     1.0000000000000000E+00     1.0352588891983032E+00     3.5000000000000000E+01</N>
+    <N>371     1.0000000000000000E+00     1.0352588891983032E+00     3.4000000000000000E+01</N>
+    <N>372     1.0000000000000000E+00     1.0352588891983032E+00     3.3000000000000000E+01</N>
+    <N>373     1.0000000000000000E+00     1.0352588891983032E+00     3.2000000000000000E+01</N>
+    <N>374     1.0000000000000000E+00     1.0352588891983032E+00     3.1000000000000000E+01</N>
+    <N>375     1.0000000000000000E+00     1.0352588891983032E+00     3.0000000000000000E+01</N>
+    <N>376     1.0000000000000000E+00     1.0352588891983032E+00     2.9000000000000000E+01</N>
+    <N>377     1.0000000000000000E+00     1.0352588891983032E+00     2.8000000000000000E+01</N>
+    <N>378     1.0000000000000000E+00     1.0352588891983032E+00     2.7000000000000000E+01</N>
+    <N>379     1.0000000000000000E+00     1.0352588891983032E+00     2.6000000000000000E+01</N>
+    <N>380     1.0000000000000000E+00     1.0352588891983032E+00     2.5000000000000000E+01</N>
+    <N>381     1.0000000000000000E+00     1.0352588891983032E+00     2.4000000000000000E+01</N>
+    <N>382     1.0000000000000000E+00     1.0352588891983032E+00     2.3000000000000000E+01</N>
+    <N>383     1.0000000000000000E+00     1.0352588891983032E+00     2.2000000000000000E+01</N>
+    <N>384     1.0000000000000000E+00     1.0352588891983032E+00     2.1000000000000000E+01</N>
+    <N>385     1.0000000000000000E+00     1.0352588891983032E+00     2.0000000000000000E+01</N>
+    <N>386     1.0000000000000000E+00     1.0352588891983032E+00     1.9000000000000000E+01</N>
+    <N>387     1.0000000000000000E+00     1.0352588891983032E+00     1.8000000000000000E+01</N>
+    <N>388     1.0000000000000000E+00     1.0352588891983032E+00     1.7000000000000000E+01</N>
+    <N>389     1.0000000000000000E+00     1.0352588891983032E+00     1.6000000000000000E+01</N>
+    <N>390     1.0000000000000000E+00     1.0352588891983032E+00     1.5000000000000000E+01</N>
+    <N>391     1.0000000000000000E+00     1.0352588891983032E+00     1.4000000000000000E+01</N>
+    <N>392     1.0000000000000000E+00     1.0352588891983032E+00     1.3000000000000000E+01</N>
+    <N>393     1.0000000000000000E+00     1.0352588891983032E+00     1.2000000000000000E+01</N>
+    <N>394     1.0000000000000000E+00     1.0352588891983032E+00     1.1000000000000000E+01</N>
+    <N>395     1.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+01</N>
+    <N>396     1.0000000000000000E+00     1.0352588891983032E+00     9.0000000000000000E+00</N>
+    <N>397     1.0000000000000000E+00     1.0352588891983032E+00     8.0000000000000000E+00</N>
+    <N>398     1.0000000000000000E+00     1.0352588891983032E+00     7.0000000000000000E+00</N>
+    <N>399     1.0000000000000000E+00     1.0352588891983032E+00     6.0000000000000000E+00</N>
+    <N>400     1.0000000000000000E+00     1.0352588891983032E+00     5.0000000000000000E+00</N>
+    <N>401     1.0000000000000000E+00     1.0352588891983032E+00     4.0000000000000000E+00</N>
+    <N>402     1.0000000000000000E+00     1.0352588891983032E+00     3.0000000000000000E+00</N>
+    <N>403     1.0000000000000000E+00     1.0352588891983032E+00     2.0000000000000000E+00</N>
+    <N>404     1.0000000000000000E+00     1.0352588891983032E+00     1.0000000000000000E+00</N>
+  </NodeList>
+  <Loads>
+    <ThermalLoadList>
+    </ThermalLoadList>
+  </Loads>
+  <Constraints>
+    <TemperatureList>
+      <Temperature uid="1" uname="Temperature(1)" type="Temperature Constraint">
+        <Description></Description>
+        <Property name="Selection Method">
+          <Value>0</Value>
+        </Property>
+        <Property name="Option">
+          <Value>0</Value>
+        </Property>
+        <Property name="Temperature">
+          <Value>  1.0000000E+02</Value>
+        </Property>
+        <Property name="Temperature File">
+          <Value></Value>
+        </Property>
+        <Property name="Results Directory">
+          <Value></Value>
+        </Property>
+        <Property name="Specify Layer to Apply to">
+          <Value>0</Value>
+        </Property>
+        <Property name="Apply to">
+          <Value>0</Value>
+        </Property>
+        <Property name="Layer Number">
+          <Value>1</Value>
+        </Property>
+        <Selection step="1">
+          <fa>72   4</fa>
+        </Selection>
+      </Temperature>
+      <Temperature uid="2" uname="Temperature(2)" type="Temperature Constraint">
+        <Description></Description>
+        <Property name="Selection Method">
+          <Value>0</Value>
+        </Property>
+        <Property name="Option">
+          <Value>0</Value>
+        </Property>
+        <Property name="Temperature">
+          <Value>  2.0000000E+01</Value>
+        </Property>
+        <Property name="Temperature File">
+          <Value></Value>
+        </Property>
+        <Property name="Results Directory">
+          <Value></Value>
+        </Property>
+        <Property name="Specify Layer to Apply to">
+          <Value>0</Value>
+        </Property>
+        <Property name="Apply to">
+          <Value>0</Value>
+        </Property>
+        <Property name="Layer Number">
+          <Value>1</Value>
+        </Property>
+        <Selection step="1">
+          <fa>22   4</fa>
+        </Selection>
+      </Temperature>
+    </TemperatureList>
+    <InitialConditionsList>
+    </InitialConditionsList>
+    <SERadiationList>
+    </SERadiationList>
+    <ConvectionList>
+    </ConvectionList>
+    <MappingList>
+    </MappingList>
+  </Constraints>
+  <SimulationObjects>
+    <ThermalCouplingList>
+      <ThermalCoupling uid="1" uname="Thermal Coupling(1)" type="Thermal Coupling">
+        <Description></Description>
+        <Property name="Override Secondary Region">
+          <Value>0</Value>
+        </Property>
+        <Property name="Secondary Non-Geometric Element">
+          <Value>-1</Value>
+        </Property>
+        <Property name="Specify Region Side to Apply to">
+          <Value>0</Value>
+        </Property>
+        <Property name="Primary Region Side">
+          <Value>0</Value>
+        </Property>
+        <Property name="Secondary Region Side">
+          <Value>0</Value>
+        </Property>
+        <Property name="Type">
+          <Value>2</Value>
+        </Property>
+        <Property name="Total Conductance">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Total Resistance">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Heat Transfer Coefficient">
+          <Value>  5.6000000E+01</Value>
+        </Property>
+        <Property name="Conductance per Length">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Conductive Proportional to Distance">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Type Override">
+          <Value>0</Value>
+        </Property>
+        <Property name="Total Conductance Override">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Total Resistance Override">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Heat Transfer Coefficient Override">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Conductance per Length Override">
+          <Value>  0.0000000E+00</Value>
+        </Property>
+        <Property name="Method">
+          <Value>0</Value>
+        </Property>
+        <Property name="Coupling Resolution">
+          <Value>2</Value>
+        </Property>
+        <Property name="Override Coupling Resolution">
+          <Value>0</Value>
+        </Property>
+        <Property name="Only Connect Overlapping Elements">
+          <Value>1</Value>
+        </Property>
+        <Property name="Overlap Projection Direction">
+          <Value>1</Value>
+        </Property>
+        <Property name="Projective Intersection Overlap Projection Direction">
+          <Value>1</Value>
+        </Property>
+        <Property name="Projective Intersection Overlap Projection Vector">
+          <Value>  0.0000000E+00     0.0000000E+00     0.0000000E+00</Value>
+        </Property>
+        <Property name="Temperature Dependence Uses">
+          <Value>0</Value>
+        </Property>
+        <Property name="Per Element">
+          <Value>0</Value>
+        </Property>
+        <Property name="Per Element Override">
+          <Value>0</Value>
+        </Property>
+        <Selection step="1">
+          <fa>1   1</fa>
+          <fa>1   3</fa>
+          <fa>2   1</fa>
+          <fa>2   5</fa>
+          <fa>3   1</fa>
+          <fa>3   6</fa>
+          <fa>4   1</fa>
+          <fa>4   5</fa>
+          <fa>5   1</fa>
+          <fa>5   3</fa>
+          <fa>6   1</fa>
+          <fa>6   4</fa>
+          <fa>7   1</fa>
+          <fa>7   5</fa>
+          <fa>8   1</fa>
+          <fa>8   3</fa>
+          <fa>9   1</fa>
+          <fa>9   4</fa>
+          <fa>10   1</fa>
+          <fa>10   3</fa>
+          <fa>11   1</fa>
+          <fa>11   5</fa>
+          <fa>12   1</fa>
+          <fa>12   6</fa>
+          <fa>13   1</fa>
+          <fa>13   3</fa>
+          <fa>14   1</fa>
+          <fa>14   5</fa>
+          <fa>15   1</fa>
+          <fa>15   6</fa>
+          <fa>16   1</fa>
+          <fa>16   5</fa>
+          <fa>17   1</fa>
+          <fa>17   3</fa>
+          <fa>18   1</fa>
+          <fa>18   4</fa>
+          <fa>19   1</fa>
+          <fa>19   3</fa>
+          <fa>20   1</fa>
+          <fa>20   5</fa>
+          <fa>21   1</fa>
+          <fa>21   6</fa>
+          <fa>22   1</fa>
+          <fa>22   3</fa>
+          <fa>23   1</fa>
+          <fa>23   4</fa>
+          <fa>24   1</fa>
+          <fa>24   5</fa>
+          <fa>25   1</fa>
+          <fa>25   6</fa>
+          <fa>26   1</fa>
+          <fa>26   5</fa>
+          <fa>27   1</fa>
+          <fa>27   3</fa>
+          <fa>28   1</fa>
+          <fa>28   4</fa>
+          <fa>29   1</fa>
+          <fa>29   3</fa>
+          <fa>30   1</fa>
+          <fa>30   5</fa>
+          <fa>31   1</fa>
+          <fa>31   6</fa>
+          <fa>32   1</fa>
+          <fa>32   3</fa>
+          <fa>33   1</fa>
+          <fa>33   5</fa>
+          <fa>34   1</fa>
+          <fa>34   6</fa>
+          <fa>35   1</fa>
+          <fa>35   5</fa>
+          <fa>36   1</fa>
+          <fa>36   3</fa>
+          <fa>37   1</fa>
+          <fa>37   4</fa>
+          <fa>38   1</fa>
+          <fa>38   5</fa>
+          <fa>39   1</fa>
+          <fa>39   3</fa>
+          <fa>40   1</fa>
+          <fa>40   4</fa>
+          <fa>41   1</fa>
+          <fa>41   3</fa>
+          <fa>42   1</fa>
+          <fa>42   5</fa>
+          <fa>43   1</fa>
+          <fa>43   6</fa>
+          <fa>44   1</fa>
+          <fa>44   5</fa>
+          <fa>45   1</fa>
+          <fa>45   3</fa>
+          <fa>46   1</fa>
+          <fa>46   4</fa>
+          <fa>47   1</fa>
+          <fa>47   5</fa>
+          <fa>48   1</fa>
+          <fa>48   6</fa>
+          <fa>49   1</fa>
+          <fa>49   3</fa>
+          <fa>50   1</fa>
+          <fa>50   4</fa>
+          <fa>51   1</fa>
+          <fa>51   5</fa>
+          <fa>52   1</fa>
+          <fa>52   3</fa>
+          <fa>53   1</fa>
+          <fa>53   4</fa>
+          <fa>54   1</fa>
+          <fa>54   3</fa>
+          <fa>55   1</fa>
+          <fa>55   5</fa>
+          <fa>56   1</fa>
+          <fa>56   6</fa>
+          <fa>57   1</fa>
+          <fa>57   3</fa>
+          <fa>58   1</fa>
+          <fa>58   5</fa>
+          <fa>59   1</fa>
+          <fa>59   6</fa>
+          <fa>60   1</fa>
+          <fa>60   5</fa>
+          <fa>61   1</fa>
+          <fa>61   3</fa>
+          <fa>62   1</fa>
+          <fa>62   4</fa>
+          <fa>63   1</fa>
+          <fa>63   5</fa>
+          <fa>64   1</fa>
+          <fa>64   3</fa>
+          <fa>65   1</fa>
+          <fa>65   4</fa>
+          <fa>66   1</fa>
+          <fa>66   3</fa>
+          <fa>67   1</fa>
+          <fa>67   5</fa>
+          <fa>68   1</fa>
+          <fa>68   6</fa>
+          <fa>69   1</fa>
+          <fa>69   5</fa>
+          <fa>70   1</fa>
+          <fa>70   3</fa>
+          <fa>71   1</fa>
+          <fa>71   4</fa>
+          <fa>72   1</fa>
+          <fa>72   5</fa>
+          <fa>73   1</fa>
+          <fa>73   6</fa>
+          <fa>74   1</fa>
+          <fa>74   3</fa>
+          <fa>75   1</fa>
+          <fa>75   4</fa>
+          <fa>76   1</fa>
+          <fa>76   3</fa>
+          <fa>77   1</fa>
+          <fa>77   5</fa>
+          <fa>78   1</fa>
+          <fa>78   6</fa>
+          <fa>79   1</fa>
+          <fa>79   5</fa>
+          <fa>80   1</fa>
+          <fa>80   3</fa>
+          <fa>81   1</fa>
+          <fa>81   4</fa>
+          <fa>82   1</fa>
+          <fa>82   5</fa>
+          <fa>83   1</fa>
+          <fa>83   3</fa>
+          <fa>84   1</fa>
+          <fa>84   4</fa>
+          <fa>85   1</fa>
+          <fa>85   3</fa>
+          <fa>86   1</fa>
+          <fa>86   5</fa>
+          <fa>87   1</fa>
+          <fa>87   6</fa>
+          <fa>88   1</fa>
+          <fa>88   3</fa>
+          <fa>89   1</fa>
+          <fa>89   5</fa>
+          <fa>90   1</fa>
+          <fa>90   6</fa>
+          <fa>91   1</fa>
+          <fa>91   5</fa>
+          <fa>92   1</fa>
+          <fa>92   3</fa>
+          <fa>93   1</fa>
+          <fa>93   4</fa>
+          <fa>94   1</fa>
+          <fa>94   3</fa>
+          <fa>95   1</fa>
+          <fa>95   5</fa>
+          <fa>96   1</fa>
+          <fa>96   6</fa>
+          <fa>97   1</fa>
+          <fa>97   3</fa>
+          <fa>98   1</fa>
+          <fa>98   4</fa>
+          <fa>99   1</fa>
+          <fa>99   5</fa>
+          <fa>100   1</fa>
+          <fa>100   6</fa>
+        </Selection>
+        <Selection step="2">
+          <fa>1   2</fa>
+          <fa>1   5</fa>
+          <fa>2   2</fa>
+          <fa>2   3</fa>
+          <fa>3   2</fa>
+          <fa>3   4</fa>
+          <fa>4   2</fa>
+          <fa>4   3</fa>
+          <fa>5   2</fa>
+          <fa>5   5</fa>
+          <fa>6   2</fa>
+          <fa>6   6</fa>
+          <fa>7   2</fa>
+          <fa>7   3</fa>
+          <fa>8   2</fa>
+          <fa>8   5</fa>
+          <fa>9   2</fa>
+          <fa>9   6</fa>
+          <fa>10   2</fa>
+          <fa>10   5</fa>
+          <fa>11   2</fa>
+          <fa>11   3</fa>
+          <fa>12   2</fa>
+          <fa>12   4</fa>
+          <fa>13   2</fa>
+          <fa>13   5</fa>
+          <fa>14   2</fa>
+          <fa>14   3</fa>
+          <fa>15   2</fa>
+          <fa>15   4</fa>
+          <fa>16   2</fa>
+          <fa>16   3</fa>
+          <fa>17   2</fa>
+          <fa>17   5</fa>
+          <fa>18   2</fa>
+          <fa>18   6</fa>
+          <fa>19   2</fa>
+          <fa>19   5</fa>
+          <fa>20   2</fa>
+          <fa>20   3</fa>
+          <fa>21   2</fa>
+          <fa>21   4</fa>
+          <fa>22   2</fa>
+          <fa>22   5</fa>
+          <fa>23   2</fa>
+          <fa>23   6</fa>
+          <fa>24   2</fa>
+          <fa>24   3</fa>
+          <fa>25   2</fa>
+          <fa>25   4</fa>
+          <fa>26   2</fa>
+          <fa>26   3</fa>
+          <fa>27   2</fa>
+          <fa>27   5</fa>
+          <fa>28   2</fa>
+          <fa>28   6</fa>
+          <fa>29   2</fa>
+          <fa>29   5</fa>
+          <fa>30   2</fa>
+          <fa>30   3</fa>
+          <fa>31   2</fa>
+          <fa>31   4</fa>
+          <fa>32   2</fa>
+          <fa>32   5</fa>
+          <fa>33   2</fa>
+          <fa>33   3</fa>
+          <fa>34   2</fa>
+          <fa>34   4</fa>
+          <fa>35   2</fa>
+          <fa>35   3</fa>
+          <fa>36   2</fa>
+          <fa>36   5</fa>
+          <fa>37   2</fa>
+          <fa>37   6</fa>
+          <fa>38   2</fa>
+          <fa>38   3</fa>
+          <fa>39   2</fa>
+          <fa>39   5</fa>
+          <fa>40   2</fa>
+          <fa>40   6</fa>
+          <fa>41   2</fa>
+          <fa>41   5</fa>
+          <fa>42   2</fa>
+          <fa>42   3</fa>
+          <fa>43   2</fa>
+          <fa>43   4</fa>
+          <fa>44   2</fa>
+          <fa>44   3</fa>
+          <fa>45   2</fa>
+          <fa>45   5</fa>
+          <fa>46   2</fa>
+          <fa>46   6</fa>
+          <fa>47   2</fa>
+          <fa>47   3</fa>
+          <fa>48   2</fa>
+          <fa>48   4</fa>
+          <fa>49   2</fa>
+          <fa>49   5</fa>
+          <fa>50   2</fa>
+          <fa>50   6</fa>
+          <fa>51   2</fa>
+          <fa>51   3</fa>
+          <fa>52   2</fa>
+          <fa>52   5</fa>
+          <fa>53   2</fa>
+          <fa>53   6</fa>
+          <fa>54   2</fa>
+          <fa>54   5</fa>
+          <fa>55   2</fa>
+          <fa>55   3</fa>
+          <fa>56   2</fa>
+          <fa>56   4</fa>
+          <fa>57   2</fa>
+          <fa>57   5</fa>
+          <fa>58   2</fa>
+          <fa>58   3</fa>
+          <fa>59   2</fa>
+          <fa>59   4</fa>
+          <fa>60   2</fa>
+          <fa>60   3</fa>
+          <fa>61   2</fa>
+          <fa>61   5</fa>
+          <fa>62   2</fa>
+          <fa>62   6</fa>
+          <fa>63   2</fa>
+          <fa>63   3</fa>
+          <fa>64   2</fa>
+          <fa>64   5</fa>
+          <fa>65   2</fa>
+          <fa>65   6</fa>
+          <fa>66   2</fa>
+          <fa>66   5</fa>
+          <fa>67   2</fa>
+          <fa>67   3</fa>
+          <fa>68   2</fa>
+          <fa>68   4</fa>
+          <fa>69   2</fa>
+          <fa>69   3</fa>
+          <fa>70   2</fa>
+          <fa>70   5</fa>
+          <fa>71   2</fa>
+          <fa>71   6</fa>
+          <fa>72   2</fa>
+          <fa>72   3</fa>
+          <fa>73   2</fa>
+          <fa>73   4</fa>
+          <fa>74   2</fa>
+          <fa>74   5</fa>
+          <fa>75   2</fa>
+          <fa>75   6</fa>
+          <fa>76   2</fa>
+          <fa>76   5</fa>
+          <fa>77   2</fa>
+          <fa>77   3</fa>
+          <fa>78   2</fa>
+          <fa>78   4</fa>
+          <fa>79   2</fa>
+          <fa>79   3</fa>
+          <fa>80   2</fa>
+          <fa>80   5</fa>
+          <fa>81   2</fa>
+          <fa>81   6</fa>
+          <fa>82   2</fa>
+          <fa>82   3</fa>
+          <fa>83   2</fa>
+          <fa>83   5</fa>
+          <fa>84   2</fa>
+          <fa>84   6</fa>
+          <fa>85   2</fa>
+          <fa>85   5</fa>
+          <fa>86   2</fa>
+          <fa>86   3</fa>
+          <fa>87   2</fa>
+          <fa>87   4</fa>
+          <fa>88   2</fa>
+          <fa>88   5</fa>
+          <fa>89   2</fa>
+          <fa>89   3</fa>
+          <fa>90   2</fa>
+          <fa>90   4</fa>
+          <fa>91   2</fa>
+          <fa>91   3</fa>
+          <fa>92   2</fa>
+          <fa>92   5</fa>
+          <fa>93   2</fa>
+          <fa>93   6</fa>
+          <fa>94   2</fa>
+          <fa>94   5</fa>
+          <fa>95   2</fa>
+          <fa>95   3</fa>
+          <fa>96   2</fa>
+          <fa>96   4</fa>
+          <fa>97   2</fa>
+          <fa>97   5</fa>
+          <fa>98   2</fa>
+          <fa>98   6</fa>
+          <fa>99   2</fa>
+          <fa>99   3</fa>
+          <fa>100   2</fa>
+          <fa>100   4</fa>
+        </Selection>
+      </ThermalCoupling>
+    </ThermalCouplingList>
+    <InterfaceResistanceList>
+    </InterfaceResistanceList>
+    <ThermalCouplingContactList>
+    </ThermalCouplingContactList>
+    <RadiationList>
+    </RadiationList>
+    <OverrideSetThermalList>
+    </OverrideSetThermalList>
+    <DeactivationSetList>
+    </DeactivationSetList>
+    <AdvancedControlsList>
+    </AdvancedControlsList>
+    <ReportList>
+    </ReportList>
+  </SimulationObjects>
+  <ThicknessFieldTableList>
+  </ThicknessFieldTableList>
+  <MOVSpatialFieldTableList>
+  </MOVSpatialFieldTableList>
+  <FieldTableList>
+  </FieldTableList>
+  <SpatialFieldTableList>
+  </SpatialFieldTableList>
+</SolutionFile>

@@ -1,0 +1,99 @@
+LAB_4_SIM-Solution_1                          Mon Apr 21  TMG2022.1.4  4/21/2025
+
+   Starting TMG Analysis...
+
+   ...done.
+
+Cpu time=      0.0     DATACH Module
+
+   Performing data checking...
+
+     Number of nodes                         404
+     Number of geometric elements            502
+     Number of 1-D/duct fluid elements         0
+
+   ...done.
+
+Cpu time=      0.2      ECHOS Module
+
+   Calculating geometrical parameters...
+
+   ...done.
+
+Cpu time=      0.3       COND Module
+
+   Calculating conductive conductances and capacitances...
+
+   ...done.
+
+Cpu time=      0.4      VUFAC Module
+
+   Calculating thermal couplings and geometric radiative parameters...
+
+   ...done.
+
+Cpu time=      0.5      GRAYB Module
+
+   Calculating radiative couplings and/or gray body matrices...
+
+   ...done.
+
+Cpu time=      0.5      POWER Module
+
+   Calculating radiative heat loads...
+     No radiative heat loads calculated.
+
+   ...done.
+
+Cpu time=      0.6      MEREL Module
+
+   Performing element merging and elimination...
+
+   ...done.
+
+Cpu time=      0.7   ANALYZER Module
+
+   Calculating temperatures...
+
+     Model Summary:
+
+     Number of elements                    =       601
+     Total number of conductances          =      1700
+     Number of linear conductances         =      1500
+     Number of convective conductances     =       200
+     Number of boundary elements           =        99
+
+     Note: During the analysis process a number of elements have been
+     created whose labels you may not recognize. To find out more about
+     these elements and the elements they are associated with, please
+     look on file REPF for the phrase 'TMG element'
+
+
+     No. of iterations =      2   TDmax = 8.527E-12  at element       269
+
+     Minimum temperature                 =    20.000 at element       102 INIT_BC
+     Maximum temperature                 =   100.000 at element       101 INIT_BC
+     Average temperature                 =    60.000
+
+     Summary for thermal elements:
+
+     Maximum heat balance deviation occurs           at element      1374        
+     Heat flow into sinks                = 4.480E+04
+     Heat flow from non-fluid sinks      = 4.480E+04
+     Heat load into elements             = 0.000E+00
+     Heat load into sinks                = 0.000E+00
+     Heat flow from fluid sinks          = 0.000E+00
+     Deviation from heat balance         =-1.229E-08
+
+
+
+ Heat Flow+Load Summary Into Different Sink Entities:
+        Sink Entity                       Temperature     Heat   Energy absorbed
+                                                       Flow+Load   since start 
+
+ Temperature(1)                            1.000E+02  -4.480E+04   0.000E+00
+ Temperature(2)                            2.000E+01   4.480E+04   0.000E+00
+
+   ...done.
+
+Cpu time=      0.7   RSLTPOST Module
